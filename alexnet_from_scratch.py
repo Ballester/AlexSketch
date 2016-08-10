@@ -71,11 +71,11 @@ import config
 net_data = load("bvlc_alexnet.npy").item()
 
 def weight_variable(shape, name):
-    initial = tf.truncated_normal(shape, stddev=0.1)
+    initial = tf.truncated_normal(shape, mean=0.0, stddev=0.01)
     return tf.Variable(initial, name=name)
 
 def bias_variable(shape):  
-    initial = tf.constant(0.1, shape=shape)
+    initial = tf.constant(1.0, shape=shape)
     return tf.Variable(initial)
 
 def conv(input, kernel, biases, k_h, k_w, c_o, s_h, s_w,  padding="VALID", group=1):
@@ -216,12 +216,12 @@ prob = tf.nn.softmax(fc8)
 
 """Loss and training"""
 cross_entropy = -tf.reduce_sum(y*tf.log(prob + 1e-9))
-train_step = tf.train.GradientDescentOptimizer(1.0).minimize(cross_entropy)
+train_step = tf.train.AdamOptimizer(0.01).minimize(cross_entropy)
 
 """Initializing tensorflow variables and saver"""
 saver = tf.train.Saver(tf.all_variables())
 init = tf.initialize_all_variables()
-sess = tf.Session()
+sess = tf.InteractiveSession()
 sess.run(init)
 
 """Create Model folder"""
@@ -237,9 +237,55 @@ if config.restore_last:
 else:
   ckpt = 0
 
+"""Testing"""
+correct = 0
+correct_1 = 0
+# answers = []
+# js = []
+# plt.grid()
+if config.test:
+    for j in range(0, dataset.test_size):
+      if j == 0:
+        pass
+        # ax.set_autoscale_on(True)
+        # line, = ax.plot(js, answers)
+      
+      """Next test image"""
+      im, truth = dataset.next_test()
+      
+      output = sess.run(prob, feed_dict={x: im, y:[[0.0] * 1000]})
+      inds = argsort(output)[0,:]
+
+      expected_number = truth[0].index(1.0)
+
+      """Class names in the outputs"""
+      outs = []
+      for i in range(5):
+        outs.append(class_names[inds[-1-i]])
+      # for i in range(5):
+      #   print class_names[inds[-1-i]], output[0, inds[-1-i]] 
+
+      """Verify correct answers"""
+      if class_names[expected_number] in outs:
+        # print 'Correct 5'
+        correct += 1
+      if class_names[expected_number] == outs[0]:
+        # print 'Correct 1'
+        correct_1 += 1
+      
+      # print
+      # imshow(im[0])
+
+      # answers.append(correct)
+      # js.append(j)
+      
+      if not (j+1)%30:
+        print 'Tested: ', str(j+1) + '. Top-5: ', str(float(correct)/float(j+1)) + '. Top-1: ', str(float(correct_1)/float(j+1))
+
 """Training"""
 # ims = []
 # truths = []
+# a = conv1W.eval()
 for k in range(0, 20):
   if config.training:
     for i in range(0, dataset.training_size):
@@ -249,8 +295,12 @@ for k in range(0, 20):
       """Next training batch"""
       im, truth = dataset.next_batch(1)
 
+
       """Run training step"""
       sess.run(train_step, feed_dict={x: im, y: truth})
+      # b = conv1W.eval()
+      # print 'A-B'
+      # print a-b
 
       # ims.append(im)
       # truths.append(truth)

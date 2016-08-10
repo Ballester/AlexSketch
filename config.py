@@ -1,13 +1,14 @@
 """Hyper Parameters"""
-epochs = 7
-restore_file = 'trained_12179_model.ckpt-12179'	# set to '' if not using
+epochs = 1
+partial_amount = 29
+restore_file = ''	# set to '' if not using
 
 """Running Options"""
-AlexFullSketchTest = True
+AlexFullSketchTest = False
 AlexHalfSketchTest = False
 AlexNoSketchTest   = False
 
-AlexFullSketchTrain = False
+AlexFullSketchTrain = True
 AlexHalfSketchTrain = False
 
 AlexFromScratchTest = False
@@ -18,15 +19,15 @@ assert AlexFullSketchTest ^ AlexHalfSketchTest ^ AlexNoSketchTest ^ AlexFromScra
 
 if AlexFullSketchTest:
 	save_training = False
-	restore_last  = False
+	restore_last  = True
 	training      = False
 	test          = True
 	restore_path  = 'full_sketch/'	# with '/'
 
 elif AlexHalfSketchTest:
 	save_training = False
-	restore_last = False
-	training     = True
+	restore_last = True
+	training     = False
 	test         = True
 	restore_path = 'half_sketch/'
 
@@ -48,14 +49,14 @@ elif AlexFullSketchTrain:
 	save_training = True
 	restore_last = False
 	training = True
-	test = False
-	restore_path = 'full_sketch'
+	test = True
+	restore_path = 'full_sketch/'
 
 elif AlexHalfSketchTrain:
 	save_training = True
 	restore_last = False
 	training = True
-	test = False
+	test = True
 	restore_path = 'half_sketch'
 
 elif AlexFromScratchTrain:

@@ -215,14 +215,15 @@ if config.restore_last:
       print 'Restoring from ', ckpt.model_checkpoint_path 
       saver.restore(sess, ckpt.model_checkpoint_path)
     else:
-      print 'Restoring from ', config.restore_path + config.restore_file
-      saver.restore(sess, config.restore_path + config.restore_file)
+      print 'Restoring from ', os.path.join(config.restore_path, config.restore_file)
+      saver.restore(sess, os.path.join(config.restore_path, config.restore_file))
 else:
   ckpt = 0
 
 """Training"""
 # ims = []
 # truths = []
+print 'Training set size: ', dataset.training_size
 if config.training:
   for i in range(1, dataset.training_size+1):
     if not i%30:
@@ -230,7 +231,8 @@ if config.training:
 
     """Next training batch"""
     im, truth = dataset.next_batch_respecting_classes(1)
-
+    # im, truth = dataset.next_batch(1)
+    
     """Run training step"""
     sess.run(train_step, feed_dict={x: im, y: truth})
 
@@ -249,14 +251,14 @@ if config.training:
     #   # print expected[0].index(1.0)
     #   print class_names[inds[-1-i]], output[0, inds[-1-i]]
     # print
-    if i%29 == 0:
-      print i/29, ' - Images from each class.'
+    # if i%57 == 0:
+    #   print i/57, ' - Images from each class.'
 
-      # """Save model trained"""
-      # if (i+1)%(dataset.training_size) == 0:
-      #   if config.save_training:
-      #     saver = tf.train.Saver(tf.all_variables())
-      #     saver.save(sess, config.restore_path + '/trained_' + str(i) + '_model.ckpt', global_step=i)
+
+"""Save model trained"""
+if config.save_training:
+  saver = tf.train.Saver(tf.all_variables())
+  saver.save(sess, os.path.join(config.restore_path, 'trained_' + str(i) + '_model.ckpt'), global_step=i)
 
 
 """Testing"""
@@ -272,7 +274,7 @@ dict_false_positives_5 = {}
 dict_false_positives_1 = {}
 
 """"Used only in half-trained"""
-used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:29]]
+used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
 # print 'Used in training: ', used_train
 
 if config.test:
@@ -304,7 +306,7 @@ if config.test:
     else:
       for l in outs:
         dict_false_positives_5[l] = dict_false_positives_5.get(l, 0) + 1
-    if key == outs[0]:
+    if key in outs[0]:
       dict_correct_1[key] = dict_correct_1.get(key, 0) + 1
       correct_1 += 1
     else:

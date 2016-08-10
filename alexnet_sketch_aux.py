@@ -27,12 +27,25 @@ class Sketch(object):
         with open('one-hot_references.txt') as fid:
             # dump
             fid.readline()
+            one_hots = []
+            one_hots_values = []
             for i in range(0, 57):
                 aux = fid.readline()
                 aux = aux.split(':')
+
                 # print aux
-                self.dataset[aux[0]] = int(aux[1])
-                self.folders.append(aux[0])
+                # self.dataset[aux[0]] = int(aux[1])
+                one_hots.append(aux[0])
+                one_hots_values.append(int(aux[1]))
+                # self.dataset[aux[0]] = random.randint(0, 999)
+                # self.folders.append(aux[0])
+
+            random.shuffle(one_hots_values)
+            for i in range(0, 57):
+                self.dataset[one_hots[i]] = one_hots_values[i]
+                self.folders.append(one_hots[i])
+
+
             half = config.AlexHalfSketchTest or config.AlexHalfSketchTrain
             self.create_sets(half=half)
             # self.shuffle_set()
@@ -48,7 +61,7 @@ class Sketch(object):
         """Using 29 - N to test (20 test)"""
         if half:
             for i in self.folders:
-                if n_folders < 29:
+                if n_folders < config.partial_amount:
                     for n in range(0, 60):
                         self.train.append((i, n))
                     for n in range(60, 80):
@@ -92,9 +105,9 @@ class Sketch(object):
             folder = self.train[self.counter][0]
             name = self.train[self.counter][1]
             self.counter += 1
-            if self.counter >= len(self.train):
-                self.counter = 0
-                self.shuffle_set()
+            # if self.counter >= len(self.train):
+            #     self.counter = 0
+            #     self.shuffle_set()
             
             """Turns gray image into RGB image"""
             gray = imresize((imread('sketch_set/' + folder + '/' + str(name) + '.png')[:,:]).astype(float32), (227, 227, 3))
