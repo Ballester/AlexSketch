@@ -40,7 +40,7 @@ class Sketch(object):
                 # self.dataset[aux[0]] = random.randint(0, 999)
                 # self.folders.append(aux[0])
 
-            random.shuffle(one_hots_values)
+            # random.shuffle(one_hots_values) --> Use this to test whether the same object in sketch and photo is important to train
             for i in range(0, 57):
                 self.dataset[one_hots[i]] = one_hots_values[i]
                 self.folders.append(one_hots[i])

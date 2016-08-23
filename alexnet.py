@@ -29,7 +29,7 @@ from numpy import random
 import tensorflow as tf
 
 from caffe_classes import class_names
-from alexnet_sketch_aux import Sketch
+from dataset_manager import Sketch
 import config
 import latex_sketch as latex
 
@@ -196,7 +196,7 @@ prob = tf.nn.softmax(fc8)
 """Loss and training"""
 cross_entropy = -tf.reduce_sum(y*tf.log(prob + 1e-9))
 #train_step = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(cross_entropy)
-train_step = tf.train.FtrlOptimizer(config.learning_rate).minimize(cross_entropy)
+train_step = tf.train.AdamOptimizer(config.learning_rate).minimize(cross_entropy)
 
 """Initializing tensorflow variables and saver"""
 saver = tf.train.Saver(tf.all_variables())
@@ -225,6 +225,8 @@ else:
 # ims = []
 # truths = []
 print 'Training set size: ', dataset.training_size
+print 'Learning rate: ', config.learning_rate
+print 'Partial Amount: ', config.partial_amount
 if config.training:
   for i in range(1, dataset.training_size+1):
     if not i%30:
@@ -328,7 +330,18 @@ if config.test:
     # if not (j+1)%30:
     #   print 'Tested: ', str(j+1) + '. Top-5: ', str(float(correct)/float(j+1)) + '. Top-1: ', str(float(correct_1)/float(j+1))
 
-
+if not os.path.isdir('results'):
+  os.mkdir('results')
+with open('results/PA_' + config.partial_amount + '--LR_' + config.learning_rate + '--E_' + config.epochs + '.txt', "wr") as fid:
+  print >>fid, 'Training Size: ' + str(dataset.training_size)
+  print >>fid, 'Epochs: ' + str(config.epochs)
+  print >>fid, 'Learning Rate: ' + str(config.learning_rate)
+  print >>fid, 'Partial Amount: ' + str(config.partial_amount)
+  print >>fid, 'Test Size: ' + str(dataset.test_size)
+  print >>fid, 'Top-5: ' + str(correct)
+  print >>fid, 'Top-1: ' + str(correct_1)
+  print >>fid, 'Trained Top-5: ' + str(correct_train)
+  print >>fid, 'Trained Top-1: ' + str(correct_train_1)
   print 'Correct in top-5: ', correct
   print 'Correct in top-5 \%: ', float(correct)/float(dataset.test_size)
   print 'Correct in top-1: ', correct_1
