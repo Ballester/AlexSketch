@@ -1,7 +1,7 @@
 ################################################################################
 #Michael Guerzhoy, 2016
 #AlexNet implementation in TensorFlow, with weights
-#Details: 
+#Details:
 #http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/
 #
 #With code from https://github.com/ethereon/caffe-tensorflow
@@ -78,8 +78,8 @@ def conv(input, kernel, biases, k_h, k_w, c_o, s_h, s_w,  padding="VALID", group
     assert c_i%group==0
     assert c_o%group==0
     convolve = lambda i, k: tf.nn.conv2d(i, k, [1, s_h, s_w, 1], padding=padding)
-    
-    
+
+
     if group==1:
         conv = convolve(input, kernel)
     else:
@@ -138,7 +138,7 @@ lrn2 = tf.nn.local_response_normalization(conv2,
                                                   bias=bias)
 
 #maxpool2
-#max_pool(3, 3, 2, 2, padding='VALID', name='pool2')                                                  
+#max_pool(3, 3, 2, 2, padding='VALID', name='pool2')
 k_h = 3; k_w = 3; s_h = 2; s_w = 2; padding = 'VALID'
 maxpool2 = tf.nn.max_pool(lrn2, ksize=[1, k_h, k_w, 1], strides=[1, s_h, s_w, 1], padding=padding)
 
@@ -195,7 +195,8 @@ prob = tf.nn.softmax(fc8)
 
 """Loss and training"""
 cross_entropy = -tf.reduce_sum(y*tf.log(prob + 1e-9))
-train_step = tf.train.GradientDescentOptimizer(0.0001).minimize(cross_entropy)
+#train_step = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(cross_entropy)
+train_step = tf.train.FtrlOptimizer(config.learning_rate).minimize(cross_entropy)
 
 """Initializing tensorflow variables and saver"""
 saver = tf.train.Saver(tf.all_variables())
@@ -232,7 +233,7 @@ if config.training:
     """Next training batch"""
     im, truth = dataset.next_batch_respecting_classes(1)
     # im, truth = dataset.next_batch(1)
-    
+
     """Run training step"""
     sess.run(train_step, feed_dict={x: im, y: truth})
 
@@ -278,10 +279,10 @@ used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders
 # print 'Used in training: ', used_train
 
 if config.test:
-  for j in range(0, dataset.test_size):    
+  for j in range(0, dataset.test_size):
     """Next test image"""
     im, truth = dataset.next_test()
-    
+
     output = sess.run(prob, feed_dict={x: im, y:[[0.0] * 1000]})
     inds = argsort(output)[0,:]
 
@@ -300,7 +301,7 @@ if config.test:
       dict_expected[key] += 1
 
     """Verify correct answers"""
-    if key in outs:    
+    if key in outs:
       dict_correct_5[key] = dict_correct_5.get(key, 0) + 1
       correct += 1
     else:
@@ -323,7 +324,7 @@ if config.test:
     # print
 
     # answers.append(correct)
-    
+
     # if not (j+1)%30:
     #   print 'Tested: ', str(j+1) + '. Top-5: ', str(float(correct)/float(j+1)) + '. Top-1: ', str(float(correct_1)/float(j+1))
 

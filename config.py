@@ -2,6 +2,7 @@
 epochs = 1
 partial_amount = 29
 restore_file = ''	# set to '' if not using
+learning_rate = 0.0001
 
 """Running Options"""
 AlexFullSketchTest = False
