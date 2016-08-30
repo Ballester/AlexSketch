@@ -195,8 +195,8 @@ prob = tf.nn.softmax(fc8)
 
 """Loss and training"""
 cross_entropy = -tf.reduce_sum(y*tf.log(prob + 1e-9))
-#train_step = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(cross_entropy)
-train_step = tf.train.AdamOptimizer(config.learning_rate).minimize(cross_entropy)
+train_step = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(cross_entropy)
+#train_step = tf.train.AdamOptimizer(config.learning_rate).minimize(cross_entropy)
 
 """Initializing tensorflow variables and saver"""
 saver = tf.train.Saver(tf.all_variables())
@@ -261,7 +261,7 @@ if config.training:
 """Save model trained"""
 if config.save_training:
   saver = tf.train.Saver(tf.all_variables())
-  saver.save(sess, os.path.join(config.restore_path, 'trained_' + str(i) + '_model.ckpt'), global_step=i)
+  saver.save(sess, os.path.join(config.restore_path, 'PA_' + str(config.partial_amount) +'--LR_' + str(config.learning_rate) + '_' + str(config.iteration) + '_model.ckpt'), global_step=i)
 
 
 """Testing"""
@@ -332,7 +332,7 @@ if config.test:
 
 if not os.path.isdir('results'):
   os.mkdir('results')
-with open('results/PA_' + config.partial_amount + '--LR_' + config.learning_rate + '--E_' + config.epochs + '.txt', "wr") as fid:
+with open('results/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
   print >>fid, 'Training Size: ' + str(dataset.training_size)
   print >>fid, 'Epochs: ' + str(config.epochs)
   print >>fid, 'Learning Rate: ' + str(config.learning_rate)
@@ -342,6 +342,10 @@ with open('results/PA_' + config.partial_amount + '--LR_' + config.learning_rate
   print >>fid, 'Top-1: ' + str(correct_1)
   print >>fid, 'Trained Top-5: ' + str(correct_train)
   print >>fid, 'Trained Top-1: ' + str(correct_train_1)
+  print >>fid, 'Not-Trained Top-5: ' + str(correct-correct_train)
+  print >>fid, 'Not-Trained Top-1: ' + str(correct_1-correct_train_1)
+  print >>fid, 'False Positives 5: ' + str(dict_false_positives_5)
+  print >>fid, 'False Positives 1: ' + str(dict_false_positives_1)
   print 'Correct in top-5: ', correct
   print 'Correct in top-5 \%: ', float(correct)/float(dataset.test_size)
   print 'Correct in top-1: ', correct_1

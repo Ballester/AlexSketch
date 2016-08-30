@@ -9,6 +9,8 @@ parser.add_option("-p", "--partial_amount", dest="partial_amount",
                   help="partial amount of half sketch training", default=29)
 parser.add_option("-r", "--restore_file", dest="restore_file",
                   help="which file to restore", default='')
+parser.add_option("-i", "--iteration", dest="iteration",
+                  help="iteration at the moment", default="1")
 
 (options, args) = parser.parse_args()
 
@@ -17,6 +19,7 @@ epochs = int(options.epochs)
 partial_amount = int(options.partial_amount)
 restore_file = options.restore_file   # set to '' if not using
 learning_rate = float(options.learning_rate)
+iteration = int(options.iteration)
 
 """Running Options"""
 AlexFullSketchTest = False
@@ -68,7 +71,7 @@ elif AlexFullSketchTrain:
     restore_path = 'full_sketch/'
 
 elif AlexHalfSketchTrain:
-    save_training = False
+    save_training = True
     restore_last = False
     training = True
     test = True
