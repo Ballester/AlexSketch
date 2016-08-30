@@ -1,5 +1,13 @@
 import os
 import urllib
+import urllib2
+import socket
+socket.setdefaulttimeout(10)
+
+
+class HeadRequest(urllib2.Request):
+    def get_method(self):
+        return "HEAD"
 
 """Open reference file"""
 sketch_classes = []
@@ -25,6 +33,7 @@ with open('synset_words.txt') as fid:
 
 
 for idx, sketch in enumerate(sketch_classes):
+
     print synsets[sketch], synsets_names[sketch]
     directory_set = '../imagenet_set/' + sketch_names[idx]
     if not os.path.exists(directory_set):
@@ -33,10 +42,33 @@ for idx, sketch in enumerate(sketch_classes):
     if not os.path.exists(directory_test):
         os.makedirs(directory_test)
 
-    links = urllib.urlopen('http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=' + synsets[sketch]).read()
-    for link in links:
+
+    counter = 0
+    links = urllib2.urlopen('http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=' + synsets[sketch]).read()
+    for link in links.split('\n'):
         
-    break
+        try:
+            response = urllib2.urlopen(HeadRequest(link), timeout=5)
+            if response.info()["Content-type"].find('image') != -1:
+                print link
+                if counter < 60:
+                    try:
+                        urllib.urlretrieve(link, os.path.join(directory_set, str(counter) + '.' + link.split('.')[-1]))
+                        counter += 1
+                    except:
+                        raise Exception('Download failed')
+                elif counter < 80:
+                    try:
+                        urllib.urlretrieve(link, os.path.join(directory_test, str(counter) + '.' + link.split('.')[-1]))
+                        counter += 1
+                    except:
+                        raise Exception('Download failed')
+                else:
+                    break
+        except:
+            pass
+
+
 
         
 
