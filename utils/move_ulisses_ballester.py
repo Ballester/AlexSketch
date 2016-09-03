@@ -1,6 +1,11 @@
 from glob import glob
 import shutil
 import re
+from collections import defaultdict
+
+import os
+if os.getcwd().find('utils') == -1:
+    raise Exception('You gotta run this from AlexSketch/utils')
 
 names = glob('/home/ulisses/SubImageNet/*.JPEG')
 
@@ -26,8 +31,26 @@ with open('synset_words.txt') as fid:
         synsets.append(line[0])
         synsets_names.append(line[1:])
 
+
+number_of_images = defaultdict(int)
 for name in names:
-    name = re.split('[/_]', name)
-    print name[-2], sketch_names[sketch_classes.index(synsets.index(name[-2]))]
+    remember_name = str(name)
+    name = re.split('[/_]', name)[-2]
+    sketch_folder_name = sketch_names[sketch_classes.index(synsets.index(name))]
+    
+    directory_set = '../imagenet_set/' + sketch_folder_name
+    if not os.path.exists(directory_set):
+        os.makedirs(directory_set)
+    
+    directory_test = '../imagenet_test/' + sketch_folder_name
+    if not os.path.exists(directory_test):
+        os.makedirs(directory_test)
+
+    if number_of_images[name] < 60:
+        shutil.move('/home/ulisses/SubImageNet/' + remember_name, directory_set + str(number_of_images[name]) + '.jpg')
+    elif number_of_images[name] < 80:
+        shutil.move('/home/ulisses/SubImageNet/' + remember_name, directory_test + str(number_of_images[name]) + '.jpg')
+    number_of_images[name] += 1
+
     #print sketch_names[sketch_classes.index(949)]
     break
