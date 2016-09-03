@@ -24,7 +24,7 @@ class Sketch(object):
 
     def __init__(self):
         """Open reference file"""
-        with open('one-hot_references.txt') as fid:
+        with open('utils/one-hot_references.txt') as fid:
             # dump
             fid.readline()
             one_hots = []
@@ -132,7 +132,7 @@ class Sketch(object):
     Considering that the function shuffle_set was never used
     """
     def next_batch_respecting_classes(self, batch_size):
-        x_dummy = (random.random((batch_size,)+ self.xdim)/255.).astype(float32) 
+        x_dummy = (random.random((batch_size+1,)+ self.xdim)/255.).astype(float32) 
         images = x_dummy.copy()
         one_hots = []
         for i in range(0, batch_size):
@@ -154,18 +154,24 @@ class Sketch(object):
             # imshow(images[i,:,:,:])
             # print images
 
+            if config.imagenet_respecting:
+                image = imresize((imread('imagenet_set/' + folder + '/' + str(name) + '.jpg', mode='RGB')).astype(float32), (227, 227, 3))
+                images[i+1,:,:,:] = image
+
             """Finds the index of the one-hot encoding by checking the one-hot reference"""
             one_hot = [0.0] * 1000
             l = self.dataset[folder]
             one_hot[l] = 1.0
             one_hots.append(one_hot)
+            if config.imagenet_respecting:
+                one_hots.append(one_hot)
 
         return images, one_hots
 
 
     """Outputs the next image and one-hot from the test set"""
     def next_test(self):
-        x_dummy = (random.random((1,)+ self.xdim)/255.).astype(float32)
+        x_dummy = (random.random((2,)+ self.xdim)/255.).astype(float32)
         images = x_dummy.copy()
         one_hots = []
 
@@ -180,6 +186,10 @@ class Sketch(object):
         image = zeros((227, 227, 3))
         image[:,:,0] = image[:,:,1] = image[:,:,2] = gray
 
+        if config.imagenet_respecting:
+            image = imresize((imread('imagenet_test/' + folder + '/' + str(name) + '.jpg', mode='RGB')).astype(float32), (227, 227, 3))
+            images[1,:,:,:] = image
+
         # print image.shape
         images[0,:,:,:] = image
         # imshow(images[i,:,:,:])
@@ -189,6 +199,8 @@ class Sketch(object):
         l = self.dataset[folder]
         one_hot[l] = 1.0
         one_hots.append(one_hot)
+        if config.imagenet_respecting:
+            one_hots.append(one_hot)
 
         return images, one_hots
 

@@ -28,29 +28,35 @@ synsets_names = []
 with open('synset_words.txt') as fid:
     for line in fid:
         line = line.split(' ')
-        synsets.append(line[0])
+        synsets.append(line[0].replace(' ', ''))
         synsets_names.append(line[1:])
 
 
 number_of_images = defaultdict(int)
+
 for name in names:
     remember_name = str(name)
     name = re.split('[/_]', name)[-2]
-    sketch_folder_name = sketch_names[sketch_classes.index(synsets.index(name))]
+    try:
+        #print name, synsets.index(name)
+        sketch_folder_name = sketch_names[sketch_classes.index(synsets.index(name))]
     
-    directory_set = '../imagenet_set/' + sketch_folder_name
-    if not os.path.exists(directory_set):
-        os.makedirs(directory_set)
+        directory_set = '../imagenet_set/' + sketch_folder_name
+        if not os.path.exists(directory_set):
+            os.makedirs(directory_set)
     
-    directory_test = '../imagenet_test/' + sketch_folder_name
-    if not os.path.exists(directory_test):
-        os.makedirs(directory_test)
+        directory_test = '../imagenet_test/' + sketch_folder_name
+        if not os.path.exists(directory_test):
+            os.makedirs(directory_test)
 
-    if number_of_images[name] < 60:
-        shutil.move('/home/ulisses/SubImageNet/' + remember_name, directory_set + str(number_of_images[name]) + '.jpg')
-    elif number_of_images[name] < 80:
-        shutil.move('/home/ulisses/SubImageNet/' + remember_name, directory_test + str(number_of_images[name]) + '.jpg')
-    number_of_images[name] += 1
+        if number_of_images[name] < 60:
+            shutil.move(remember_name, directory_set + '/' + str(number_of_images[name]) + '.jpg')
+        elif number_of_images[name] < 80:
+            shutil.move(remember_name, directory_test + '/' + str(number_of_images[name]) + '.jpg')
+        #print name, directory_set + '/' + str(number_of_images[name]) + '.jpg'
 
-    #print sketch_names[sketch_classes.index(949)]
-    break
+        number_of_images[name] += 1
+    except:
+        print name, synsets_names[synsets.index(name)]
+print len(number_of_images)
+#print sketch_names[sketch_classes.index(949)]

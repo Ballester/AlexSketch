@@ -92,8 +92,8 @@ def conv(input, kernel, biases, k_h, k_w, c_o, s_h, s_w,  padding="VALID", group
 
 dataset = Sketch()
 # im, truth = dataset.next_batch(1)
-x = tf.placeholder("float", shape=[1, 227, 227, 3])
-y = tf.placeholder("float", shape=[1, 1000])
+x = tf.placeholder("float", shape=[2, 227, 227, 3])
+y = tf.placeholder("float", shape=[2, 1000])
 
 
 #conv1
@@ -175,7 +175,7 @@ maxpool5 = tf.nn.max_pool(conv5, ksize=[1, k_h, k_w, 1], strides=[1, s_h, s_w, 1
 #fc(4096, name='fc6')
 fc6W = tf.Variable(net_data["fc6"][0])
 fc6b = tf.Variable(net_data["fc6"][1])
-fc6 = tf.nn.relu_layer(tf.reshape(maxpool5, [1, int(prod(maxpool5.get_shape()[1:]))]), fc6W, fc6b)
+fc6 = tf.nn.relu_layer(tf.reshape(maxpool5, [2, int(prod(maxpool5.get_shape()[1:]))]), fc6W, fc6b)
 
 #fc7
 #fc(4096, name='fc7')
@@ -285,7 +285,7 @@ if config.test:
     """Next test image"""
     im, truth = dataset.next_test()
 
-    output = sess.run(prob, feed_dict={x: im, y:[[0.0] * 1000]})
+    output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000] * 2})
     inds = argsort(output)[0,:]
 
     expected_number = truth[0].index(1.0)
