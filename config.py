@@ -6,11 +6,11 @@ parser.add_option("-l", "--learning_rate", dest="learning_rate",
 parser.add_option("-e", "--epochs", dest="epochs",
                   help="number of epochs to train", default=1)
 parser.add_option("-p", "--partial_amount", dest="partial_amount",
-                  help="partial amount of half sketch training", default=29)
+                  help="partial amount of half sketch training", default=57)
 parser.add_option("-r", "--restore_file", dest="restore_file",
                   help="which file to restore", default='')
 parser.add_option("-i", "--iteration", dest="iteration",
-                  help="iteration at the moment", default="1")
+                  help="iteration at the moment", default="1000")
 parser.add_option("-n", "--imagenet", dest="imagenet_respecting",
                   help="imagenet image in the same batch", default=False)
 

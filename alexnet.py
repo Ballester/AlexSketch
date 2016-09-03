@@ -269,6 +269,8 @@ correct = 0
 correct_1 = 0
 correct_train = 0
 correct_train_1 = 0
+correct_IN_5 = 0
+correct_IN_1 = 0
 
 dict_expected = {}
 dict_correct_5 = {}
@@ -286,6 +288,7 @@ if config.test:
     im, truth = dataset.next_test()
 
     output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000] * 2})
+    
     inds = argsort(output)[0,:]
 
     expected_number = truth[0].index(1.0)
@@ -304,6 +307,7 @@ if config.test:
 
     """Verify correct answers"""
     if key in outs:
+      print 'correct 5: ', key, outs
       dict_correct_5[key] = dict_correct_5.get(key, 0) + 1
       correct += 1
     else:
@@ -311,9 +315,12 @@ if config.test:
         dict_false_positives_5[l] = dict_false_positives_5.get(l, 0) + 1
     if key in outs[0]:
       dict_correct_1[key] = dict_correct_1.get(key, 0) + 1
+      print 'correct 1: ', key, outs[0]
       correct_1 += 1
     else:
       dict_false_positives_1[outs[0]] = dict_false_positives_1.get(outs[0], 0) + 1
+
+    
 
     # print 'Expected: ', class_names[expected_number]
     # print 'Expected class is in training: ', class_names[expected_number] in used_train
@@ -324,6 +331,25 @@ if config.test:
         correct_train_1 += 1
     # imshow(im[0])
     # print
+
+    """FOR IMAGENET"""
+    inds = argsort(output)[1,:]
+    expected_number = truth[1].index(1.0)
+
+    """Class names in the outputs"""
+    outs = []
+    for i in range(5):
+      outs.append(class_names[inds[-1-i]])
+
+    if key in outs:
+        print 'correct 5 IN: ', key, outs
+        correct_IN_5 += 1
+    if key in outs[0]
+        print 'correct 1 IN: ', key, outs[0]
+        correct_IN_1 += 1
+
+    
+
 
     # answers.append(correct)
 
@@ -352,6 +378,8 @@ with open('results/PA_' + str(config.partial_amount) + '--LR_' + str(config.lear
   print 'Correct in top-1 \%: ', float(correct_1)/float(dataset.test_size)
   print 'Correct trained in top-5: ', correct_train
   print 'Correct trained in top-1: ', correct_train_1
+  print 'Correct in top-5 IN: ', correct_IN_5
+  print 'Correct in top-1 IN: ', correct_IN_1
 
 
 # print dict_expected
