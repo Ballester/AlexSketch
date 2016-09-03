@@ -1,7 +1,8 @@
 from glob import glob
 import shutil
+import re
 
-names = glob('/home/ulisses/SubImageNet')
+names = glob('/home/ulisses/SubImageNet/*.JPEG')
 
 """Open reference file"""
 sketch_classes = []
@@ -26,6 +27,7 @@ with open('synset_words.txt') as fid:
         synsets_names.append(line[1:])
 
 for name in names:
-    name = name.split('_')
-    print name[0], sketch_names[synsets.index(name[0])]
-
+    name = re.split('[/_]', name)
+    print name[-2], sketch_names[sketch_classes.index(synsets.index(name[-2]))]
+    #print sketch_names[sketch_classes.index(949)]
+    break
