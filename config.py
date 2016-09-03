@@ -11,6 +11,8 @@ parser.add_option("-r", "--restore_file", dest="restore_file",
                   help="which file to restore", default='')
 parser.add_option("-i", "--iteration", dest="iteration",
                   help="iteration at the moment", default="1")
+parser.add_option("-n", "--imagenet", dest="imagenet_respecting",
+                  help="imagenet image in the same batch", default=False)
 
 (options, args) = parser.parse_args()
 
@@ -20,14 +22,15 @@ partial_amount = int(options.partial_amount)
 restore_file = options.restore_file   # set to '' if not using
 learning_rate = float(options.learning_rate)
 iteration = int(options.iteration)
+imagenet_respecting = bool(options.imagenet_respecting)
 
 """Running Options"""
 AlexFullSketchTest = False
 AlexHalfSketchTest = False
 AlexNoSketchTest   = False
 
-AlexFullSketchTrain = False
-AlexHalfSketchTrain = True
+AlexFullSketchTrain = True
+AlexHalfSketchTrain = False
 
 AlexFromScratchTest = False
 AlexFromScratchTrain = False
