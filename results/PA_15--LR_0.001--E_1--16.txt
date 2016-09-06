@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 338
+Top-1: 246
+Trained Top-5: 297
+Trained Top-1: 246
+Not-Trained Top-5: 41
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 42, 'bull mastiff': 1, 'bucket, pail': 1, 'submarine, pigboat, sub, U-boat': 168, 'coffeepot': 2, 'electric guitar': 1, 'crate': 1, 'dough': 1, 'sundial': 6, 'pug, pug-dog': 1, 'garden spider, Aranea diademata': 1, 'mixing bowl': 2, 'assault rifle, assault gun': 1, 'scorpion': 1, 'cloak': 33, 'cassette': 1, 'toilet seat': 1, 'cornet, horn, trumpet, trump': 351, 'tiger, Panthera tigris': 4, 'wardrobe, closet, press': 6, 'safe': 2, 'vase': 6, 'cowboy boot': 1, 'bell cote, bell cot': 3, 'greenhouse, nursery, glasshouse': 1, 'Egyptian cat': 2, 'bulletproof vest': 1, 'acoustic guitar': 1, 'hook, claw': 1, 'tray': 1, 'shield, buckler': 2, 'caldron, cauldron': 1, 'tub, vat': 5, 'zebra': 161, 'trombone': 232, 'barometer': 7, 'hamper': 5, 'barn': 337, 'cradle': 1, 'monastery': 1, 'umbrella': 1, 'trilobite': 4, 'mailbox, letter box': 458, 'vestment': 7, 'scale, weighing machine': 1, 'goblet': 2, 'tabby, tabby cat': 1, 'washer, automatic washer, washing machine': 1, 'chiffonier, commode': 1, 'harvester, reaper': 2, 'shovel': 1, "academic gown, academic robe, judge's robe": 3, 'birdhouse': 1, 'wolf spider, hunting spider': 1, 'Loafer': 2, 'ocarina, sweet potato': 2, 'sock': 503, 'ant, emmet, pismire': 238, 'rocking chair, rocker': 1, 'lion, king of beasts, Panthera leo': 493, 'clog, geta, patten, sabot': 2, 'overskirt': 1, 'mailbag, postbag': 2, 'rifle': 84, 'lampshade, lamp shade': 2, 'teapot': 128, 'tape player': 1, 'scabbard': 1, 'bonnet, poke bonnet': 1, 'tractor': 83, 'table lamp': 5, 'bassinet': 1, 'pitcher, ewer': 4, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 5, 'medicine chest, medicine cabinet': 4, 'oboe, hautboy, hautbois': 1, 'warthog': 2, 'sax, saxophone': 195, 'doormat, welcome mat': 3, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 12, 'kimono': 3, 'wall clock': 1, 'church, church building': 142, 'puffer, pufferfish, blowfish, globefish': 1, 'Labrador retriever': 1, 'bathtub, bathing tub, bath, tub': 206}
+False Positives 1: {'mailbag, postbag': 1, 'sax, saxophone': 28, 'mailbox, letter box': 110, 'submarine, pigboat, sub, U-boat': 16, 'sock': 229, 'church, church building': 18, 'teapot': 14, 'ant, emmet, pismire': 19, 'bathtub, bathing tub, bath, tub': 77, 'cassette': 1, 'zebra': 30, 'rifle': 18, 'trombone': 52, 'cornet, horn, trumpet, trump': 27, 'lion, king of beasts, Panthera leo': 163, 'tractor': 15, 'barn': 76}

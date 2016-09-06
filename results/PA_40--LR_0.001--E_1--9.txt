@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 749
+Top-1: 519
+Trained Top-5: 738
+Trained Top-1: 517
+Not-Trained Top-5: 11
+Not-Trained Top-1: 2
+False Positives 5: {'Crock Pot': 1, 'fire engine, fire truck': 1, 'shovel': 55, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 91, 'canoe': 72, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'hog, pig, grunter, squealer, Sus scrofa': 18, 'purse': 31, 'reflex camera': 1, 'snowplow, snowplough': 1, 'trombone': 61, 'hammer': 27, 'strainer': 1, 'bathtub, bathing tub, bath, tub': 22, 'harp': 49, 'jeep, landrover': 4, 'sax, saxophone': 25, 'laptop, laptop computer': 42, 'scorpion': 160, 'sock': 48, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 161, 'ant, emmet, pismire': 2, 'microphone, mike': 89, 'pickup, pickup truck': 1, 'lion, king of beasts, Panthera leo': 33, 'cannon': 83, 'chime, bell, gong': 43, 'barn': 41, 'banana': 46, 'church, church building': 34, 'tiger, Panthera tigris': 39, 'forklift': 4, 'umbrella': 83, 'thresher, thrasher, threshing machine': 1, 'mailbox, letter box': 132, 'screwdriver': 51, 'parachute, chute': 33, 'violin, fiddle': 47, 'tricycle, trike, velocipede': 1, 'rifle': 4, 'convertible': 1, 'revolver, six-gun, six-shooter': 18, 'oil filter': 1, 'teapot': 18, 'cornet, horn, trumpet, trump': 61, 'Model T': 2, 'submarine, pigboat, sub, U-boat': 13, 'pretzel': 15, 'bee': 19, 'strawberry': 37, 'car wheel': 1, 'pineapple, ananas': 8, 'harvester, reaper': 2, 'castle': 40, 'tractor': 79}
+False Positives 1: {'shovel': 13, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 12, 'canoe': 34, 'hog, pig, grunter, squealer, Sus scrofa': 7, 'purse': 7, 'trombone': 34, 'bee': 6, 'hammer': 2, 'harp': 18, 'sax, saxophone': 4, 'laptop, laptop computer': 8, 'scorpion': 73, 'sock': 15, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 58, 'microphone, mike': 32, 'chime, bell, gong': 11, 'pineapple, ananas': 2, 'barn': 11, 'banana': 9, 'church, church building': 4, 'tiger, Panthera tigris': 26, 'umbrella': 40, 'cannon': 11, 'mailbox, letter box': 40, 'screwdriver': 24, 'parachute, chute': 5, 'bathtub, bathing tub, bath, tub': 4, 'revolver, six-gun, six-shooter': 8, 'teapot': 5, 'cornet, horn, trumpet, trump': 5, 'submarine, pigboat, sub, U-boat': 3, 'lion, king of beasts, Panthera leo': 9, 'strawberry': 8, 'violin, fiddle': 10, 'castle': 13, 'tractor': 50}

@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 661
+Top-1: 472
+Trained Top-5: 649
+Trained Top-1: 472
+Not-Trained Top-5: 12
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 3, 'shovel': 118, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 106, 'submarine, pigboat, sub, U-boat': 14, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'hog, pig, grunter, squealer, Sus scrofa': 20, 'purse': 72, 'zebra': 25, 'sundial': 1, 'trombone': 56, 'hammer': 106, 'bathtub, bathing tub, bath, tub': 24, 'harp': 50, 'sax, saxophone': 8, 'laptop, laptop computer': 41, 'sock': 21, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 125, 'ant, emmet, pismire': 36, 'microphone, mike': 125, 'chime, bell, gong': 154, 'barn': 101, 'lion, king of beasts, Panthera leo': 49, 'church, church building': 92, 'umbrella': 226, 'cannon': 60, 'mailbox, letter box': 187, 'parachute, chute': 95, 'violin, fiddle': 19, 'rifle': 31, 'revolver, six-gun, six-shooter': 34, 'teapot': 39, 'cornet, horn, trumpet, trump': 76, 'pretzel': 5, 'bee': 75, 'strawberry': 80, 'pineapple, ananas': 25, 'castle': 47, 'tractor': 48}
+False Positives 1: {'shovel': 46, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 25, 'submarine, pigboat, sub, U-boat': 4, 'hog, pig, grunter, squealer, Sus scrofa': 3, 'purse': 22, 'zebra': 11, 'trombone': 19, 'hammer': 3, 'bathtub, bathing tub, bath, tub': 10, 'barn': 19, 'laptop, laptop computer': 7, 'sock': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 31, 'ant, emmet, pismire': 6, 'microphone, mike': 44, 'chime, bell, gong': 27, 'harp': 10, 'lion, king of beasts, Panthera leo': 8, 'church, church building': 29, 'umbrella': 167, 'cannon': 17, 'mailbox, letter box': 27, 'parachute, chute': 22, 'violin, fiddle': 2, 'rifle': 16, 'revolver, six-gun, six-shooter': 6, 'teapot': 14, 'cornet, horn, trumpet, trump': 9, 'bee': 22, 'strawberry': 21, 'pineapple, ananas': 4, 'castle': 7, 'tractor': 9}

@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 333
+Top-1: 245
+Trained Top-5: 297
+Trained Top-1: 244
+Not-Trained Top-5: 36
+Not-Trained Top-1: 1
+False Positives 5: {'pedestal, plinth, footstall': 4, 'table lamp': 2, 'birdhouse': 2, 'shovel': 1, 'bucket, pail': 4, 'submarine, pigboat, sub, U-boat': 131, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 3, 'caldron, cauldron': 2, 'forklift': 7, 'crate': 4, 'reflex camera': 5, 'pitcher, ewer': 9, 'wooden spoon': 1, 'tub, vat': 5, 'zebra': 139, 'sundial': 2, 'trombone': 150, 'shield, buckler': 1, 'medicine chest, medicine cabinet': 6, 'switch, electric switch, electrical switch': 1, 'sliding door': 1, 'barn': 372, 'jeep, landrover': 2, 'warthog': 1, 'mixing bowl': 2, 'sax, saxophone': 289, 'bassoon': 2, 'coffeepot': 1, 'sock': 403, 'radio, wireless': 1, 'oboe, hautboy, hautbois': 1, 'ant, emmet, pismire': 116, 'chest': 2, 'cassette': 1, 'water jug': 4, 'washer, automatic washer, washing machine': 1, 'lion, king of beasts, Panthera leo': 422, 'church, church building': 225, 'timber wolf, grey wolf, gray wolf, Canis lupus': 1, 'wine bottle': 1, 'mailbag, postbag': 2, 'barometer': 9, 'yurt': 1, 'monastery': 1, 'wardrobe, closet, press': 1, 'safe': 3, 'mailbox, letter box': 511, 'dome': 2, 'vestment': 1, 'bathtub, bathing tub, bath, tub': 267, 'bell cote, bell cot': 1, 'tricycle, trike, velocipede': 1, 'rifle': 94, 'lampshade, lamp shade': 1, 'greenhouse, nursery, glasshouse': 6, 'window shade': 1, 'reel': 1, 'teapot': 211, 'plow, plough': 4, 'cornet, horn, trumpet, trump': 372, 'beaver': 1, 'spotlight, spot': 1, 'cup': 2, 'tape player': 2, 'punching bag, punch bag, punching ball, punchball': 1, 'hamper': 1, 'boathouse': 1, 'barrel, cask': 1, 'tractor': 196, 'turnstile': 1, 'lawn mower, mower': 1, 'tray': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'harvester, reaper': 5}
+False Positives 1: {'sax, saxophone': 58, 'sock': 63, 'cornet, horn, trumpet, trump': 26, 'submarine, pigboat, sub, U-boat': 4, 'mailbox, letter box': 170, 'teapot': 36, 'ant, emmet, pismire': 6, 'bathtub, bathing tub, bath, tub': 110, 'cassette': 1, 'zebra': 15, 'rifle': 34, 'trombone': 19, 'barn': 117, 'lion, king of beasts, Panthera leo': 136, 'tractor': 70, 'church, church building': 30}

@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 319
+Top-1: 248
+Trained Top-5: 294
+Trained Top-1: 246
+Not-Trained Top-5: 25
+Not-Trained Top-1: 2
+False Positives 5: {'pedestal, plinth, footstall': 1, 'submarine, pigboat, sub, U-boat': 87, 'strainer': 1, 'file, file cabinet, filing cabinet': 1, 'caldron, cauldron': 1, 'plow, plough': 3, 'pitcher, ewer': 9, 'guillotine': 1, 'tub, vat': 2, 'zebra': 50, 'trombone': 370, 'medicine chest, medicine cabinet': 4, 'switch, electric switch, electrical switch': 2, 'barn': 223, 'lacewing, lacewing fly': 1, 'mixing bowl': 1, 'sax, saxophone': 383, 'bassoon': 1, 'ocarina, sweet potato': 1, 'sock': 340, 'ant, emmet, pismire': 154, 'chest': 1, 'ibex, Capra ibex': 1, 'lion, king of beasts, Panthera leo': 335, 'church, church building': 134, 'mailbag, postbag': 2, 'barometer': 8, 'monastery': 2, 'wardrobe, closet, press': 2, 'safe': 9, 'mailbox, letter box': 562, 'bathtub, bathing tub, bath, tub': 242, 'bell cote, bell cot': 4, 'rifle': 126, 'lampshade, lamp shade': 1, 'greenhouse, nursery, glasshouse': 5, 'window shade': 1, 'teapot': 313, 'cornet, horn, trumpet, trump': 561, 'tray': 2, 'tape player': 1, 'punching bag, punch bag, punching ball, punchball': 1, 'doormat, welcome mat': 1, 'boathouse': 1, 'washer, automatic washer, washing machine': 1, 'harvester, reaper': 2, 'combination lock': 1, 'chiffonier, commode': 4, 'gas pump, gasoline pump, petrol pump, island dispenser': 4, 'tractor': 142}
+False Positives 1: {'sax, saxophone': 71, 'mailbox, letter box': 181, 'submarine, pigboat, sub, U-boat': 8, 'sock': 96, 'church, church building': 24, 'lion, king of beasts, Panthera leo': 54, 'ant, emmet, pismire': 14, 'bathtub, bathing tub, bath, tub': 83, 'zebra': 9, 'rifle': 18, 'trombone': 115, 'cornet, horn, trumpet, trump': 27, 'teapot': 104, 'tractor': 38, 'barn': 50}

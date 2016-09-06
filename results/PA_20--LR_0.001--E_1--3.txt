@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 428
+Top-1: 321
+Trained Top-5: 392
+Trained Top-1: 318
+Not-Trained Top-5: 36
+Not-Trained Top-1: 3
+False Positives 5: {'table lamp': 1, 'Chihuahua': 1, 'shield, buckler': 1, 'scabbard': 1, 'manhole cover': 2, 'submarine, pigboat, sub, U-boat': 81, 'hyena, hyaena': 4, 'caldron, cauldron': 5, 'forklift': 3, 'purse': 310, 'acorn squash': 1, 'reflex camera': 1, 'gong, tam-tam': 2, 'snow leopard, ounce, Panthera uncia': 1, 'spatula': 1, 'isopod': 1, 'zebra': 133, 'sundial': 3, 'trombone': 182, 'oboe, hautboy, hautbois': 1, 'barn': 184, 'lacewing, lacewing fly': 1, 'letter opener, paper knife, paperknife': 1, 'mixing bowl': 2, 'analog clock': 1, 'sax, saxophone': 84, 'laptop, laptop computer': 52, 'balloon': 3, 'ocarina, sweet potato': 3, 'sock': 61, 'switch, electric switch, electrical switch': 1, 'ant, emmet, pismire': 185, 'chest': 1, 'half track': 1, 'hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa': 1, 'ibex, Capra ibex': 6, 'chime, bell, gong': 430, 'harp': 256, 'lion, king of beasts, Panthera leo': 293, 'church, church building': 113, 'tiger, Panthera tigris': 3, 'pitcher, ewer': 1, 'barometer': 9, 'puffer, pufferfish, blowfish, globefish': 2, 'thresher, thrasher, threshing machine': 2, 'mailbag, postbag': 1, 'mailbox, letter box': 315, 'cardoon': 1, 'bathtub, bathing tub, bath, tub': 62, 'rifle': 101, 'lampshade, lamp shade': 2, 'guillotine': 1, 'tick': 2, 'teapot': 89, 'plow, plough': 3, 'cornet, horn, trumpet, trump': 156, 'toy poodle': 1, 'African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus': 1, 'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis': 1, 'lynx, catamount': 1, 'barn spider, Araneus cavaticus': 1, 'hair slide': 1, 'Egyptian cat': 3, 'maraca': 1, 'tiger cat': 1, 'tub, vat': 1, 'monastery': 2, 'gazelle': 3, 'violin, fiddle': 219, 'harvester, reaper': 5, 'electric ray, crampfish, numbfish, torpedo': 1, 'Border terrier': 1, 'lycaenid, lycaenid butterfly': 2, 'tractor': 151}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 18, 'submarine, pigboat, sub, U-boat': 9, 'laptop, laptop computer': 6, 'mailbox, letter box': 48, 'cornet, horn, trumpet, trump': 10, 'sax, saxophone': 12, 'purse': 54, 'church, church building': 26, 'teapot': 4, 'ant, emmet, pismire': 18, 'sock': 6, 'violin, fiddle': 42, 'zebra': 19, 'rifle': 49, 'trombone': 42, 'chime, bell, gong': 143, 'barn': 39, 'lion, king of beasts, Panthera leo': 119, 'tractor': 66, 'harp': 89}

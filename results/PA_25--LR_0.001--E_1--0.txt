@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 506
+Top-1: 394
+Trained Top-5: 480
+Trained Top-1: 392
+Not-Trained Top-5: 26
+Not-Trained Top-1: 2
+False Positives 5: {'shovel': 227, 'shield, buckler': 1, 'palace': 1, 'submarine, pigboat, sub, U-boat': 68, 'purse': 322, 'gong, tam-tam': 2, 'guillotine': 3, 'tub, vat': 3, 'zebra': 40, 'sundial': 1, 'trombone': 109, 'medicine chest, medicine cabinet': 1, 'hammer': 206, 'barn': 181, 'mixing bowl': 1, 'analog clock': 1, 'sax, saxophone': 61, 'laptop, laptop computer': 90, 'ocarina, sweet potato': 3, 'sock': 76, 'ant, emmet, pismire': 54, 'cassette': 1, 'ibex, Capra ibex': 2, 'buckeye, horse chestnut, conker': 1, 'chime, bell, gong': 287, 'pineapple, ananas': 15, 'harp': 236, 'lion, king of beasts, Panthera leo': 94, 'church, church building': 88, 'saltshaker, salt shaker': 1, 'Petri dish': 3, 'ladle': 1, 'monastery': 4, 'magnetic compass': 1, 'safe': 2, 'mailbox, letter box': 244, 'letter opener, paper knife, paperknife': 1, 'bathtub, bathing tub, bath, tub': 79, 'bell cote, bell cot': 2, 'rifle': 47, 'strainer': 4, 'pitcher, ewer': 1, 'teapot': 55, 'cornet, horn, trumpet, trump': 125, 'folding chair': 1, 'impala, Aepyceros melampus': 1, 'puffer, pufferfish, blowfish, globefish': 1, 'tape player': 1, 'bee': 147, 'gazelle': 1, 'strawberry': 111, 'violin, fiddle': 123, 'wall clock': 1, 'television, television system': 1, 'tractor': 37}
+False Positives 1: {'shovel': 70, 'submarine, pigboat, sub, U-boat': 9, 'purse': 70, 'zebra': 13, 'trombone': 19, 'hammer': 31, 'barn': 58, 'sax, saxophone': 4, 'laptop, laptop computer': 9, 'sock': 13, 'ant, emmet, pismire': 6, 'cassette': 1, 'chime, bell, gong': 64, 'pineapple, ananas': 1, 'harp': 85, 'lion, king of beasts, Panthera leo': 40, 'church, church building': 30, 'mailbox, letter box': 45, 'bathtub, bathing tub, bath, tub': 31, 'rifle': 24, 'teapot': 7, 'cornet, horn, trumpet, trump': 17, 'bee': 28, 'strawberry': 37, 'violin, fiddle': 20, 'tractor': 14}

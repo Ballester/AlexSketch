@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 5
+Test Size: 1140
+Top-5: 141
+Top-1: 99
+Trained Top-5: 100
+Trained Top-1: 99
+Not-Trained Top-5: 41
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 30, 'table lamp': 7, 'bucket, pail': 8, 'submarine, pigboat, sub, U-boat': 872, 'patio, terrace': 9, 'unicycle, monocycle': 2, 'viaduct': 1, 'beacon, lighthouse, beacon light, pharos': 2, 'pitcher, ewer': 33, 'goose': 2, 'bannister, banister, balustrade, balusters, handrail': 6, 'sundial': 37, 'projectile, missile': 3, 'greenhouse, nursery, glasshouse': 14, 'birdhouse': 9, 'barn': 42, 'little blue heron, Egretta caerulea': 1, 'letter opener, paper knife, paperknife': 1, 'analog clock': 4, 'wreck': 2, 'assault rifle, assault gun': 10, 'grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus': 1, 'broom': 1, 'canoe': 2, 'coffeepot': 8, 'teapot': 972, 'aircraft carrier, carrier, flattop, attack aircraft carrier': 3, 'milk can': 8, 'water jug': 8, 'cannon': 8, 'desk': 4, 'banjo': 1, 'church, church building': 964, 'barometer': 9, 'barrow, garden cart, lawn cart, wheelbarrow': 2, 'yurt': 12, 'monastery': 1, 'swing': 1, 'thresher, thrasher, threshing machine': 2, 'vase': 2, 'boathouse': 1, 'umbrella': 5, 'tricycle, trike, velocipede': 15, 'rifle': 793, 'park bench': 2, 'scale, weighing machine': 4, 'vault': 1, 'mobile home, manufactured home': 13, 'plow, plough': 9, 'bell cote, bell cot': 9, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 1, 'mailbox, letter box': 3, 'Model T': 8, 'American egret, great white heron, Egretta albus': 1, 'picket fence, paling': 3, 'spotlight, spot': 3, 'hook, claw': 1, 'china cabinet, china closet': 1, 'scabbard': 2, 'wing': 2, 'wall clock': 2, 'dam, dike, dyke': 1, 'parking meter': 1, 'quill, quill pen': 25, 'turnstile': 46, 'sliding door': 2, 'warplane, military plane': 38, 'pelican': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 4, 'tractor': 893, 'killer whale, killer, orca, grampus, sea wolf, Orcinus orca': 1}
+False Positives 1: {'rifle': 77, 'submarine, pigboat, sub, U-boat': 279, 'teapot': 266, 'tractor': 119, 'church, church building': 300}

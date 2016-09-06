@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 738
+Top-1: 502
+Trained Top-5: 729
+Trained Top-1: 500
+Not-Trained Top-5: 9
+Not-Trained Top-1: 2
+False Positives 5: {'table lamp': 1, 'shovel': 69, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 163, 'canoe': 92, 'hog, pig, grunter, squealer, Sus scrofa': 19, 'purse': 69, 'pitcher, ewer': 4, 'trombone': 34, 'hammer': 18, 'water jug': 1, 'harp': 83, 'sax, saxophone': 17, 'laptop, laptop computer': 20, 'scorpion': 128, 'sock': 24, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 107, 'ant, emmet, pismire': 1, 'microphone, mike': 104, 'lion, king of beasts, Panthera leo': 45, 'chime, bell, gong': 56, 'barn': 62, 'banana': 140, 'church, church building': 52, 'tiger, Panthera tigris': 67, 'umbrella': 41, 'cannon': 109, 'safe': 1, 'mailbox, letter box': 120, 'screwdriver': 61, 'parachute, chute': 34, 'pineapple, ananas': 8, 'rifle': 3, 'revolver, six-gun, six-shooter': 2, 'teapot': 18, 'cornet, horn, trumpet, trump': 52, 'submarine, pigboat, sub, U-boat': 6, 'violin, fiddle': 1, 'pretzel': 16, 'bee': 38, 'strawberry': 17, 'bathtub, bathing tub, bath, tub': 18, 'castle': 23, 'tractor': 66}
+False Positives 1: {'shovel': 31, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 91, 'canoe': 46, 'hog, pig, grunter, squealer, Sus scrofa': 1, 'purse': 18, 'trombone': 10, 'harp': 16, 'sax, saxophone': 2, 'laptop, laptop computer': 3, 'scorpion': 50, 'sock': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 8, 'microphone, mike': 48, 'chime, bell, gong': 12, 'barn': 14, 'lion, king of beasts, Panthera leo': 10, 'church, church building': 11, 'tiger, Panthera tigris': 42, 'umbrella': 13, 'banana': 41, 'cannon': 56, 'mailbox, letter box': 26, 'screwdriver': 19, 'parachute, chute': 6, 'bathtub, bathing tub, bath, tub': 1, 'revolver, six-gun, six-shooter': 1, 'teapot': 4, 'cornet, horn, trumpet, trump': 5, 'pretzel': 2, 'bee': 7, 'strawberry': 6, 'castle': 6, 'tractor': 29}

@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 222
+Top-1: 61
+Trained Top-5: 222
+Trained Top-1: 61
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'submarine, pigboat, sub, U-boat': 138, 'purse': 904, 'zebra': 18, 'harp': 792, 'sax, saxophone': 24, 'laptop, laptop computer': 913, 'sock': 3, 'ant, emmet, pismire': 3, 'cassette': 2, 'chime, bell, gong': 301, 'barn': 467, 'computer keyboard, keypad': 10, 'notebook, notebook computer': 2, 'mailbox, letter box': 492, 'bathtub, bathing tub, bath, tub': 305, 'rifle': 69, 'cornet, horn, trumpet, trump': 10, 'typewriter keyboard': 2, 'space bar': 4, 'violin, fiddle': 36, 'church, church building': 67, 'rule, ruler': 24, 'tractor': 3, 'remote control, remote': 1}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 5, 'submarine, pigboat, sub, U-boat': 3, 'laptop, laptop computer': 820, 'purse': 18, 'sax, saxophone': 1, 'mailbox, letter box': 13, 'violin, fiddle': 2, 'rifle': 2, 'harp': 195, 'tractor': 1, 'barn': 19}

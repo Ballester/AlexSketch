@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 683
+Top-1: 462
+Trained Top-5: 677
+Trained Top-1: 460
+Not-Trained Top-5: 6
+Not-Trained Top-1: 2
+False Positives 5: {'shovel': 29, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 84, 'canoe': 120, 'recreational vehicle, RV, R.V.': 1, 'forklift': 1, 'purse': 19, 'beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon': 1, 'pitcher, ewer': 1, 'trombone': 96, 'hammer': 12, 'water jug': 1, 'barn': 70, 'jeep, landrover': 1, 'sax, saxophone': 43, 'laptop, laptop computer': 36, 'scorpion': 251, 'sock': 31, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 175, 'ant, emmet, pismire': 13, 'microphone, mike': 123, 'lion, king of beasts, Panthera leo': 39, 'chime, bell, gong': 51, 'pineapple, ananas': 6, 'harp': 15, 'thresher, thrasher, threshing machine': 2, 'banana': 44, 'church, church building': 43, 'tiger, Panthera tigris': 115, 'hog, pig, grunter, squealer, Sus scrofa': 13, 'umbrella': 39, 'stopwatch, stop watch': 1, 'cannon': 155, 'mailbox, letter box': 131, 'screwdriver': 45, 'parachute, chute': 35, 'violin, fiddle': 9, 'rifle': 2, 'revolver, six-gun, six-shooter': 3, 'teapot': 15, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 48, 'submarine, pigboat, sub, U-boat': 25, 'pretzel': 28, 'bee': 128, 'strawberry': 17, 'bathtub, bathing tub, bath, tub': 13, 'tractor': 103, 'parking meter': 2, 'minivan': 1, 'castle': 42, 'mobile home, manufactured home': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'harvester, reaper': 4}
+False Positives 1: {'scorpion': 109, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 5, 'canoe': 59, 'purse': 1, 'shovel': 5, 'trombone': 48, 'harp': 4, 'sax, saxophone': 4, 'laptop, laptop computer': 13, 'submarine, pigboat, sub, U-boat': 5, 'sock': 2, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 32, 'microphone, mike': 52, 'lion, king of beasts, Panthera leo': 1, 'chime, bell, gong': 17, 'barn': 11, 'banana': 3, 'church, church building': 3, 'tiger, Panthera tigris': 52, 'umbrella': 12, 'cannon': 54, 'mailbox, letter box': 41, 'screwdriver': 19, 'parachute, chute': 12, 'bathtub, bathing tub, bath, tub': 2, 'revolver, six-gun, six-shooter': 1, 'teapot': 2, 'cornet, horn, trumpet, trump': 3, 'pretzel': 9, 'bee': 25, 'strawberry': 5, 'castle': 10, 'tractor': 57}

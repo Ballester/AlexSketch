@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 318
+Top-1: 216
+Trained Top-5: 291
+Trained Top-1: 215
+Not-Trained Top-5: 27
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 2, 'pedestal, plinth, footstall': 9, 'bucket, pail': 2, "academic gown, academic robe, judge's robe": 1, 'submarine, pigboat, sub, U-boat': 60, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'caldron, cauldron': 6, 'pitcher, ewer': 4, 'trombone': 125, 'tub, vat': 14, 'zebra': 110, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 2, 'mixing bowl': 4, 'barn': 437, 'can opener, tin opener': 1, 'velvet': 1, 'goblet': 3, 'sax, saxophone': 270, 'sock': 383, 'cloak': 3, 'oboe, hautboy, hautbois': 1, 'ant, emmet, pismire': 225, 'cassette': 1, 'lion, king of beasts, Panthera leo': 580, 'church, church building': 150, 'barometer': 3, 'ladle': 1, 'mailbag, postbag': 4, 'mailbox, letter box': 464, 'vestment': 4, 'missile': 1, 'cowboy boot': 1, 'bathtub, bathing tub, bath, tub': 481, 'barrel, cask': 1, 'rifle': 50, 'lampshade, lamp shade': 3, 'reel': 1, 'teapot': 159, 'cornet, horn, trumpet, trump': 432, 'clog, geta, patten, sabot': 4, 'Christmas stocking': 1, 'punching bag, punch bag, punching ball, punchball': 2, 'wall clock': 1, 'Loafer': 2, 'tractor': 98, 'whiskey jug': 2}
+False Positives 1: {'sax, saxophone': 31, 'mailbox, letter box': 99, 'submarine, pigboat, sub, U-boat': 3, 'sock': 116, 'teapot': 10, 'zebra': 3, 'ant, emmet, pismire': 16, 'bathtub, bathing tub, bath, tub': 192, 'church, church building': 21, 'rifle': 19, 'trombone': 6, 'cornet, horn, trumpet, trump': 16, 'lion, king of beasts, Panthera leo': 246, 'tractor': 33, 'barn': 113}

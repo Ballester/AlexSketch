@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 410
+Top-1: 271
+Trained Top-5: 382
+Trained Top-1: 270
+Not-Trained Top-5: 28
+Not-Trained Top-1: 1
+False Positives 5: {'echidna, spiny anteater, anteater': 1, 'shield, buckler': 2, 'submarine, pigboat, sub, U-boat': 26, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'forklift': 1, 'purse': 425, 'pitcher, ewer': 2, 'spatula': 1, 'tub, vat': 3, 'zebra': 65, 'sundial': 4, 'trombone': 215, 'mixing bowl': 3, 'birdhouse': 2, 'barn': 106, 'goblet': 3, 'analog clock': 1, 'sax, saxophone': 204, 'laptop, laptop computer': 137, 'ocarina, sweet potato': 1, 'sock': 178, 'ant, emmet, pismire': 61, 'chest': 1, 'cassette': 1, 'chime, bell, gong': 397, 'harp': 515, 'lion, king of beasts, Panthera leo': 152, 'church, church building': 18, 'barometer': 11, 'safe': 1, 'mailbox, letter box': 463, 'vase': 1, 'bathtub, bathing tub, bath, tub': 113, 'rifle': 58, 'teapot': 29, 'cornet, horn, trumpet, trump': 264, 'wooden spoon': 1, 'mortar': 1, 'bassoon': 1, 'violin, fiddle': 109, 'harvester, reaper': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'tractor': 69}
+False Positives 1: {'pitcher, ewer': 1, 'sock': 18, 'laptop, laptop computer': 20, 'mailbox, letter box': 101, 'violin, fiddle': 11, 'sax, saxophone': 21, 'purse': 96, 'submarine, pigboat, sub, U-boat': 3, 'teapot': 1, 'ant, emmet, pismire': 4, 'bathtub, bathing tub, bath, tub': 36, 'cornet, horn, trumpet, trump': 11, 'zebra': 12, 'rifle': 26, 'trombone': 24, 'chime, bell, gong': 59, 'barn': 23, 'church, church building': 1, 'lion, king of beasts, Panthera leo': 71, 'tractor': 22, 'harp': 308}

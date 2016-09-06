@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 579
+Top-1: 433
+Trained Top-5: 563
+Trained Top-1: 432
+Not-Trained Top-5: 16
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 2, 'pedestal, plinth, footstall': 1, 'shovel': 88, 'ibex, Capra ibex': 1, 'submarine, pigboat, sub, U-boat': 11, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'purse': 98, 'pitcher, ewer': 2, 'zebra': 54, 'trombone': 69, 'warthog': 1, 'hammer': 94, 'switch, electric switch, electrical switch': 1, 'bathtub, bathing tub, bath, tub': 64, 'harp': 137, 'sax, saxophone': 18, 'laptop, laptop computer': 36, 'coffee mug': 1, 'sock': 38, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 342, 'ant, emmet, pismire': 56, 'microphone, mike': 193, 'hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa': 1, 'monastery': 1, 'chime, bell, gong': 234, 'barn': 80, 'lion, king of beasts, Panthera leo': 212, 'church, church building': 40, 'cassette': 1, 'barometer': 4, 'puffer, pufferfish, blowfish, globefish': 1, 'cannon': 101, 'safe': 1, 'mailbox, letter box': 253, 'violin, fiddle': 66, 'bell cote, bell cot': 3, 'rifle': 19, 'strainer': 2, 'revolver, six-gun, six-shooter': 21, 'teapot': 29, 'cornet, horn, trumpet, trump': 101, 'pretzel': 24, 'golf ball': 1, 'bee': 171, 'strawberry': 73, 'pineapple, ananas': 19, 'combination lock': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 36}
+False Positives 1: {'shovel': 13, 'purse': 20, 'zebra': 3, 'trombone': 38, 'hammer': 2, 'barn': 22, 'sax, saxophone': 4, 'laptop, laptop computer': 6, 'sock': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 127, 'ant, emmet, pismire': 4, 'microphone, mike': 58, 'chime, bell, gong': 45, 'pineapple, ananas': 2, 'harp': 48, 'lion, king of beasts, Panthera leo': 96, 'church, church building': 15, 'cannon': 15, 'mailbox, letter box': 66, 'bathtub, bathing tub, bath, tub': 34, 'rifle': 7, 'revolver, six-gun, six-shooter': 4, 'teapot': 6, 'cornet, horn, trumpet, trump': 13, 'bee': 28, 'strawberry': 14, 'violin, fiddle': 6, 'tractor': 8}

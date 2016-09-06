@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 663
+Top-1: 486
+Trained Top-5: 656
+Trained Top-1: 486
+Not-Trained Top-5: 7
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 83, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 163, 'submarine, pigboat, sub, U-boat': 10, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'caldron, cauldron': 1, 'hog, pig, grunter, squealer, Sus scrofa': 80, 'purse': 101, 'tub, vat': 1, 'zebra': 23, 'trombone': 30, 'hammer': 116, 'bathtub, bathing tub, bath, tub': 54, 'barn': 109, 'mixing bowl': 1, 'sax, saxophone': 8, 'laptop, laptop computer': 35, 'sock': 26, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 145, 'ant, emmet, pismire': 38, 'microphone, mike': 136, 'chime, bell, gong': 184, 'harp': 58, 'lion, king of beasts, Panthera leo': 57, 'church, church building': 98, 'umbrella': 179, 'cannon': 42, 'mailbox, letter box': 174, 'parachute, chute': 48, 'violin, fiddle': 38, 'rifle': 21, 'revolver, six-gun, six-shooter': 22, 'teapot': 19, 'cornet, horn, trumpet, trump': 54, 'pretzel': 11, 'bee': 69, 'strawberry': 47, 'pineapple, ananas': 10, 'castle': 35, 'tractor': 56}
+False Positives 1: {'shovel': 39, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 55, 'submarine, pigboat, sub, U-boat': 2, 'hog, pig, grunter, squealer, Sus scrofa': 21, 'purse': 35, 'zebra': 6, 'trombone': 9, 'hammer': 7, 'harp': 15, 'sax, saxophone': 1, 'laptop, laptop computer': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 24, 'ant, emmet, pismire': 8, 'microphone, mike': 44, 'chime, bell, gong': 45, 'barn': 26, 'lion, king of beasts, Panthera leo': 14, 'church, church building': 13, 'umbrella': 128, 'cannon': 8, 'mailbox, letter box': 31, 'parachute, chute': 8, 'bathtub, bathing tub, bath, tub': 26, 'rifle': 9, 'revolver, six-gun, six-shooter': 6, 'teapot': 3, 'cornet, horn, trumpet, trump': 4, 'violin, fiddle': 6, 'bee': 19, 'strawberry': 8, 'pineapple, ananas': 3, 'castle': 3, 'tractor': 25}

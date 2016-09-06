@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 414
+Top-1: 310
+Trained Top-5: 387
+Trained Top-1: 308
+Not-Trained Top-5: 27
+Not-Trained Top-1: 2
+False Positives 5: {'pedestal, plinth, footstall': 4, 'table lamp': 1, 'African crocodile, Nile crocodile, Crocodylus niloticus': 1, 'shield, buckler': 7, 'ibex, Capra ibex': 5, 'submarine, pigboat, sub, U-boat': 53, 'tiger cat': 1, 'triceratops': 1, 'purse': 267, 'reflex camera': 1, 'pitcher, ewer': 2, 'snow leopard, ounce, Panthera uncia': 1, 'guillotine': 4, 'isopod': 3, 'zebra': 126, 'tub, vat': 1, 'sundial': 5, 'trombone': 185, 'bucket, pail': 3, 'warthog': 3, 'oboe, hautboy, hautbois': 4, 'sliding door': 1, 'harp': 332, 'mixing bowl': 1, 'medicine chest, medicine cabinet': 5, 'wolf spider, hunting spider': 1, 'letter opener, paper knife, paperknife': 1, 'lynx, catamount': 2, 'sax, saxophone': 204, 'laptop, laptop computer': 62, 'ocarina, sweet potato': 3, 'sock': 195, 'pug, pug-dog': 2, 'ant, emmet, pismire': 61, 'cradle': 1, 'cassette': 2, 'birdhouse': 3, 'French bulldog': 1, 'chime, bell, gong': 305, 'barn': 190, 'timber wolf, grey wolf, gray wolf, Canis lupus': 1, 'lion, king of beasts, Panthera leo': 250, 'church, church building': 114, 'tiger, Panthera tigris': 3, 'white wolf, Arctic wolf, Canis lupus tundrarum': 2, 'barometer': 5, 'puffer, pufferfish, blowfish, globefish': 2, 'trilobite': 1, 'monastery': 3, 'safe': 8, 'mailbox, letter box': 413, 'dome': 2, 'vase': 2, 'violin, fiddle': 129, 'bell cote, bell cot': 10, 'rifle': 84, 'abacus': 1, 'teapot': 18, 'cornet, horn, trumpet, trump': 272, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 1, 'porcupine, hedgehog': 1, 'swab, swob, mop': 1, 'Egyptian cat': 5, 'gong, tam-tam': 3, 'cabbage butterfly': 1, 'bassoon': 3, 'switch, electric switch, electrical switch': 1, 'bathtub, bathing tub, bath, tub': 150, 'washer, automatic washer, washing machine': 1, 'pick, plectrum, plectron': 1, 'combination lock': 3, 'quill, quill pen': 3, 'assault rifle, assault gun': 1, 'electric ray, crampfish, numbfish, torpedo': 1, 'chiton, coat-of-mail shell, sea cradle, polyplacophore': 1, 'rule, ruler': 1, 'tractor': 81, 'whiskey jug': 1}
+False Positives 1: {'shield, buckler': 1, 'submarine, pigboat, sub, U-boat': 6, 'purse': 60, 'pitcher, ewer': 1, 'zebra': 15, 'sundial': 2, 'trombone': 44, 'barn': 53, 'sax, saxophone': 45, 'laptop, laptop computer': 4, 'sock': 36, 'ant, emmet, pismire': 5, 'chime, bell, gong': 48, 'harp': 102, 'lion, king of beasts, Panthera leo': 122, 'church, church building': 22, 'mailbox, letter box': 115, 'violin, fiddle': 13, 'rifle': 41, 'cornet, horn, trumpet, trump': 30, 'bathtub, bathing tub, bath, tub': 42, 'tractor': 23}

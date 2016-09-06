@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 680
+Top-1: 443
+Trained Top-5: 669
+Trained Top-1: 441
+Not-Trained Top-5: 11
+Not-Trained Top-1: 2
+False Positives 5: {'shovel': 101, 'bucket, pail': 1, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 221, 'manhole cover': 2, 'canoe': 45, 'caldron, cauldron': 1, 'hog, pig, grunter, squealer, Sus scrofa': 7, 'purse': 17, 'pitcher, ewer': 1, 'hand-held computer, hand-held microcomputer': 1, 'trombone': 11, 'hammer': 27, 'birdhouse': 2, 'barn': 58, 'sax, saxophone': 3, 'laptop, laptop computer': 65, 'submarine, pigboat, sub, U-boat': 42, 'sock': 17, 'rain barrel': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 145, 'ant, emmet, pismire': 1, 'microphone, mike': 157, 'cassette': 2, 'water jug': 2, 'chime, bell, gong': 71, 'pineapple, ananas': 5, 'harp': 16, 'lion, king of beasts, Panthera leo': 12, 'church, church building': 43, 'tiger, Panthera tigris': 161, 'umbrella': 58, 'banana': 16, 'cannon': 98, 'safe': 1, 'mailbox, letter box': 160, 'scorpion': 223, 'screwdriver': 81, 'parachute, chute': 57, 'violin, fiddle': 32, 'rifle': 9, 'strainer': 3, 'revolver, six-gun, six-shooter': 13, 'teapot': 23, 'cornet, horn, trumpet, trump': 8, 'pretzel': 5, 'bee': 39, 'strawberry': 111, 'bathtub, bathing tub, bath, tub': 19, 'electric ray, crampfish, numbfish, torpedo': 4, 'castle': 26, 'tractor': 76}
+False Positives 1: {'shovel': 21, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 54, 'canoe': 10, 'hog, pig, grunter, squealer, Sus scrofa': 2, 'purse': 6, 'trombone': 4, 'hammer': 2, 'harp': 1, 'laptop, laptop computer': 25, 'scorpion': 120, 'sock': 5, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 31, 'microphone, mike': 64, 'chime, bell, gong': 25, 'barn': 17, 'banana': 6, 'church, church building': 10, 'tiger, Panthera tigris': 44, 'umbrella': 21, 'cannon': 31, 'mailbox, letter box': 47, 'screwdriver': 37, 'parachute, chute': 18, 'bathtub, bathing tub, bath, tub': 7, 'rifle': 1, 'revolver, six-gun, six-shooter': 2, 'teapot': 5, 'cornet, horn, trumpet, trump': 1, 'submarine, pigboat, sub, U-boat': 9, 'bee': 1, 'strawberry': 45, 'violin, fiddle': 2, 'castle': 6, 'tractor': 17}

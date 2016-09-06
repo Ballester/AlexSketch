@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 494
+Top-1: 398
+Trained Top-5: 484
+Trained Top-1: 397
+Not-Trained Top-5: 10
+Not-Trained Top-1: 1
+False Positives 5: {'shovel': 220, 'submarine, pigboat, sub, U-boat': 20, 'strainer': 1, 'forklift': 1, 'purse': 169, 'pitcher, ewer': 2, 'spatula': 1, 'tub, vat': 3, 'bassoon': 1, 'zebra': 62, 'trombone': 132, 'warthog': 1, 'hammer': 221, 'switch, electric switch, electrical switch': 1, 'barn': 136, 'sax, saxophone': 84, 'laptop, laptop computer': 46, 'sock': 82, 'cloak': 1, 'pug, pug-dog': 1, 'ant, emmet, pismire': 45, 'cassette': 1, 'chime, bell, gong': 247, 'pineapple, ananas': 39, 'harp': 222, 'lion, king of beasts, Panthera leo': 174, 'church, church building': 88, 'tiger, Panthera tigris': 1, 'barometer': 3, 'puffer, pufferfish, blowfish, globefish': 2, 'ladle': 2, 'monastery': 1, 'mailbox, letter box': 340, 'vestment': 1, 'bathtub, bathing tub, bath, tub': 93, 'bell cote, bell cot': 4, 'rifle': 37, 'guillotine': 1, 'teapot': 52, 'cornet, horn, trumpet, trump': 99, 'mortar': 1, 'bee': 203, 'strawberry': 179, 'violin, fiddle': 127, 'harvester, reaper': 1, 'tractor': 82}
+False Positives 1: {'shovel': 65, 'submarine, pigboat, sub, U-boat': 2, 'purse': 33, 'zebra': 11, 'trombone': 12, 'hammer': 44, 'harp': 62, 'sax, saxophone': 20, 'laptop, laptop computer': 9, 'sock': 9, 'ant, emmet, pismire': 3, 'chime, bell, gong': 30, 'pineapple, ananas': 4, 'barn': 39, 'lion, king of beasts, Panthera leo': 66, 'church, church building': 17, 'mailbox, letter box': 79, 'bathtub, bathing tub, bath, tub': 44, 'rifle': 8, 'teapot': 6, 'cornet, horn, trumpet, trump': 10, 'bee': 38, 'strawberry': 69, 'violin, fiddle': 33, 'tractor': 29}

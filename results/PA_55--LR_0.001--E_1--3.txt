@@ -1,0 +1,13 @@
+Training Size: 3300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 55
+Test Size: 1140
+Top-5: 1016
+Top-1: 791
+Trained Top-5: 1016
+Trained Top-1: 791
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 3, 'shovel': 16, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 26, 'canoe': 12, 'trombone': 8, 'hog, pig, grunter, squealer, Sus scrofa': 27, 'purse': 11, 'pretzel': 1, 'syringe': 19, 'pizza, pizza pie': 2, 'lighter, light, igniter, ignitor': 4, 'tub, vat': 1, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 14, 'bee': 12, 'hammer': 15, 'hourglass': 2, 'sax, saxophone': 7, 'laptop, laptop computer': 7, 'scorpion': 37, 'sock': 18, 'radio, wireless': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 4, 'ant, emmet, pismire': 3, 'microphone, mike': 38, 'jersey, T-shirt, tee shirt': 14, 'envelope': 6, 'chime, bell, gong': 17, 'barn': 5, 'harp': 8, 'lion, king of beasts, Panthera leo': 18, 'church, church building': 1, 'tiger, Panthera tigris': 26, 'binoculars, field glasses, opera glasses': 29, 'umbrella': 28, 'snail': 9, 'cannon': 15, 'mailbox, letter box': 21, 'screwdriver': 5, 'vase': 9, 'parachute, chute': 17, 'bathtub, bathing tub, bath, tub': 16, 'rifle': 1, 'revolver, six-gun, six-shooter': 8, 'candle, taper, wax light': 4, 'cornet, horn, trumpet, trump': 2, 'submarine, pigboat, sub, U-boat': 4, 'iPod': 18, 'cup': 4, 'porcupine, hedgehog': 18, 'banana': 7, 'violin, fiddle': 7, 'castle': 2, 'tractor': 6, 'zebra': 5}
+False Positives 1: {'shovel': 7, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 11, 'canoe': 6, 'trombone': 3, 'hog, pig, grunter, squealer, Sus scrofa': 6, 'purse': 8, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 13, 'lighter, light, igniter, ignitor': 4, 'syringe': 22, 'hammer': 1, 'harp': 2, 'sax, saxophone': 1, 'laptop, laptop computer': 2, 'scorpion': 15, 'sock': 7, 'radio, wireless': 2, 'microphone, mike': 14, 'hourglass': 1, 'jersey, T-shirt, tee shirt': 3, 'envelope': 3, 'chime, bell, gong': 5, 'barn': 8, 'lion, king of beasts, Panthera leo': 6, 'church, church building': 1, 'tiger, Panthera tigris': 46, 'binoculars, field glasses, opera glasses': 20, 'umbrella': 17, 'banana': 2, 'snail': 3, 'cannon': 6, 'mailbox, letter box': 3, 'screwdriver': 5, 'vase': 16, 'parachute, chute': 8, 'bathtub, bathing tub, bath, tub': 11, 'rifle': 2, 'revolver, six-gun, six-shooter': 3, 'candle, taper, wax light': 8, 'submarine, pigboat, sub, U-boat': 1, 'iPod': 14, 'cup': 1, 'porcupine, hedgehog': 14, 'bee': 9, 'strawberry': 2, 'pineapple, ananas': 2, 'castle': 2, 'zebra': 3}

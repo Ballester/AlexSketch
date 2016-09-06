@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 716
+Top-1: 465
+Trained Top-5: 711
+Trained Top-1: 465
+Not-Trained Top-5: 5
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 1, 'shovel': 39, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 68, 'canoe': 70, 'hog, pig, grunter, squealer, Sus scrofa': 37, 'purse': 56, 'trombone': 6, 'hammer': 77, 'oboe, hautboy, hautbois': 1, 'bathtub, bathing tub, bath, tub': 9, 'harp': 84, 'sax, saxophone': 46, 'laptop, laptop computer': 34, 'scorpion': 205, 'sock': 45, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 33, 'ant, emmet, pismire': 7, 'microphone, mike': 151, 'cassette': 1, 'lion, king of beasts, Panthera leo': 32, 'chime, bell, gong': 43, 'barn': 47, 'banana': 228, 'church, church building': 32, 'tiger, Panthera tigris': 169, 'umbrella': 69, 'cannon': 50, 'mailbox, letter box': 55, 'screwdriver': 83, 'parachute, chute': 52, 'pineapple, ananas': 25, 'flute, transverse flute': 1, 'rifle': 16, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 8, 'teapot': 8, 'cornet, horn, trumpet, trump': 17, 'Christmas stocking': 1, 'typewriter keyboard': 1, 'submarine, pigboat, sub, U-boat': 5, 'pretzel': 28, 'bee': 60, 'strawberry': 46, 'violin, fiddle': 24, 'castle': 14, 'tractor': 35}
+False Positives 1: {'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 12, 'canoe': 23, 'hog, pig, grunter, squealer, Sus scrofa': 5, 'purse': 19, 'trombone': 1, 'hammer': 8, 'harp': 23, 'sax, saxophone': 8, 'laptop, laptop computer': 8, 'scorpion': 115, 'sock': 6, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 3, 'ant, emmet, pismire': 1, 'microphone, mike': 64, 'chime, bell, gong': 4, 'barn': 20, 'banana': 69, 'church, church building': 6, 'tiger, Panthera tigris': 102, 'umbrella': 34, 'cannon': 19, 'mailbox, letter box': 14, 'screwdriver': 39, 'parachute, chute': 15, 'bathtub, bathing tub, bath, tub': 2, 'revolver, six-gun, six-shooter': 3, 'teapot': 1, 'submarine, pigboat, sub, U-boat': 2, 'violin, fiddle': 2, 'pretzel': 3, 'bee': 3, 'strawberry': 14, 'pineapple, ananas': 4, 'castle': 4, 'tractor': 11}

@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 416
+Top-1: 317
+Trained Top-5: 388
+Trained Top-1: 315
+Not-Trained Top-5: 28
+Not-Trained Top-1: 2
+False Positives 5: {'table lamp': 4, 'cup': 1, 'shield, buckler': 2, 'submarine, pigboat, sub, U-boat': 83, 'caldron, cauldron': 1, 'forklift': 3, 'purse': 377, 'guillotine': 1, 'tub, vat': 1, 'zebra': 108, 'electric ray, crampfish, numbfish, torpedo': 1, 'trombone': 140, 'mixing bowl': 4, 'barn': 181, 'jeep, landrover': 1, 'goblet': 1, 'sax, saxophone': 128, 'laptop, laptop computer': 86, 'balloon': 4, 'ladle': 1, 'sock': 68, 'ant, emmet, pismire': 180, 'ibex, Capra ibex': 1, 'chime, bell, gong': 483, 'harp': 363, 'lion, king of beasts, Panthera leo': 207, 'church, church building': 98, 'cricket': 1, 'saltshaker, salt shaker': 1, 'barometer': 3, 'puffer, pufferfish, blowfish, globefish': 2, 'trilobite': 1, 'sea slug, nudibranch': 1, 'monastery': 2, 'vase': 1, 'safe': 2, 'mailbox, letter box': 379, 'missile': 1, 'bathtub, bathing tub, bath, tub': 75, 'bell cote, bell cot': 1, 'rifle': 50, 'lampshade, lamp shade': 2, 'strainer': 1, 'abacus': 1, 'teapot': 108, 'cornet, horn, trumpet, trump': 134, 'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis': 1, 'ram, tup': 1, 'cabbage butterfly': 1, 'lycaenid, lycaenid butterfly': 1, 'violin, fiddle': 211, 'pick, plectrum, plectron': 3, 'plate rack': 1, 'quill, quill pen': 1, 'lionfish': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 103}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 24, 'sax, saxophone': 19, 'laptop, laptop computer': 6, 'purse': 65, 'cornet, horn, trumpet, trump': 10, 'submarine, pigboat, sub, U-boat': 17, 'mailbox, letter box': 86, 'church, church building': 22, 'teapot': 13, 'ant, emmet, pismire': 24, 'sock': 4, 'violin, fiddle': 43, 'zebra': 20, 'rifle': 18, 'trombone': 35, 'chime, bell, gong': 137, 'barn': 38, 'lion, king of beasts, Panthera leo': 63, 'tractor': 46, 'harp': 133}

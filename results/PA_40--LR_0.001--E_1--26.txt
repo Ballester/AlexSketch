@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 749
+Top-1: 520
+Trained Top-5: 742
+Trained Top-1: 520
+Not-Trained Top-5: 7
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 99, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 50, 'canoe': 44, 'hog, pig, grunter, squealer, Sus scrofa': 15, 'purse': 49, 'trombone': 15, 'zebra': 1, 'sundial': 1, 'guillotine': 1, 'barometer': 4, 'hammer': 58, 'bathtub, bathing tub, bath, tub': 20, 'harp': 65, 'sax, saxophone': 11, 'laptop, laptop computer': 14, 'scorpion': 96, 'sock': 53, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 191, 'ant, emmet, pismire': 4, 'microphone, mike': 119, 'lion, king of beasts, Panthera leo': 19, 'chime, bell, gong': 55, 'barn': 72, 'banana': 117, 'church, church building': 45, 'tiger, Panthera tigris': 53, 'umbrella': 117, 'cannon': 68, 'safe': 1, 'mailbox, letter box': 131, 'screwdriver': 68, 'parachute, chute': 56, 'pineapple, ananas': 5, 'rifle': 10, 'revolver, six-gun, six-shooter': 8, 'teapot': 10, 'cornet, horn, trumpet, trump': 54, 'submarine, pigboat, sub, U-boat': 15, 'pretzel': 14, 'bee': 19, 'strawberry': 18, 'violin, fiddle': 15, 'washer, automatic washer, washing machine': 1, 'harvester, reaper': 1, 'combination lock': 1, 'castle': 15, 'tractor': 57}
+False Positives 1: {'shovel': 29, 'canoe': 13, 'hog, pig, grunter, squealer, Sus scrofa': 4, 'purse': 20, 'trombone': 6, 'hammer': 4, 'harp': 10, 'sax, saxophone': 1, 'laptop, laptop computer': 1, 'scorpion': 38, 'sock': 14, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 77, 'microphone, mike': 24, 'chime, bell, gong': 9, 'barn': 23, 'lion, king of beasts, Panthera leo': 8, 'church, church building': 3, 'tiger, Panthera tigris': 49, 'umbrella': 77, 'banana': 23, 'cannon': 10, 'mailbox, letter box': 36, 'screwdriver': 58, 'parachute, chute': 21, 'violin, fiddle': 1, 'revolver, six-gun, six-shooter': 3, 'teapot': 1, 'cornet, horn, trumpet, trump': 5, 'submarine, pigboat, sub, U-boat': 5, 'bee': 7, 'strawberry': 7, 'bathtub, bathing tub, bath, tub': 5, 'castle': 3, 'tractor': 25}

@@ -1,0 +1,13 @@
+Training Size: 2700
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 45
+Test Size: 1140
+Top-5: 736
+Top-1: 488
+Trained Top-5: 730
+Trained Top-1: 488
+Not-Trained Top-5: 6
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 37, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 85, 'canoe': 129, 'purse': 20, 'lighter, light, igniter, ignitor': 50, 'trombone': 66, 'hammer': 9, 'hourglass': 55, 'mixing bowl': 1, 'sax, saxophone': 10, 'laptop, laptop computer': 5, 'submarine, pigboat, sub, U-boat': 9, 'sock': 4, 'radio, wireless': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 37, 'ant, emmet, pismire': 2, 'microphone, mike': 35, 'lion, king of beasts, Panthera leo': 23, 'chime, bell, gong': 22, 'harp': 102, 'banana': 153, 'strawberry': 47, 'tiger, Panthera tigris': 116, 'umbrella': 86, 'snail': 15, 'cannon': 15, 'barn': 33, 'screwdriver': 62, 'dome': 1, 'parachute, chute': 115, 'pineapple, ananas': 76, 'rifle': 1, 'revolver, six-gun, six-shooter': 3, 'teapot': 6, 'cornet, horn, trumpet, trump': 65, 'mailbox, letter box': 55, 'iPod': 24, 'pretzel': 47, 'bee': 114, 'violin, fiddle': 10, 'scorpion': 219, 'bathtub, bathing tub, bath, tub': 34, 'castle': 10, 'church, church building': 8, 'tractor': 1}
+False Positives 1: {'shovel': 5, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 12, 'canoe': 90, 'purse': 2, 'lighter, light, igniter, ignitor': 19, 'barn': 14, 'trombone': 13, 'hourglass': 18, 'sax, saxophone': 1, 'scorpion': 84, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 10, 'microphone, mike': 4, 'chime, bell, gong': 6, 'harp': 17, 'banana': 26, 'church, church building': 2, 'tiger, Panthera tigris': 59, 'umbrella': 29, 'snail': 4, 'cannon': 2, 'mailbox, letter box': 10, 'screwdriver': 41, 'parachute, chute': 70, 'pineapple, ananas': 35, 'revolver, six-gun, six-shooter': 1, 'teapot': 1, 'cornet, horn, trumpet, trump': 7, 'submarine, pigboat, sub, U-boat': 2, 'iPod': 7, 'pretzel': 11, 'bee': 30, 'strawberry': 11, 'bathtub, bathing tub, bath, tub': 4, 'castle': 5}

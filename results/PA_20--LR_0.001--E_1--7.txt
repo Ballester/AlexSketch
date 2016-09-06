@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 388
+Top-1: 299
+Trained Top-5: 383
+Trained Top-1: 299
+Not-Trained Top-5: 5
+Not-Trained Top-1: 0
+False Positives 5: {'computer keyboard, keypad': 2, 'bucket, pail': 4, 'submarine, pigboat, sub, U-boat': 16, 'caldron, cauldron': 3, 'purse': 322, 'pitcher, ewer': 2, 'guillotine': 3, 'digital watch': 1, 'zebra': 132, 'sundial': 3, 'trombone': 129, 'shield, buckler': 1, 'oboe, hautboy, hautbois': 4, 'water jug': 1, 'barn': 146, 'goblet': 1, 'sax, saxophone': 381, 'laptop, laptop computer': 49, 'sock': 195, 'long-horned beetle, longicorn, longicorn beetle': 1, 'ant, emmet, pismire': 121, 'chime, bell, gong': 480, 'harp': 425, 'lion, king of beasts, Panthera leo': 250, 'church, church building': 106, 'notebook, notebook computer': 1, 'puffer, pufferfish, blowfish, globefish': 1, 'mailbag, postbag': 2, 'mailbox, letter box': 298, 'letter opener, paper knife, paperknife': 1, 'Christmas stocking': 1, 'bathtub, bathing tub, bath, tub': 86, 'rifle': 81, 'lampshade, lamp shade': 2, 'abacus': 2, 'teapot': 115, 'cornet, horn, trumpet, trump': 200, 'typewriter keyboard': 1, 'space bar': 1, 'bassoon': 2, 'violin, fiddle': 95, 'combination lock': 1, 'sea urchin': 1, 'brass, memorial tablet, plaque': 1, 'steel arch bridge': 1, 'rule, ruler': 1, 'tractor': 88}
+False Positives 1: {'sax, saxophone': 90, 'laptop, laptop computer': 10, 'purse': 69, 'sock': 25, 'submarine, pigboat, sub, U-boat': 3, 'mailbox, letter box': 41, 'church, church building': 13, 'teapot': 8, 'violin, fiddle': 8, 'ant, emmet, pismire': 12, 'bathtub, bathing tub, bath, tub': 27, 'cornet, horn, trumpet, trump': 19, 'zebra': 24, 'rifle': 28, 'trombone': 37, 'chime, bell, gong': 89, 'barn': 34, 'lion, king of beasts, Panthera leo': 86, 'tractor': 18, 'harp': 200}

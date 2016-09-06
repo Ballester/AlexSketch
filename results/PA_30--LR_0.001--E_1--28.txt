@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 582
+Top-1: 425
+Trained Top-5: 562
+Trained Top-1: 424
+Not-Trained Top-5: 20
+Not-Trained Top-1: 1
+False Positives 5: {'pedestal, plinth, footstall': 4, 'table lamp': 2, 'shovel': 144, 'caldron, cauldron': 1, 'submarine, pigboat, sub, U-boat': 8, 'wallet, billfold, notecase, pocketbook': 1, 'purse': 122, 'reflex camera': 3, 'trombone': 20, 'tub, vat': 7, 'zebra': 41, 'cougar, puma, catamount, mountain lion, painter, panther, Felis concolor': 1, 'guillotine': 2, 'warthog': 1, 'hammer': 127, 'hamper': 1, 'birdhouse': 1, 'harp': 63, 'mixing bowl': 3, 'sax, saxophone': 21, 'laptop, laptop computer': 196, 'sock': 110, 'chest': 5, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 353, 'ant, emmet, pismire': 27, 'microphone, mike': 211, 'cassette': 2, 'ibex, Capra ibex': 1, 'chime, bell, gong': 143, 'pineapple, ananas': 8, 'barn': 61, 'lion, king of beasts, Panthera leo': 132, 'church, church building': 74, 'barometer': 1, 'puffer, pufferfish, blowfish, globefish': 1, 'cannon': 100, 'safe': 5, 'mailbox, letter box': 217, 'violin, fiddle': 71, 'bell cote, bell cot': 2, 'microwave, microwave oven': 1, 'rifle': 11, 'strainer': 1, 'revolver, six-gun, six-shooter': 29, 'teapot': 34, 'cornet, horn, trumpet, trump': 63, 'folding chair': 1, 'bulletproof vest': 1, 'spatula': 1, 'tape player': 3, 'pretzel': 35, 'bee': 93, 'strawberry': 20, 'bathtub, bathing tub, bath, tub': 123, 'harvester, reaper': 1, 'television, television system': 1, 'digital clock': 1, 'tray': 1, 'tractor': 76, 'tricycle, trike, velocipede': 1}
+False Positives 1: {'shovel': 25, 'submarine, pigboat, sub, U-boat': 1, 'purse': 7, 'zebra': 6, 'trombone': 4, 'hammer': 17, 'harp': 25, 'sax, saxophone': 2, 'laptop, laptop computer': 87, 'sock': 22, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 134, 'ant, emmet, pismire': 2, 'microphone, mike': 66, 'chime, bell, gong': 19, 'barn': 13, 'lion, king of beasts, Panthera leo': 62, 'church, church building': 15, 'cannon': 19, 'mailbox, letter box': 48, 'violin, fiddle': 10, 'rifle': 1, 'revolver, six-gun, six-shooter': 5, 'teapot': 3, 'cornet, horn, trumpet, trump': 14, 'bee': 10, 'strawberry': 3, 'bathtub, bathing tub, bath, tub': 75, 'tractor': 20}

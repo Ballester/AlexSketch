@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 254
+Top-1: 174
+Trained Top-5: 197
+Trained Top-1: 172
+Not-Trained Top-5: 57
+Not-Trained Top-1: 2
+False Positives 5: {'pedestal, plinth, footstall': 5, 'harvester, reaper': 1, 'electric guitar': 1, 'turnstile': 1, 'bucket, pail': 2, 'palace': 7, 'submarine, pigboat, sub, U-boat': 47, 'coffeepot': 4, 'caldron, cauldron': 1, 'forklift': 2, 'reflex camera': 6, 'gong, tam-tam': 11, 'triumphal arch': 3, 'planetarium': 1, 'binoculars, field glasses, opera glasses': 1, 'paper towel': 1, 'zebra': 428, 'sundial': 5, 'trombone': 467, 'umbrella': 2, 'water jug': 1, 'medicine chest, medicine cabinet': 3, 'switch, electric switch, electrical switch': 5, 'sliding door': 1, 'barn': 22, 'mixing bowl': 1, 'French horn, horn': 1, 'slide rule, slipstick': 1, 'tick': 1, 'lemon': 1, 'manhole cover': 6, 'library': 5, 'sax, saxophone': 586, 'bassoon': 1, 'fire screen, fireguard': 1, 'desk': 2, 'ocarina, sweet potato': 4, 'sock': 591, 'birdhouse': 7, 'cannon': 1, 'soccer ball': 1, 'chime, bell, gong': 3, 'mailbag, postbag': 1, 'pencil sharpener': 2, 'acoustic guitar': 1, 'church, church building': 464, 'viaduct': 1, 'barometer': 15, 'ladle': 1, 'yurt': 1, 'monastery': 5, 'wardrobe, closet, press': 2, 'safe': 2, 'bib': 2, 'dome': 11, 'vase': 2, 'padlock': 2, "loupe, jeweler's loupe": 1, 'bell cote, bell cot': 15, 'tricycle, trike, velocipede': 1, 'rifle': 162, 'wolf spider, hunting spider': 1, 'greenhouse, nursery, glasshouse': 6, 'pitcher, ewer': 12, 'teapot': 452, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 658, 'shield, buckler': 3, 'washer, automatic washer, washing machine': 2, 'analog clock': 1, 'picket fence, paling': 1, 'toilet tissue, toilet paper, bathroom tissue': 1, 'hook, claw': 4, 'china cabinet, china closet': 1, 'punching bag, punch bag, punching ball, punchball': 1, 'wall clock': 1, 'pick, plectrum, plectron': 1, 'combination lock': 7, 'scale, weighing machine': 1, 'vault': 2, 'tractor': 340, 'whiskey jug': 2}
+False Positives 1: {'manhole cover': 1, 'sax, saxophone': 105, 'pencil sharpener': 1, 'sundial': 1, 'submarine, pigboat, sub, U-boat': 2, 'sock': 169, 'gong, tam-tam': 1, 'zebra': 96, 'rifle': 24, 'trombone': 76, 'church, church building': 206, 'teapot': 150, 'tractor': 92, 'cornet, horn, trumpet, trump': 42}

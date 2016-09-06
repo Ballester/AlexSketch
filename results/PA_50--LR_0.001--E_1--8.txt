@@ -1,0 +1,13 @@
+Training Size: 3000
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 50
+Test Size: 1140
+Top-5: 890
+Top-1: 624
+Trained Top-5: 890
+Trained Top-1: 624
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 1, 'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 46, 'canoe': 83, 'hog, pig, grunter, squealer, Sus scrofa': 11, 'purse': 23, 'pitcher, ewer': 1, 'trombone': 17, 'lighter, light, igniter, ignitor': 23, 'syringe': 27, 'hammer': 9, 'water jug': 1, 'hourglass': 12, 'cup': 6, 'laptop, laptop computer': 12, 'scorpion': 88, 'sock': 9, 'radio, wireless': 22, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 47, 'ant, emmet, pismire': 10, 'microphone, mike': 28, 'lion, king of beasts, Panthera leo': 17, 'jersey, T-shirt, tee shirt': 6, 'chime, bell, gong': 27, 'pineapple, ananas': 15, 'barn': 38, 'harp': 16, 'banana': 63, 'church, church building': 16, 'tiger, Panthera tigris': 57, 'binoculars, field glasses, opera glasses': 108, 'umbrella': 82, 'snail': 30, 'cannon': 9, 'mailbox, letter box': 17, 'screwdriver': 6, 'vase': 21, 'parachute, chute': 67, 'violin, fiddle': 6, 'rifle': 1, 'revolver, six-gun, six-shooter': 2, 'cornet, horn, trumpet, trump': 16, 'submarine, pigboat, sub, U-boat': 6, 'iPod': 25, 'sax, saxophone': 4, 'pretzel': 30, 'bee': 55, 'strawberry': 19, 'bathtub, bathing tub, bath, tub': 6, 'zebra': 1}
+False Positives 1: {'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 10, 'canoe': 77, 'hog, pig, grunter, squealer, Sus scrofa': 1, 'purse': 8, 'trombone': 4, 'lighter, light, igniter, ignitor': 18, 'syringe': 20, 'hammer': 1, 'barn': 15, 'cup': 2, 'scorpion': 12, 'sock': 4, 'radio, wireless': 8, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 4, 'microphone, mike': 6, 'lion, king of beasts, Panthera leo': 1, 'chime, bell, gong': 5, 'hourglass': 4, 'harp': 3, 'banana': 8, 'church, church building': 5, 'tiger, Panthera tigris': 52, 'binoculars, field glasses, opera glasses': 78, 'umbrella': 63, 'snail': 16, 'mailbox, letter box': 2, 'screwdriver': 2, 'vase': 4, 'parachute, chute': 24, 'pineapple, ananas': 4, 'revolver, six-gun, six-shooter': 2, 'cornet, horn, trumpet, trump': 3, 'iPod': 2, 'pretzel': 7, 'bee': 25, 'strawberry': 7, 'castle': 1}

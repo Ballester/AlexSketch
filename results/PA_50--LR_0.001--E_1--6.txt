@@ -1,0 +1,13 @@
+Training Size: 3000
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 50
+Test Size: 1140
+Top-5: 915
+Top-1: 671
+Trained Top-5: 915
+Trained Top-1: 671
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 33, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 54, 'canoe': 66, 'hog, pig, grunter, squealer, Sus scrofa': 25, 'purse': 31, 'trombone': 8, 'saltshaker, salt shaker': 1, 'lighter, light, igniter, ignitor': 22, 'syringe': 45, 'bee': 17, 'hammer': 6, 'barn': 38, 'cup': 11, 'laptop, laptop computer': 17, 'scorpion': 86, 'sock': 7, 'radio, wireless': 32, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 25, 'ant, emmet, pismire': 4, 'microphone, mike': 49, 'hourglass': 9, 'jersey, T-shirt, tee shirt': 7, 'chime, bell, gong': 27, 'harp': 13, 'banana': 27, 'church, church building': 20, 'tiger, Panthera tigris': 66, 'binoculars, field glasses, opera glasses': 35, 'umbrella': 49, 'snail': 42, 'cannon': 24, 'mailbox, letter box': 33, 'screwdriver': 16, 'vase': 17, 'parachute, chute': 36, 'violin, fiddle': 6, 'rifle': 2, 'revolver, six-gun, six-shooter': 1, 'teapot': 2, 'cornet, horn, trumpet, trump': 7, 'submarine, pigboat, sub, U-boat': 11, 'iPod': 23, 'sax, saxophone': 2, 'pretzel': 13, 'lion, king of beasts, Panthera leo': 31, 'strawberry': 21, 'pineapple, ananas': 2, 'castle': 2, 'tractor': 4}
+False Positives 1: {'shovel': 11, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 5, 'canoe': 42, 'hog, pig, grunter, squealer, Sus scrofa': 10, 'purse': 16, 'trombone': 1, 'lighter, light, igniter, ignitor': 19, 'syringe': 47, 'hammer': 1, 'hourglass': 4, 'sax, saxophone': 1, 'laptop, laptop computer': 1, 'scorpion': 26, 'sock': 4, 'radio, wireless': 12, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 1, 'microphone, mike': 23, 'lion, king of beasts, Panthera leo': 1, 'jersey, T-shirt, tee shirt': 1, 'chime, bell, gong': 3, 'barn': 13, 'harp': 1, 'banana': 4, 'church, church building': 4, 'tiger, Panthera tigris': 77, 'binoculars, field glasses, opera glasses': 14, 'umbrella': 20, 'snail': 26, 'cannon': 16, 'mailbox, letter box': 5, 'vase': 8, 'parachute, chute': 12, 'pineapple, ananas': 1, 'rifle': 2, 'revolver, six-gun, six-shooter': 1, 'cornet, horn, trumpet, trump': 2, 'submarine, pigboat, sub, U-boat': 5, 'iPod': 6, 'cup': 3, 'pretzel': 2, 'bee': 4, 'strawberry': 8, 'castle': 3, 'tractor': 3}

@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 418
+Top-1: 311
+Trained Top-5: 393
+Trained Top-1: 310
+Not-Trained Top-5: 25
+Not-Trained Top-1: 1
+False Positives 5: {'shield, buckler': 3, 'manhole cover': 2, 'submarine, pigboat, sub, U-boat': 54, 'sundial': 1, 'purse': 231, 'reflex camera': 1, 'pitcher, ewer': 3, 'tub, vat': 2, 'zebra': 39, 'spotlight, spot': 1, 'trombone': 141, 'switch, electric switch, electrical switch': 2, 'birdhouse': 1, 'barn': 210, 'lacewing, lacewing fly': 1, 'mixing bowl': 1, 'sax, saxophone': 213, 'laptop, laptop computer': 84, 'broom': 1, 'sock': 178, 'pug, pug-dog': 2, 'ant, emmet, pismire': 193, 'cassette': 1, 'pencil sharpener': 1, 'chime, bell, gong': 429, 'harp': 439, 'lion, king of beasts, Panthera leo': 166, 'church, church building': 53, 'saltshaker, salt shaker': 2, 'barometer': 2, 'Petri dish': 1, 'ladle': 1, 'monastery': 1, 'safe': 2, 'mailbox, letter box': 428, 'Christmas stocking': 1, 'bathtub, bathing tub, bath, tub': 66, 'bell cote, bell cot': 1, 'rifle': 55, 'strainer': 1, 'toilet seat': 1, 'reel': 1, 'teapot': 116, 'cornet, horn, trumpet, trump': 231, 'Polaroid camera, Polaroid Land camera': 1, 'lycaenid, lycaenid butterfly': 1, 'bassoon': 1, 'car wheel': 1, 'violin, fiddle': 147, 'pick, plectrum, plectron': 1, 'combination lock': 2, 'electric ray, crampfish, numbfish, torpedo': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 91}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 29, 'manhole cover': 1, 'sax, saxophone': 34, 'laptop, laptop computer': 6, 'purse': 25, 'sock': 15, 'submarine, pigboat, sub, U-boat': 8, 'mailbox, letter box': 127, 'church, church building': 13, 'lion, king of beasts, Panthera leo': 47, 'ant, emmet, pismire': 47, 'violin, fiddle': 18, 'zebra': 10, 'rifle': 31, 'trombone': 20, 'chime, bell, gong': 56, 'barn': 52, 'cornet, horn, trumpet, trump': 32, 'teapot': 29, 'tractor': 33, 'harp': 196}

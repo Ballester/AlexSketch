@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 409
+Top-1: 283
+Trained Top-5: 377
+Trained Top-1: 281
+Not-Trained Top-5: 32
+Not-Trained Top-1: 2
+False Positives 5: {'table lamp': 2, 'pedestal, plinth, footstall': 1, 'cassette player': 1, 'submarine, pigboat, sub, U-boat': 31, 'forklift': 1, 'purse': 458, 'pitcher, ewer': 18, 'triumphal arch': 1, 'tub, vat': 1, 'zebra': 38, 'trombone': 130, 'shield, buckler': 2, 'oboe, hautboy, hautbois': 2, 'water jug': 2, 'barn': 179, 'mixing bowl': 5, 'analog clock': 1, 'sax, saxophone': 301, 'laptop, laptop computer': 87, 'sock': 58, 'ant, emmet, pismire': 10, 'cassette': 4, 'chime, bell, gong': 395, 'harp': 324, 'lion, king of beasts, Panthera leo': 343, 'church, church building': 43, 'barometer': 9, 'ladle': 1, 'monastery': 2, 'safe': 5, 'mailbox, letter box': 309, 'letter opener, paper knife, paperknife': 1, 'barrel, cask': 1, 'vase': 4, 'violin, fiddle': 238, 'rifle': 56, 'strainer': 1, 'abacus': 2, 'teapot': 183, 'cornet, horn, trumpet, trump': 178, 'komondor': 1, 'banjo': 1, 'mortar': 1, 'gong, tam-tam': 1, 'tape player': 1, 'bassoon': 2, 'bathtub, bathing tub, bath, tub': 124, 'harvester, reaper': 2, 'chiffonier, commode': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'tractor': 89}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 45, 'sax, saxophone': 54, 'laptop, laptop computer': 6, 'purse': 96, 'cornet, horn, trumpet, trump': 6, 'submarine, pigboat, sub, U-boat': 4, 'mailbox, letter box': 50, 'teapot': 60, 'zebra': 2, 'violin, fiddle': 98, 'church, church building': 3, 'rifle': 21, 'trombone': 22, 'chime, bell, gong': 71, 'barn': 55, 'lion, king of beasts, Panthera leo': 140, 'tractor': 46, 'harp': 78}

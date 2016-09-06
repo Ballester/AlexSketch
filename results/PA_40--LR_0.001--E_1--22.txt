@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 745
+Top-1: 537
+Trained Top-5: 729
+Trained Top-1: 536
+Not-Trained Top-5: 16
+Not-Trained Top-1: 1
+False Positives 5: {'shovel': 46, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 164, 'canoe': 67, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'hog, pig, grunter, squealer, Sus scrofa': 71, 'purse': 82, 'pitcher, ewer': 1, 'syringe': 2, 'tub, vat': 1, 'lighter, light, igniter, ignitor': 2, 'trombone': 52, 'medicine chest, medicine cabinet': 1, 'hammer': 10, 'bathtub, bathing tub, bath, tub': 15, 'barn': 88, 'sax, saxophone': 5, 'laptop, laptop computer': 50, 'scorpion': 74, 'sock': 33, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 98, 'microphone, mike': 94, 'lion, king of beasts, Panthera leo': 33, 'chime, bell, gong': 26, 'harp': 24, 'banana': 29, 'church, church building': 67, 'tiger, Panthera tigris': 96, 'umbrella': 48, 'cannon': 107, 'mailbox, letter box': 187, 'screwdriver': 40, 'parachute, chute': 25, 'violin, fiddle': 9, 'rifle': 3, 'revolver, six-gun, six-shooter': 10, 'teapot': 15, 'cornet, horn, trumpet, trump': 52, 'Christmas stocking': 1, 'submarine, pigboat, sub, U-boat': 21, 'lawn mower, mower': 1, 'tape player': 1, 'pretzel': 9, 'bee': 28, 'strawberry': 38, 'pineapple, ananas': 25, 'castle': 62, 'tractor': 61}
+False Positives 1: {'shovel': 18, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 47, 'canoe': 19, 'hog, pig, grunter, squealer, Sus scrofa': 14, 'purse': 29, 'trombone': 23, 'barn': 30, 'sax, saxophone': 3, 'laptop, laptop computer': 7, 'scorpion': 18, 'sock': 8, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 22, 'microphone, mike': 50, 'lion, king of beasts, Panthera leo': 2, 'chime, bell, gong': 6, 'harp': 5, 'banana': 4, 'church, church building': 5, 'tiger, Panthera tigris': 52, 'umbrella': 24, 'cannon': 55, 'mailbox, letter box': 61, 'screwdriver': 20, 'parachute, chute': 6, 'bathtub, bathing tub, bath, tub': 3, 'revolver, six-gun, six-shooter': 1, 'teapot': 3, 'cornet, horn, trumpet, trump': 3, 'submarine, pigboat, sub, U-boat': 3, 'pretzel': 2, 'bee': 9, 'strawberry': 17, 'pineapple, ananas': 3, 'castle': 14, 'tractor': 17}

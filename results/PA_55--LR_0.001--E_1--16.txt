@@ -1,0 +1,13 @@
+Training Size: 3300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 55
+Test Size: 1140
+Top-5: 952
+Top-1: 631
+Trained Top-5: 952
+Trained Top-1: 631
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 41, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 14, 'canoe': 19, 'trombone': 2, 'hog, pig, grunter, squealer, Sus scrofa': 3, 'purse': 13, 'pretzel': 4, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 28, 'pizza, pizza pie': 4, 'syringe': 53, 'bee': 4, 'hammer': 15, 'hourglass': 7, 'cup': 2, 'laptop, laptop computer': 5, 'scorpion': 37, 'sock': 10, 'radio, wireless': 4, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 14, 'ant, emmet, pismire': 17, 'microphone, mike': 42, 'jersey, T-shirt, tee shirt': 35, 'envelope': 25, 'chime, bell, gong': 42, 'pineapple, ananas': 1, 'barn': 3, 'harp': 1, 'lion, king of beasts, Panthera leo': 5, 'church, church building': 2, 'tiger, Panthera tigris': 29, 'candle, taper, wax light': 8, 'binoculars, field glasses, opera glasses': 112, 'umbrella': 75, 'snail': 5, 'cannon': 9, 'mailbox, letter box': 14, 'screwdriver': 31, 'vase': 6, 'parachute, chute': 36, 'violin, fiddle': 2, 'rifle': 12, 'teapot': 12, 'cornet, horn, trumpet, trump': 14, 'submarine, pigboat, sub, U-boat': 16, 'iPod': 23, 'porcupine, hedgehog': 51, 'banana': 16, 'strawberry': 3, 'bathtub, bathing tub, bath, tub': 7, 'tractor': 7}
+False Positives 1: {'shovel': 23, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 5, 'canoe': 11, 'hog, pig, grunter, squealer, Sus scrofa': 3, 'purse': 8, 'pretzel': 4, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 11, 'syringe': 32, 'hammer': 1, 'hourglass': 3, 'scorpion': 8, 'sock': 2, 'radio, wireless': 5, 'candle, taper, wax light': 16, 'ant, emmet, pismire': 13, 'microphone, mike': 12, 'cannon': 1, 'envelope': 14, 'chime, bell, gong': 12, 'barn': 5, 'banana': 4, 'church, church building': 6, 'tiger, Panthera tigris': 34, 'binoculars, field glasses, opera glasses': 107, 'umbrella': 62, 'jersey, T-shirt, tee shirt': 6, 'mailbox, letter box': 2, 'screwdriver': 15, 'vase': 4, 'parachute, chute': 12, 'bathtub, bathing tub, bath, tub': 3, 'rifle': 4, 'revolver, six-gun, six-shooter': 1, 'teapot': 7, 'cornet, horn, trumpet, trump': 2, 'submarine, pigboat, sub, U-boat': 6, 'iPod': 7, 'porcupine, hedgehog': 30, 'lion, king of beasts, Panthera leo': 4, 'strawberry': 1, 'castle': 2, 'tractor': 1}

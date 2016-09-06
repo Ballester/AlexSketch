@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 653
+Top-1: 468
+Trained Top-5: 640
+Trained Top-1: 468
+Not-Trained Top-5: 13
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 85, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 128, 'submarine, pigboat, sub, U-boat': 35, 'hog, pig, grunter, squealer, Sus scrofa': 81, 'purse': 102, 'tub, vat': 2, 'bassoon': 1, 'zebra': 29, 'trombone': 62, 'hammer': 108, 'bathtub, bathing tub, bath, tub': 74, 'barn': 87, 'mixing bowl': 1, 'sax, saxophone': 15, 'laptop, laptop computer': 83, 'sock': 58, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 168, 'ant, emmet, pismire': 4, 'microphone, mike': 104, 'chime, bell, gong': 141, 'harp': 62, 'lion, king of beasts, Panthera leo': 56, 'church, church building': 43, 'forklift': 1, 'umbrella': 190, 'cannon': 100, 'mailbox, letter box': 124, 'parachute, chute': 74, 'violin, fiddle': 51, 'rifle': 55, 'revolver, six-gun, six-shooter': 47, 'teapot': 21, 'cornet, horn, trumpet, trump': 45, 'Christmas stocking': 1, 'pretzel': 2, 'bee': 56, 'strawberry': 26, 'pineapple, ananas': 22, 'castle': 37, 'tractor': 52}
+False Positives 1: {'shovel': 24, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 39, 'submarine, pigboat, sub, U-boat': 5, 'hog, pig, grunter, squealer, Sus scrofa': 15, 'purse': 33, 'zebra': 13, 'trombone': 13, 'hammer': 15, 'bathtub, bathing tub, bath, tub': 24, 'harp': 14, 'sax, saxophone': 2, 'laptop, laptop computer': 17, 'sock': 10, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 40, 'microphone, mike': 26, 'chime, bell, gong': 33, 'barn': 14, 'lion, king of beasts, Panthera leo': 22, 'church, church building': 8, 'umbrella': 125, 'cannon': 28, 'mailbox, letter box': 25, 'parachute, chute': 20, 'pineapple, ananas': 6, 'rifle': 29, 'revolver, six-gun, six-shooter': 5, 'teapot': 1, 'bee': 10, 'strawberry': 8, 'violin, fiddle': 18, 'castle': 7, 'tractor': 23}

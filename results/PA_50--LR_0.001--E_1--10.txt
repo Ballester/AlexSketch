@@ -1,0 +1,13 @@
+Training Size: 3000
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 50
+Test Size: 1140
+Top-5: 906
+Top-1: 650
+Trained Top-5: 906
+Trained Top-1: 650
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 5, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 34, 'canoe': 58, 'hog, pig, grunter, squealer, Sus scrofa': 13, 'purse': 33, 'trombone': 16, 'lighter, light, igniter, ignitor': 18, 'barn': 6, 'syringe': 17, 'hammer': 9, 'harp': 22, 'cup': 7, 'laptop, laptop computer': 2, 'scorpion': 113, 'sock': 7, 'radio, wireless': 30, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 70, 'ant, emmet, pismire': 21, 'microphone, mike': 47, 'lion, king of beasts, Panthera leo': 27, 'jersey, T-shirt, tee shirt': 7, 'chime, bell, gong': 17, 'pineapple, ananas': 4, 'hourglass': 8, 'banana': 47, 'church, church building': 10, 'tiger, Panthera tigris': 94, 'binoculars, field glasses, opera glasses': 62, 'umbrella': 25, 'snail': 42, 'cannon': 29, 'mailbox, letter box': 26, 'screwdriver': 11, 'vase': 18, 'parachute, chute': 21, 'bathtub, bathing tub, bath, tub': 17, 'revolver, six-gun, six-shooter': 2, 'teapot': 1, 'cornet, horn, trumpet, trump': 6, 'submarine, pigboat, sub, U-boat': 19, 'iPod': 24, 'sax, saxophone': 1, 'pretzel': 18, 'bee': 40, 'strawberry': 39, 'violin, fiddle': 13, 'castle': 6, 'tractor': 8}
+False Positives 1: {'shovel': 5, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 4, 'canoe': 27, 'hog, pig, grunter, squealer, Sus scrofa': 4, 'purse': 11, 'trombone': 5, 'lighter, light, igniter, ignitor': 12, 'syringe': 20, 'hammer': 2, 'harp': 6, 'cup': 2, 'scorpion': 95, 'radio, wireless': 20, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 13, 'microphone, mike': 11, 'hourglass': 3, 'jersey, T-shirt, tee shirt': 1, 'chime, bell, gong': 1, 'pineapple, ananas': 1, 'barn': 6, 'banana': 19, 'church, church building': 3, 'tiger, Panthera tigris': 64, 'binoculars, field glasses, opera glasses': 47, 'umbrella': 12, 'snail': 15, 'cannon': 12, 'mailbox, letter box': 5, 'screwdriver': 1, 'vase': 4, 'parachute, chute': 3, 'bathtub, bathing tub, bath, tub': 4, 'rifle': 1, 'revolver, six-gun, six-shooter': 1, 'submarine, pigboat, sub, U-boat': 7, 'iPod': 5, 'sax, saxophone': 1, 'pretzel': 5, 'bee': 7, 'strawberry': 13, 'violin, fiddle': 1, 'castle': 8, 'tractor': 3}

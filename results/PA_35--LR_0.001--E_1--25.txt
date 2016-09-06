@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 668
+Top-1: 461
+Trained Top-5: 650
+Trained Top-1: 460
+Not-Trained Top-5: 18
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 5, 'echidna, spiny anteater, anteater': 1, 'shovel': 99, 'bucket, pail': 2, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 146, 'submarine, pigboat, sub, U-boat': 5, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'hog, pig, grunter, squealer, Sus scrofa': 36, 'purse': 94, 'guillotine': 1, 'tub, vat': 6, 'bassoon': 1, 'zebra': 36, 'trombone': 26, 'barometer': 2, 'hammer': 61, 'pug, pug-dog': 1, 'harp': 120, 'sax, saxophone': 18, 'laptop, laptop computer': 34, 'sock': 28, 'garbage truck, dustcart': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 200, 'ant, emmet, pismire': 29, 'microphone, mike': 175, 'cradle': 1, 'hourglass': 1, 'chime, bell, gong': 72, 'pineapple, ananas': 18, 'barn': 87, 'lion, king of beasts, Panthera leo': 73, 'church, church building': 54, 'umbrella': 191, 'cannon': 50, 'mailbox, letter box': 191, 'parachute, chute': 65, 'bathtub, bathing tub, bath, tub': 61, 'rifle': 18, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 5, 'teapot': 5, 'cornet, horn, trumpet, trump': 74, 'toy poodle': 1, 'pop bottle, soda bottle': 2, 'pretzel': 28, 'bee': 99, 'hamper': 1, 'strawberry': 33, 'violin, fiddle': 36, 'castle': 26, 'tractor': 39}
+False Positives 1: {'shovel': 32, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 49, 'hog, pig, grunter, squealer, Sus scrofa': 3, 'purse': 24, 'pitcher, ewer': 1, 'zebra': 13, 'trombone': 8, 'hammer': 3, 'harp': 32, 'sax, saxophone': 4, 'laptop, laptop computer': 3, 'sock': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 54, 'ant, emmet, pismire': 1, 'microphone, mike': 62, 'chime, bell, gong': 20, 'pineapple, ananas': 1, 'barn': 27, 'lion, king of beasts, Panthera leo': 13, 'church, church building': 9, 'umbrella': 126, 'cannon': 7, 'mailbox, letter box': 40, 'parachute, chute': 6, 'violin, fiddle': 7, 'rifle': 7, 'revolver, six-gun, six-shooter': 2, 'cornet, horn, trumpet, trump': 13, 'pretzel': 7, 'bee': 34, 'strawberry': 9, 'bathtub, bathing tub, bath, tub': 39, 'castle': 4, 'tractor': 16}

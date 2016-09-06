@@ -1,0 +1,13 @@
+Training Size: 3000
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 50
+Test Size: 1140
+Top-5: 877
+Top-1: 618
+Trained Top-5: 876
+Trained Top-1: 618
+Not-Trained Top-5: 1
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 3, 'shovel': 20, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 19, 'canoe': 57, 'hog, pig, grunter, squealer, Sus scrofa': 14, 'purse': 34, 'trombone': 15, 'lighter, light, igniter, ignitor': 23, 'barn': 17, 'syringe': 50, 'hammer': 9, 'bathtub, bathing tub, bath, tub': 14, 'harp': 16, 'sax, saxophone': 17, 'laptop, laptop computer': 12, 'scorpion': 126, 'sock': 9, 'radio, wireless': 12, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 19, 'ant, emmet, pismire': 8, 'microphone, mike': 67, 'lion, king of beasts, Panthera leo': 20, 'jersey, T-shirt, tee shirt': 16, 'chime, bell, gong': 63, 'hourglass': 13, 'banana': 89, 'church, church building': 4, 'tiger, Panthera tigris': 75, 'binoculars, field glasses, opera glasses': 51, 'umbrella': 58, 'snail': 30, 'cannon': 19, 'mailbox, letter box': 20, 'screwdriver': 14, 'vase': 23, 'parachute, chute': 49, 'pineapple, ananas': 22, 'rifle': 2, 'revolver, six-gun, six-shooter': 1, 'teapot': 19, 'cornet, horn, trumpet, trump': 27, 'submarine, pigboat, sub, U-boat': 10, 'iPod': 19, 'cup': 8, 'pretzel': 21, 'bee': 34, 'strawberry': 32, 'violin, fiddle': 11, 'castle': 3, 'tractor': 1}
+False Positives 1: {'shovel': 12, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 1, 'canoe': 29, 'hog, pig, grunter, squealer, Sus scrofa': 8, 'purse': 16, 'trombone': 2, 'lighter, light, igniter, ignitor': 15, 'syringe': 22, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 2, 'bathtub, bathing tub, bath, tub': 3, 'harp': 2, 'cup': 3, 'scorpion': 75, 'sock': 2, 'radio, wireless': 3, 'mailbox, letter box': 3, 'microphone, mike': 23, 'jersey, T-shirt, tee shirt': 2, 'chime, bell, gong': 18, 'hourglass': 3, 'banana': 31, 'tiger, Panthera tigris': 48, 'binoculars, field glasses, opera glasses': 19, 'umbrella': 50, 'snail': 13, 'cannon': 13, 'barn': 12, 'screwdriver': 10, 'vase': 4, 'parachute, chute': 18, 'violin, fiddle': 2, 'revolver, six-gun, six-shooter': 2, 'teapot': 7, 'cornet, horn, trumpet, trump': 8, 'submarine, pigboat, sub, U-boat': 2, 'iPod': 3, 'sax, saxophone': 2, 'bee': 4, 'strawberry': 22, 'pineapple, ananas': 5, 'castle': 3}

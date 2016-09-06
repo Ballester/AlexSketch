@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 575
+Top-1: 426
+Trained Top-5: 555
+Trained Top-1: 424
+Not-Trained Top-5: 20
+Not-Trained Top-1: 2
+False Positives 5: {'shovel': 181, 'bucket, pail': 1, 'submarine, pigboat, sub, U-boat': 19, 'purse': 89, 'reflex camera': 1, 'guillotine': 2, 'tub, vat': 1, 'bassoon': 1, 'zebra': 51, 'trombone': 38, 'medicine chest, medicine cabinet': 2, 'hammer': 168, 'oboe, hautboy, hautbois': 1, 'harp': 175, 'mixing bowl': 1, 'sax, saxophone': 28, 'laptop, laptop computer': 35, 'sock': 60, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 397, 'ant, emmet, pismire': 25, 'microphone, mike': 331, 'cassette': 1, 'chime, bell, gong': 115, 'pineapple, ananas': 9, 'barn': 105, 'lion, king of beasts, Panthera leo': 145, 'church, church building': 33, 'barometer': 7, 'cannon': 32, 'safe': 2, 'mailbox, letter box': 317, 'cardoon': 1, 'bathtub, bathing tub, bath, tub': 51, 'bell cote, bell cot': 1, 'rifle': 19, 'revolver, six-gun, six-shooter': 31, 'teapot': 18, 'cornet, horn, trumpet, trump': 78, 'tape player': 1, 'pretzel': 51, 'bee': 49, 'strawberry': 41, 'violin, fiddle': 56, 'wall clock': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'tractor': 52}
+False Positives 1: {'echidna, spiny anteater, anteater': 1, 'shovel': 44, 'submarine, pigboat, sub, U-boat': 3, 'purse': 25, 'zebra': 13, 'trombone': 13, 'hammer': 4, 'barn': 29, 'sax, saxophone': 9, 'laptop, laptop computer': 1, 'sock': 6, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 129, 'ant, emmet, pismire': 2, 'microphone, mike': 90, 'chime, bell, gong': 14, 'pineapple, ananas': 2, 'harp': 38, 'lion, king of beasts, Panthera leo': 57, 'church, church building': 7, 'cannon': 3, 'mailbox, letter box': 131, 'bathtub, bathing tub, bath, tub': 25, 'rifle': 9, 'revolver, six-gun, six-shooter': 4, 'teapot': 1, 'cornet, horn, trumpet, trump': 7, 'pretzel': 2, 'bee': 9, 'strawberry': 6, 'violin, fiddle': 18, 'tractor': 12}

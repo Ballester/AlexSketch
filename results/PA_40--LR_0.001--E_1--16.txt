@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 714
+Top-1: 449
+Trained Top-5: 705
+Trained Top-1: 445
+Not-Trained Top-5: 9
+Not-Trained Top-1: 4
+False Positives 5: {'shovel': 36, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 198, 'canoe': 55, 'caldron, cauldron': 1, 'forklift': 1, 'purse': 56, 'pitcher, ewer': 2, 'lighter, light, igniter, ignitor': 1, 'trombone': 16, 'hammer': 29, 'bathtub, bathing tub, bath, tub': 24, 'harp': 23, 'sax, saxophone': 42, 'laptop, laptop computer': 21, 'scorpion': 283, 'sock': 75, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 183, 'ant, emmet, pismire': 29, 'microphone, mike': 128, 'water jug': 1, 'chime, bell, gong': 23, 'barn': 20, 'lion, king of beasts, Panthera leo': 48, 'church, church building': 15, 'tiger, Panthera tigris': 161, 'hog, pig, grunter, squealer, Sus scrofa': 34, 'umbrella': 28, 'banana': 26, 'cannon': 104, 'mailbox, letter box': 95, 'screwdriver': 51, 'parachute, chute': 5, 'violin, fiddle': 22, 'rifle': 3, 'revolver, six-gun, six-shooter': 9, 'teapot': 3, 'cornet, horn, trumpet, trump': 32, 'submarine, pigboat, sub, U-boat': 2, 'lawn mower, mower': 1, 'pretzel': 36, 'bee': 86, 'strawberry': 19, 'pineapple, ananas': 17, 'castle': 37, 'tractor': 49}
+False Positives 1: {'shovel': 10, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 27, 'canoe': 16, 'hog, pig, grunter, squealer, Sus scrofa': 9, 'purse': 24, 'trombone': 9, 'hammer': 3, 'barn': 10, 'sax, saxophone': 4, 'laptop, laptop computer': 3, 'scorpion': 208, 'sock': 27, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 62, 'ant, emmet, pismire': 1, 'microphone, mike': 44, 'lion, king of beasts, Panthera leo': 2, 'chime, bell, gong': 4, 'harp': 8, 'banana': 4, 'church, church building': 4, 'tiger, Panthera tigris': 48, 'umbrella': 10, 'cannon': 52, 'mailbox, letter box': 22, 'screwdriver': 26, 'bathtub, bathing tub, bath, tub': 7, 'revolver, six-gun, six-shooter': 3, 'cornet, horn, trumpet, trump': 1, 'pretzel': 4, 'bee': 5, 'strawberry': 5, 'violin, fiddle': 1, 'castle': 16, 'tractor': 12}

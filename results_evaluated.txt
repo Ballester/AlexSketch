@@ -1,0 +1,385 @@
+Files:  PA_30--LR_1e-05--E_1
+Mean Top-5:  671.233333333  Std Dev:  2.20126226415
+Mean Top-1:  423.9  Std Dev:  2.77308492477
+Mean Trained Top-5:  455.633333333  Std Dev:  1.37800177391
+Mean Trained Top-1:  318.666666667  Std Dev:  2.59914515862
+Mean Not-Trained Top-5:  215.6  Std Dev:  1.68522995464
+Mean Not-Trained Top-1:  105.233333333  Std Dev:  1.256538455
+Files:  PA_10--LR_1e-05--E_1
+Mean Top-5:  431.433333333  Std Dev:  2.98533452434
+Mean Top-1:  236.766666667  Std Dev:  1.8199511593
+Mean Trained Top-5:  182.766666667  Std Dev:  0.422952584682
+Mean Trained Top-1:  144.666666667  Std Dev:  0.596284794
+Mean Not-Trained Top-5:  248.666666667  Std Dev:  3.05868526585
+Mean Not-Trained Top-1:  92.1  Std Dev:  1.77670106283
+Files:  PA_20--LR_1e-05--E_1
+Mean Top-5:  539.2  Std Dev:  3.6092473823
+Mean Top-1:  316.0  Std Dev:  1.8973665961
+Mean Trained Top-5:  327.3  Std Dev:  2.87691964898
+Mean Trained Top-1:  229.466666667  Std Dev:  2.12498366007
+Mean Not-Trained Top-5:  211.9  Std Dev:  2.5079872408
+Mean Not-Trained Top-1:  86.5333333333  Std Dev:  2.07739152678
+Files:  PA_40--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_5--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  20.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_25--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_10--LR_0.0001--E_1
+Mean Top-5:  376.966666667  Std Dev:  11.844783193
+Mean Top-1:  213.633333333  Std Dev:  5.46798764528
+Mean Trained Top-5:  196.366666667  Std Dev:  0.87496031656
+Mean Trained Top-1:  169.3  Std Dev:  3.50380745285
+Mean Not-Trained Top-5:  180.6  Std Dev:  11.7943489293
+Mean Not-Trained Top-1:  44.3333333333  Std Dev:  4.44472221354
+Files:  PA_5--LR_1e-05--E_1
+Mean Top-5:  398.2  Std Dev:  1.32664991614
+Mean Top-1:  202.5  Std Dev:  0.718795288428
+Mean Trained Top-5:  97.0  Std Dev:  0.0
+Mean Trained Top-1:  91.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  301.2  Std Dev:  1.32664991614
+Mean Not-Trained Top-1:  111.5  Std Dev:  0.718795288428
+Files:  PA_15--LR_0.001--E_1
+Mean Top-5:  340.133333333  Std Dev:  15.7474512929
+Mean Top-1:  238.233333333  Std Dev:  16.9286410822
+Mean Trained Top-5:  292.7  Std Dev:  3.91705671817
+Mean Trained Top-1:  236.5  Std Dev:  16.4514437056
+Mean Not-Trained Top-5:  47.4333333333  Std Dev:  14.8496539428
+Mean Not-Trained Top-1:  1.73333333333  Std Dev:  2.17460085737
+Files:  PA_35--LR_0.001--E_1
+Mean Top-5:  655.7  Std Dev:  14.4341031357
+Mean Top-1:  469.133333333  Std Dev:  22.1536051744
+Mean Trained Top-5:  646.733333333  Std Dev:  11.9859176629
+Mean Trained Top-1:  468.566666667  Std Dev:  21.8352670899
+Mean Not-Trained Top-5:  8.96666666667  Std Dev:  5.26930313757
+Mean Not-Trained Top-1:  0.566666666667  Std Dev:  1.05461946797
+Files:  PA_25--LR_0.0001--E_1
+Mean Top-5:  625.966666667  Std Dev:  7.33249995265
+Mean Top-1:  440.333333333  Std Dev:  6.31048510197
+Mean Trained Top-5:  480.066666667  Std Dev:  1.41264134003
+Mean Trained Top-1:  414.733333333  Std Dev:  5.02615381999
+Mean Not-Trained Top-5:  145.9  Std Dev:  7.55579247995
+Mean Not-Trained Top-1:  25.6  Std Dev:  3.41174442185
+Files:  PA_20--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_20--LR_0.001--E_1
+Mean Top-5:  406.566666667  Std Dev:  36.6684999542
+Mean Top-1:  297.1  Std Dev:  46.3827194833
+Mean Trained Top-5:  381.233333333  Std Dev:  29.863783343
+Mean Trained Top-1:  295.666666667  Std Dev:  45.8848801047
+Mean Not-Trained Top-5:  25.3333333333  Std Dev:  11.7227224748
+Mean Not-Trained Top-1:  1.43333333333  Std Dev:  1.8199511593
+Files:  PA_15--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_50--LR_1e-05--E_1
+Mean Top-5:  806.766666667  Std Dev:  2.78906595277
+Mean Top-1:  580.333333333  Std Dev:  3.67272227222
+Mean Trained Top-5:  766.366666667  Std Dev:  2.52300526269
+Mean Trained Top-1:  557.4  Std Dev:  3.5364765893
+Mean Not-Trained Top-5:  40.4  Std Dev:  0.840634680861
+Mean Not-Trained Top-1:  22.9333333333  Std Dev:  0.727247474309
+Files:  PA_10--LR_0.001--E_1
+Mean Top-5:  255.766666667  Std Dev:  18.3642466645
+Mean Top-1:  171.233333333  Std Dev:  7.63187759045
+Mean Trained Top-5:  198.266666667  Std Dev:  1.03064165558
+Mean Trained Top-1:  167.933333333  Std Dev:  5.94381097352
+Mean Not-Trained Top-5:  57.5  Std Dev:  18.3007285829
+Mean Not-Trained Top-1:  3.3  Std Dev:  3.42685472895
+Files:  PA_45--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_40--LR_0.001--E_1
+Mean Top-5:  730.233333333  Std Dev:  33.1659296401
+Mean Top-1:  498.466666667  Std Dev:  42.0743257687
+Mean Trained Top-5:  720.433333333  Std Dev:  31.2481288329
+Mean Trained Top-1:  497.333333333  Std Dev:  42.2187425467
+Mean Not-Trained Top-5:  9.8  Std Dev:  7.13395635909
+Mean Not-Trained Top-1:  1.13333333333  Std Dev:  1.7269111796
+Files:  PA_25--LR_0.001--E_1
+Mean Top-5:  491.333333333  Std Dev:  12.2891099036
+Mean Top-1:  381.6  Std Dev:  16.3841386713
+Mean Trained Top-5:  476.266666667  Std Dev:  7.0848821836
+Mean Trained Top-1:  380.666666667  Std Dev:  16.0630701369
+Mean Not-Trained Top-5:  15.0666666667  Std Dev:  8.136065115
+Mean Not-Trained Top-1:  0.933333333333  Std Dev:  1.80616229122
+Files:  PA_5--LR_0.001--E_1
+Mean Top-5:  170.1  Std Dev:  27.164130761
+Mean Top-1:  98.6333333333  Std Dev:  7.48546740172
+Mean Trained Top-5:  99.5666666667  Std Dev:  2.33357141642
+Mean Trained Top-1:  95.6333333333  Std Dev:  6.30599362159
+Mean Not-Trained Top-5:  70.5333333333  Std Dev:  26.7653175252
+Mean Not-Trained Top-1:  3.0  Std Dev:  2.97769485788
+Files:  PA_30--LR_0.001--E_1
+Mean Top-5:  577.6  Std Dev:  9.07597561331
+Mean Top-1:  442.466666667  Std Dev:  15.9931929965
+Mean Trained Top-5:  564.366666667  Std Dev:  5.35090854175
+Mean Trained Top-1:  441.333333333  Std Dev:  15.1752722838
+Mean Not-Trained Top-5:  13.2333333333  Std Dev:  5.64318664901
+Mean Not-Trained Top-1:  1.13333333333  Std Dev:  1.45449494862
+Files:  PA_50--LR_0.001--E_1
+Mean Top-5:  885.266666667  Std Dev:  30.1373891076
+Mean Top-1:  623.766666667  Std Dev:  44.1698866751
+Mean Trained Top-5:  885.2  Std Dev:  30.123523477
+Mean Trained Top-1:  623.766666667  Std Dev:  44.1698866751
+Mean Not-Trained Top-5:  0.0666666666667  Std Dev:  0.249443825785
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_40--LR_0.0001--E_1
+Mean Top-5:  857.933333333  Std Dev:  4.55289895439
+Mean Top-1:  639.5  Std Dev:  8.39742023878
+Mean Trained Top-5:  764.933333333  Std Dev:  3.28565907476
+Mean Trained Top-1:  618.4  Std Dev:  8.53854007818
+Mean Not-Trained Top-5:  93.0  Std Dev:  4.84424056656
+Mean Not-Trained Top-1:  21.1  Std Dev:  2.8676354952
+Files:  PA_15--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_20--LR_0.0001--E_1
+Mean Top-5:  509.7  Std Dev:  9.822253645
+Mean Top-1:  355.0  Std Dev:  7.26636084983
+Mean Trained Top-5:  385.833333333  Std Dev:  1.84541473809
+Mean Trained Top-1:  332.8  Std Dev:  4.60724067818
+Mean Not-Trained Top-5:  123.866666667  Std Dev:  9.05072127267
+Mean Not-Trained Top-1:  22.2  Std Dev:  3.9530578881
+Files:  PA_10--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_55--LR_1e-05--E_1
+Mean Top-5:  846.766666667  Std Dev:  1.87409237292
+Mean Top-1:  597.4  Std Dev:  2.85890421899
+Mean Trained Top-5:  829.633333333  Std Dev:  1.85262576421
+Mean Trained Top-1:  585.466666667  Std Dev:  2.77768888747
+Mean Not-Trained Top-5:  17.1333333333  Std Dev:  0.426874949162
+Mean Not-Trained Top-1:  11.9333333333  Std Dev:  0.249443825785
+Files:  PA_45--LR_0.001--E_1
+Mean Top-5:  795.133333333  Std Dev:  43.3079925905
+Mean Top-1:  542.833333333  Std Dev:  66.4369793279
+Mean Trained Top-5:  792.133333333  Std Dev:  42.6479646512
+Mean Trained Top-1:  542.833333333  Std Dev:  66.4369793279
+Mean Not-Trained Top-5:  3.0  Std Dev:  2.7446918467
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_5--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  20.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_30--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_55--LR_0.0001--E_1
+Mean Top-5:  1055.46666667  Std Dev:  2.97470820231
+Mean Top-1:  856.9  Std Dev:  6.35793467514
+Mean Trained Top-5:  1045.33333333  Std Dev:  2.77288457908
+Mean Trained Top-1:  854.266666667  Std Dev:  6.44429118592
+Mean Not-Trained Top-5:  10.1333333333  Std Dev:  1.17567947257
+Mean Not-Trained Top-1:  2.63333333333  Std Dev:  0.752034278179
+Files:  PA_55--LR_0.001--E_1
+Mean Top-5:  964.6  Std Dev:  96.6597468788
+Mean Top-1:  673.666666667  Std Dev:  108.881382961
+Mean Trained Top-5:  964.566666667  Std Dev:  96.6501192734
+Mean Trained Top-1:  673.666666667  Std Dev:  108.881382961
+Mean Not-Trained Top-5:  0.0333333333333  Std Dev:  0.179505493571
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_15--LR_0.0001--E_1
+Mean Top-5:  452.466666667  Std Dev:  11.8511134029
+Mean Top-1:  288.866666667  Std Dev:  6.39652683537
+Mean Trained Top-5:  292.9  Std Dev:  2.13463501954
+Mean Trained Top-1:  259.166666667  Std Dev:  3.68857093677
+Mean Not-Trained Top-5:  159.566666667  Std Dev:  11.5142906377
+Mean Not-Trained Top-1:  29.7  Std Dev:  4.94738988424
+Files:  PA_40--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_30--LR_0.0001--E_1
+Mean Top-5:  706.866666667  Std Dev:  9.418893542
+Mean Top-1:  514.633333333  Std Dev:  5.77629254415
+Mean Trained Top-5:  577.4  Std Dev:  3.08328828796
+Mean Trained Top-1:  486.033333333  Std Dev:  4.71510574878
+Mean Not-Trained Top-5:  129.466666667  Std Dev:  7.82190655929
+Mean Not-Trained Top-1:  28.6  Std Dev:  2.97321374946
+Files:  PA_50--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_20--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_10--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_30--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_45--LR_0.0001--E_1
+Mean Top-5:  914.7  Std Dev:  3.54165686273
+Mean Top-1:  715.633333333  Std Dev:  6.65574104731
+Mean Trained Top-5:  854.933333333  Std Dev:  3.1615748537
+Mean Trained Top-1:  701.333333333  Std Dev:  6.71482605053
+Mean Not-Trained Top-5:  59.7666666667  Std Dev:  2.5778975068
+Mean Not-Trained Top-1:  14.3  Std Dev:  2.01907569612
+Files:  PA_35--LR_0.0001--E_1
+Mean Top-5:  770.0  Std Dev:  5.98331012066
+Mean Top-1:  576.7  Std Dev:  7.50177756713
+Mean Trained Top-5:  667.766666667  Std Dev:  2.62911053823
+Mean Trained Top-1:  556.9  Std Dev:  6.25752879871
+Mean Not-Trained Top-5:  102.233333333  Std Dev:  4.93749824191
+Mean Not-Trained Top-1:  19.8  Std Dev:  2.57423127684
+Files:  PA_25--LR_1e-05--E_1
+Mean Top-5:  638.266666667  Std Dev:  2.35135894514
+Mean Top-1:  393.833333333  Std Dev:  3.18416219576
+Mean Trained Top-5:  407.0  Std Dev:  1.12546286774
+Mean Trained Top-1:  291.766666667  Std Dev:  2.0278614899
+Mean Not-Trained Top-5:  231.266666667  Std Dev:  1.89619502044
+Mean Not-Trained Top-1:  102.066666667  Std Dev:  1.84270332814
+Files:  PA_50--LR_0.0001--E_1
+Mean Top-5:  975.9  Std Dev:  2.8676354952
+Mean Top-1:  789.433333333  Std Dev:  7.09311089877
+Mean Trained Top-5:  948.633333333  Std Dev:  2.46959285893
+Mean Trained Top-1:  784.266666667  Std Dev:  6.6127822351
+Mean Not-Trained Top-5:  27.2666666667  Std Dev:  2.17460085737
+Mean Not-Trained Top-1:  5.16666666667  Std Dev:  1.26710518725
+Files:  PA_45--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_40--LR_1e-05--E_1
+Mean Top-5:  737.933333333  Std Dev:  2.24993827076
+Mean Top-1:  490.166666667  Std Dev:  3.99235380307
+Mean Trained Top-5:  595.566666667  Std Dev:  1.47610598837
+Mean Trained Top-1:  408.966666667  Std Dev:  3.47834571153
+Mean Not-Trained Top-5:  142.366666667  Std Dev:  1.42556031869
+Mean Not-Trained Top-1:  81.2  Std Dev:  1.55777619274
+Files:  PA_15--LR_1e-05--E_1
+Mean Top-5:  465.866666667  Std Dev:  3.0521395046
+Mean Top-1:  268.966666667  Std Dev:  2.90382888997
+Mean Trained Top-5:  245.233333333  Std Dev:  1.38283123418
+Mean Trained Top-1:  177.7  Std Dev:  2.0680103159
+Mean Not-Trained Top-5:  220.633333333  Std Dev:  2.84585468513
+Mean Not-Trained Top-1:  91.2666666667  Std Dev:  1.69181033873
+Files:  PA_45--LR_1e-05--E_1
+Mean Top-5:  782.733333333  Std Dev:  1.82452429112
+Mean Top-1:  543.3  Std Dev:  3.64371605187
+Mean Trained Top-5:  683.366666667  Std Dev:  1.55955834204
+Mean Trained Top-1:  487.766666667  Std Dev:  2.76505977432
+Mean Not-Trained Top-5:  99.3666666667  Std Dev:  1.0482790129
+Mean Not-Trained Top-1:  55.5333333333  Std Dev:  1.64789427924
+Files:  PA_55--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_55--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_5--LR_0.0001--E_1
+Mean Top-5:  338.7  Std Dev:  14.6700374914
+Mean Top-1:  136.333333333  Std Dev:  6.99682467663
+Mean Trained Top-5:  100.0  Std Dev:  0.0
+Mean Trained Top-1:  98.1  Std Dev:  0.746100976187
+Mean Not-Trained Top-5:  238.7  Std Dev:  14.6700374914
+Mean Not-Trained Top-1:  38.2333333333  Std Dev:  7.24653173747
+Files:  PA_35--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_35--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_50--LR_0.1--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0
+Files:  PA_35--LR_1e-05--E_1
+Mean Top-5:  695.366666667  Std Dev:  3.2091881978
+Mean Top-1:  459.266666667  Std Dev:  3.24482493964
+Mean Trained Top-5:  522.1  Std Dev:  1.7194960502
+Mean Trained Top-1:  371.0  Std Dev:  2.93257565972
+Mean Not-Trained Top-5:  173.266666667  Std Dev:  2.47565928368
+Mean Not-Trained Top-1:  88.2666666667  Std Dev:  1.67199149386
+Files:  PA_25--LR_0.01--E_1
+Mean Top-5:  40.0  Std Dev:  0.0
+Mean Top-1:  20.0  Std Dev:  0.0
+Mean Trained Top-5:  40.0  Std Dev:  0.0
+Mean Trained Top-1:  20.0  Std Dev:  0.0
+Mean Not-Trained Top-5:  0.0  Std Dev:  0.0
+Mean Not-Trained Top-1:  0.0  Std Dev:  0.0

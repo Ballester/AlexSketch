@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 236
+Top-1: 158
+Trained Top-5: 199
+Trained Top-1: 157
+Not-Trained Top-5: 37
+Not-Trained Top-1: 1
+False Positives 5: {'pedestal, plinth, footstall': 4, 'cinema, movie theater, movie theatre, movie house, picture palace': 15, 'palace': 23, 'submarine, pigboat, sub, U-boat': 228, 'coffeepot': 11, 'stove': 4, 'reflex camera': 4, 'china cabinet, china closet': 1, 'triumphal arch': 1, 'planetarium': 1, 'zebra': 496, 'sundial': 1, 'trombone': 677, 'umbrella': 1, 'medicine chest, medicine cabinet': 5, 'switch, electric switch, electrical switch': 2, 'water jug': 2, 'barn': 14, 'fountain pen': 1, 'slide rule, slipstick': 1, 'abacus': 5, 'mixing bowl': 2, 'analog clock': 20, 'sax, saxophone': 391, 'doormat, welcome mat': 6, 'fire screen, fireguard': 2, 'buckle': 9, 'harmonica, mouth organ, harp, mouth harp': 1, 'sock': 433, 'radio, wireless': 5, 'mobile home, manufactured home': 1, 'tile roof': 1, 'manhole cover': 1, 'cassette': 2, 'wine bottle': 1, 'altar': 1, 'chime, bell, gong': 2, 'plate rack': 4, 'church, church building': 579, 'pitcher, ewer': 8, 'barometer': 5, 'cocktail shaker': 3, 'yurt': 1, 'monastery': 4, 'soap dispenser': 1, 'mailbag, postbag': 2, 'dome': 42, 'vestment': 1, 'vase': 2, 'French horn, horn': 2, 'bookcase': 3, 'bell cote, bell cot': 31, 'library': 12, 'cassette player': 4, 'rifle': 145, 'greenhouse, nursery, glasshouse': 8, 'window shade': 8, 'teapot': 285, 'cornet, horn, trumpet, trump': 712, 'jeep, landrover': 1, 'washer, automatic washer, washing machine': 1, 'picket fence, paling': 2, 'digital clock': 2, 'tape player': 2, 'window screen': 4, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'bassoon': 1, 'wall clock': 2, 'combination lock': 4, 'assault rifle, assault gun': 1, 'vault': 7, 'television, television system': 1, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 6, 'tray': 5, 'rule, ruler': 3, 'tractor': 238, 'whiskey jug': 1}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 10, 'sax, saxophone': 46, 'sock': 52, 'zebra': 103, 'rifle': 20, 'trombone': 263, 'cornet, horn, trumpet, trump': 84, 'teapot': 101, 'tractor': 39, 'church, church building': 264}

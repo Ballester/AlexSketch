@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 492
+Top-1: 395
+Trained Top-5: 482
+Trained Top-1: 395
+Not-Trained Top-5: 10
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 1, 'shovel': 133, 'bucket, pail': 1, 'submarine, pigboat, sub, U-boat': 22, 'plow, plough': 1, 'purse': 231, 'reflex camera': 1, 'gong, tam-tam': 1, 'isopod': 1, 'bull mastiff': 1, 'zebra': 45, 'trombone': 102, 'ladle': 1, 'warthog': 1, 'hammer': 202, 'hamper': 1, 'bathtub, bathing tub, bath, tub': 161, 'barn': 177, 'mixing bowl': 5, 'sax, saxophone': 124, 'laptop, laptop computer': 81, 'trilobite': 2, 'sock': 70, 'pug, pug-dog': 2, 'ant, emmet, pismire': 56, 'chest': 2, 'cradle': 1, 'cassette': 3, 'ibex, Capra ibex': 1, 'oboe, hautboy, hautbois': 1, 'chime, bell, gong': 289, 'harp': 250, 'lion, king of beasts, Panthera leo': 192, 'church, church building': 99, 'barometer': 1, 'puffer, pufferfish, blowfish, globefish': 2, 'hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa': 1, 'monastery': 1, 'safe': 5, 'mailbox, letter box': 388, 'Christmas stocking': 1, 'violin, fiddle': 55, 'bell cote, bell cot': 2, 'rifle': 45, 'strainer': 1, 'abacus': 1, 'teapot': 37, 'cornet, horn, trumpet, trump': 160, 'tub, vat': 3, 'golf ball': 1, 'bee': 132, 'Petri dish': 1, 'strawberry': 63, 'pineapple, ananas': 5, 'tractor': 74}
+False Positives 1: {'shovel': 26, 'purse': 41, 'zebra': 4, 'trombone': 28, 'hammer': 18, 'barn': 45, 'sax, saxophone': 28, 'laptop, laptop computer': 7, 'sock': 11, 'ant, emmet, pismire': 6, 'chime, bell, gong': 55, 'pineapple, ananas': 1, 'harp': 104, 'lion, king of beasts, Panthera leo': 82, 'church, church building': 22, 'mailbox, letter box': 98, 'violin, fiddle': 3, 'rifle': 14, 'teapot': 4, 'cornet, horn, trumpet, trump': 17, 'bee': 24, 'strawberry': 14, 'bathtub, bathing tub, bath, tub': 70, 'tractor': 23}

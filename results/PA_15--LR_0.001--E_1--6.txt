@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 333
+Top-1: 255
+Trained Top-5: 296
+Trained Top-1: 255
+Not-Trained Top-5: 37
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 3, 'bucket, pail': 4, 'Weimaraner': 1, 'submarine, pigboat, sub, U-boat': 54, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'forklift': 1, 'pitcher, ewer': 12, 'guillotine': 1, 'tub, vat': 5, 'zebra': 71, 'sundial': 1, 'trombone': 350, 'umbrella': 1, 'medicine chest, medicine cabinet': 3, 'lighter, light, igniter, ignitor': 1, 'oboe, hautboy, hautbois': 1, 'birdhouse': 6, 'barn': 314, 'fountain pen': 3, 'mixing bowl': 2, 'sax, saxophone': 461, 'bassoon': 1, 'balloon': 2, 'sock': 252, 'cloak': 1, 'pickelhaube': 1, 'ant, emmet, pismire': 268, 'cougar, puma, catamount, mountain lion, painter, panther, Felis concolor': 1, 'ibex, Capra ibex': 1, 'lion, king of beasts, Panthera leo': 473, 'church, church building': 274, 'mailbag, postbag': 1, 'barometer': 5, 'obelisk': 1, 'monastery': 2, 'safe': 4, 'mailbox, letter box': 480, 'vase': 1, 'bathtub, bathing tub, bath, tub': 181, 'bell cote, bell cot': 9, 'rifle': 88, 'strainer': 1, 'teapot': 186, 'cornet, horn, trumpet, trump': 408, 'sulphur butterfly, sulfur butterfly': 1, 'cup': 1, 'cabbage butterfly': 2, 'lacewing, lacewing fly': 1, 'lycaenid, lycaenid butterfly': 1, 'combination lock': 1, 'vault': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 87, 'whiskey jug': 1}
+False Positives 1: {'sax, saxophone': 110, 'sock': 52, 'cornet, horn, trumpet, trump': 22, 'submarine, pigboat, sub, U-boat': 1, 'mailbox, letter box': 124, 'teapot': 47, 'ant, emmet, pismire': 28, 'bathtub, bathing tub, bath, tub': 78, 'zebra': 2, 'rifle': 33, 'trombone': 46, 'barn': 88, 'lion, king of beasts, Panthera leo': 165, 'tractor': 28, 'church, church building': 61}

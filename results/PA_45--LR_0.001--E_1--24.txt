@@ -1,0 +1,13 @@
+Training Size: 2700
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 45
+Test Size: 1140
+Top-5: 761
+Top-1: 513
+Trained Top-5: 758
+Trained Top-1: 513
+Not-Trained Top-5: 3
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 24, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 88, 'canoe': 44, 'hog, pig, grunter, squealer, Sus scrofa': 15, 'purse': 28, 'lighter, light, igniter, ignitor': 37, 'trombone': 30, 'hammer': 13, 'bathtub, bathing tub, bath, tub': 17, 'hourglass': 13, 'screw': 1, 'strawberry': 84, 'laptop, laptop computer': 29, 'submarine, pigboat, sub, U-boat': 24, 'sock': 22, 'radio, wireless': 32, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 9, 'ant, emmet, pismire': 4, 'microphone, mike': 175, 'chime, bell, gong': 39, 'barn': 33, 'harp': 44, 'lion, king of beasts, Panthera leo': 37, 'church, church building': 7, 'tiger, Panthera tigris': 130, 'umbrella': 73, 'banana': 63, 'snail': 89, 'cannon': 48, 'mailbox, letter box': 54, 'screwdriver': 37, 'parachute, chute': 94, 'pineapple, ananas': 32, 'rifle': 2, 'revolver, six-gun, six-shooter': 3, 'teapot': 3, 'cornet, horn, trumpet, trump': 18, 'iPod': 30, 'sax, saxophone': 22, 'pretzel': 54, 'bee': 48, 'scorpion': 218, 'violin, fiddle': 9, 'castle': 5, 'tractor': 14}
+False Positives 1: {'shovel': 5, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 20, 'canoe': 10, 'hog, pig, grunter, squealer, Sus scrofa': 2, 'purse': 10, 'lighter, light, igniter, ignitor': 16, 'trombone': 24, 'hammer': 1, 'harp': 4, 'sax, saxophone': 3, 'laptop, laptop computer': 4, 'scorpion': 106, 'sock': 10, 'radio, wireless': 23, 'microphone, mike': 64, 'hourglass': 5, 'chime, bell, gong': 5, 'barn': 15, 'banana': 10, 'church, church building': 3, 'tiger, Panthera tigris': 70, 'umbrella': 30, 'snail': 28, 'cannon': 12, 'mailbox, letter box': 9, 'screwdriver': 24, 'parachute, chute': 37, 'pineapple, ananas': 17, 'revolver, six-gun, six-shooter': 2, 'cornet, horn, trumpet, trump': 1, 'submarine, pigboat, sub, U-boat': 6, 'iPod': 3, 'pretzel': 14, 'bee': 2, 'strawberry': 20, 'bathtub, bathing tub, bath, tub': 4, 'castle': 1, 'tractor': 7}

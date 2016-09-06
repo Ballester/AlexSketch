@@ -1,0 +1,13 @@
+Training Size: 3300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 55
+Test Size: 1140
+Top-5: 1007
+Top-1: 750
+Trained Top-5: 1007
+Trained Top-1: 750
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 1, 'shovel': 14, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 33, 'canoe': 7, 'trombone': 6, 'hog, pig, grunter, squealer, Sus scrofa': 9, 'purse': 19, 'pretzel': 2, 'syringe': 24, 'lighter, light, igniter, ignitor': 6, 'teapot': 3, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 12, 'hammer': 7, 'harp': 6, 'sax, saxophone': 3, 'laptop, laptop computer': 2, 'scorpion': 57, 'sock': 3, 'radio, wireless': 11, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 14, 'ant, emmet, pismire': 6, 'microphone, mike': 42, 'jersey, T-shirt, tee shirt': 7, 'envelope': 7, 'chime, bell, gong': 18, 'barn': 10, 'lion, king of beasts, Panthera leo': 29, 'church, church building': 2, 'tiger, Panthera tigris': 44, 'binoculars, field glasses, opera glasses': 18, 'umbrella': 18, 'banana': 1, 'snail': 3, 'cannon': 28, 'mailbox, letter box': 32, 'screwdriver': 13, 'vase': 7, 'parachute, chute': 14, 'bathtub, bathing tub, bath, tub': 10, 'rifle': 1, 'revolver, six-gun, six-shooter': 10, 'candle, taper, wax light': 5, 'cornet, horn, trumpet, trump': 20, 'submarine, pigboat, sub, U-boat': 1, 'iPod': 16, 'cup': 4, 'porcupine, hedgehog': 20, 'bee': 29, 'strawberry': 1, 'violin, fiddle': 5, 'castle': 1, 'tractor': 4}
+False Positives 1: {'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 16, 'canoe': 9, 'hog, pig, grunter, squealer, Sus scrofa': 7, 'purse': 21, 'pretzel': 2, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 13, 'pizza, pizza pie': 1, 'lighter, light, igniter, ignitor': 3, 'trombone': 12, 'hammer': 1, 'barn': 6, 'sax, saxophone': 2, 'scorpion': 25, 'sock': 4, 'radio, wireless': 9, 'microphone, mike': 25, 'jersey, T-shirt, tee shirt': 1, 'envelope': 4, 'chime, bell, gong': 4, 'harp': 2, 'lion, king of beasts, Panthera leo': 4, 'church, church building': 3, 'tiger, Panthera tigris': 55, 'binoculars, field glasses, opera glasses': 10, 'umbrella': 16, 'snail': 2, 'cannon': 13, 'mailbox, letter box': 8, 'screwdriver': 12, 'syringe': 20, 'vase': 7, 'parachute, chute': 4, 'bathtub, bathing tub, bath, tub': 6, 'revolver, six-gun, six-shooter': 5, 'candle, taper, wax light': 8, 'cornet, horn, trumpet, trump': 2, 'iPod': 2, 'porcupine, hedgehog': 10, 'bee': 22, 'pineapple, ananas': 1, 'castle': 4, 'tractor': 1}

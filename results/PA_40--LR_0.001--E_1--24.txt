@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 740
+Top-1: 485
+Trained Top-5: 737
+Trained Top-1: 485
+Not-Trained Top-5: 3
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 90, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 56, 'canoe': 70, 'forklift': 1, 'purse': 104, 'pitcher, ewer': 2, 'zebra': 3, 'trombone': 8, 'water jug': 1, 'poncho': 2, 'hammer': 72, 'bathtub, bathing tub, bath, tub': 8, 'harp': 43, 'bib': 2, 'letter opener, paper knife, paperknife': 2, 'sax, saxophone': 14, 'laptop, laptop computer': 25, 'scorpion': 149, 'sock': 58, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 80, 'ant, emmet, pismire': 15, 'microphone, mike': 171, 'cassette': 1, 'lion, king of beasts, Panthera leo': 27, 'chime, bell, gong': 82, 'barn': 36, 'banana': 93, 'church, church building': 22, 'tiger, Panthera tigris': 68, 'hog, pig, grunter, squealer, Sus scrofa': 36, 'umbrella': 97, 'diaper, nappy, napkin': 2, 'trilobite': 1, 'cannon': 67, 'mailbox, letter box': 91, 'screwdriver': 81, 'parachute, chute': 58, 'pineapple, ananas': 5, 'tricycle, trike, velocipede': 1, 'rifle': 12, 'revolver, six-gun, six-shooter': 4, 'teapot': 32, 'cornet, horn, trumpet, trump': 38, 'Christmas stocking': 1, 'bulletproof vest': 1, 'submarine, pigboat, sub, U-boat': 4, 'pretzel': 32, 'bee': 31, 'strawberry': 33, 'violin, fiddle': 7, 'tractor': 58, 'castle': 2, 'harvester, reaper': 1}
+False Positives 1: {'shovel': 21, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 4, 'canoe': 13, 'hog, pig, grunter, squealer, Sus scrofa': 5, 'purse': 28, 'trombone': 7, 'hammer': 6, 'harp': 15, 'sax, saxophone': 1, 'laptop, laptop computer': 4, 'scorpion': 90, 'sock': 11, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 31, 'ant, emmet, pismire': 2, 'microphone, mike': 96, 'lion, king of beasts, Panthera leo': 3, 'chime, bell, gong': 9, 'barn': 13, 'banana': 23, 'church, church building': 7, 'tiger, Panthera tigris': 64, 'umbrella': 50, 'cannon': 16, 'mailbox, letter box': 12, 'screwdriver': 38, 'parachute, chute': 18, 'violin, fiddle': 1, 'rifle': 1, 'revolver, six-gun, six-shooter': 3, 'teapot': 10, 'cornet, horn, trumpet, trump': 3, 'pretzel': 9, 'bee': 2, 'strawberry': 11, 'pineapple, ananas': 1, 'tractor': 27}

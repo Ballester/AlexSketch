@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 501
+Top-1: 387
+Trained Top-5: 476
+Trained Top-1: 381
+Not-Trained Top-5: 25
+Not-Trained Top-1: 6
+False Positives 5: {'pedestal, plinth, footstall': 1, 'shovel': 223, 'shield, buckler': 1, 'submarine, pigboat, sub, U-boat': 27, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'forklift': 2, 'purse': 99, 'pitcher, ewer': 3, 'guillotine': 1, 'zebra': 30, 'trombone': 78, 'warthog': 1, 'hammer': 165, 'birdhouse': 1, 'barn': 151, 'bib': 2, 'medicine chest, medicine cabinet': 1, 'mixing bowl': 2, 'sax, saxophone': 177, 'laptop, laptop computer': 60, 'balloon': 5, 'gazelle': 1, 'sock': 136, 'ant, emmet, pismire': 43, 'ibex, Capra ibex': 1, 'chime, bell, gong': 296, 'pineapple, ananas': 50, 'harp': 234, 'lion, king of beasts, Panthera leo': 233, 'church, church building': 49, 'barometer': 6, 'Petri dish': 1, 'monastery': 1, 'safe': 3, 'mailbox, letter box': 223, 'violin, fiddle': 84, 'bell cote, bell cot': 1, 'rifle': 28, 'strainer': 2, 'gong, tam-tam': 1, 'teapot': 38, 'cornet, horn, trumpet, trump': 175, 'folding chair': 1, 'cellular telephone, cellular phone, cellphone, cell, mobile phone': 1, 'bee': 206, 'strawberry': 146, 'bathtub, bathing tub, bath, tub': 140, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 63}
+False Positives 1: {'shovel': 52, 'purse': 25, 'zebra': 4, 'trombone': 16, 'hammer': 30, 'barn': 52, 'sax, saxophone': 20, 'laptop, laptop computer': 5, 'sock': 26, 'chime, bell, gong': 68, 'pineapple, ananas': 8, 'harp': 80, 'lion, king of beasts, Panthera leo': 86, 'church, church building': 12, 'mailbox, letter box': 53, 'bathtub, bathing tub, bath, tub': 38, 'rifle': 11, 'teapot': 5, 'cornet, horn, trumpet, trump': 33, 'bee': 56, 'strawberry': 40, 'violin, fiddle': 18, 'tractor': 15}

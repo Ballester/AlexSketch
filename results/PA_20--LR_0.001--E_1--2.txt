@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 399
+Top-1: 292
+Trained Top-5: 388
+Trained Top-1: 292
+Not-Trained Top-5: 11
+Not-Trained Top-1: 0
+False Positives 5: {'shield, buckler': 2, 'submarine, pigboat, sub, U-boat': 83, 'forklift': 1, 'purse': 193, 'pitcher, ewer': 1, 'tub, vat': 1, 'zebra': 53, 'sundial': 2, 'trombone': 174, 'medicine chest, medicine cabinet': 1, 'water jug': 1, 'harp': 372, 'mixing bowl': 2, 'sax, saxophone': 349, 'laptop, laptop computer': 74, 'balloon': 1, 'sock': 209, 'ant, emmet, pismire': 127, 'chest': 1, 'cassette': 1, 'chime, bell, gong': 247, 'barn': 212, 'lion, king of beasts, Panthera leo': 339, 'church, church building': 71, 'barometer': 5, 'ear, spike, capitulum': 1, 'puffer, pufferfish, blowfish, globefish': 3, 'trilobite': 2, 'monastery': 1, 'wardrobe, closet, press': 1, 'safe': 3, 'mailbox, letter box': 309, 'crate': 1, 'vase': 1, 'bathtub, bathing tub, bath, tub': 84, 'bell cote, bell cot': 1, 'rifle': 48, 'lampshade, lamp shade': 1, 'teapot': 37, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 202, 'bassoon': 1, 'violin, fiddle': 318, 'washer, automatic washer, washing machine': 1, 'pick, plectrum, plectron': 2, 'computer keyboard, keypad': 1, 'chiffonier, commode': 1, 'tractor': 163}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 21, 'sax, saxophone': 78, 'laptop, laptop computer': 13, 'mailbox, letter box': 81, 'sock': 27, 'submarine, pigboat, sub, U-boat': 14, 'purse': 20, 'church, church building': 7, 'teapot': 5, 'ant, emmet, pismire': 15, 'violin, fiddle': 63, 'cornet, horn, trumpet, trump': 7, 'zebra': 7, 'rifle': 16, 'trombone': 56, 'chime, bell, gong': 35, 'barn': 47, 'lion, king of beasts, Panthera leo': 114, 'tractor': 56, 'harp': 166}

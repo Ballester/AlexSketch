@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 441
+Top-1: 317
+Trained Top-5: 389
+Trained Top-1: 313
+Not-Trained Top-5: 52
+Not-Trained Top-1: 4
+False Positives 5: {'dial telephone, dial phone': 1, 'ocarina, sweet potato': 1, 'submarine, pigboat, sub, U-boat': 40, 'garden spider, Aranea diademata': 1, 'triceratops': 2, 'purse': 325, 'custard apple': 1, 'pitcher, ewer': 8, 'triumphal arch': 2, 'spatula': 1, 'bolo tie, bolo, bola tie, bola': 1, 'Loafer': 1, 'zebra': 41, 'tub, vat': 1, 'sundial': 1, 'trombone': 68, 'parking meter': 1, 'warthog': 5, 'switch, electric switch, electrical switch': 2, 'water jug': 1, 'barn': 106, 'mixing bowl': 3, 'lacewing, lacewing fly': 1, 'jeep, landrover': 2, 'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis': 2, 'goblet': 1, 'analog clock': 8, 'sax, saxophone': 187, 'laptop, laptop computer': 29, 'balloon': 4, 'scorpion': 1, 'sock': 270, 'garbage truck, dustcart': 1, 'oboe, hautboy, hautbois': 4, 'ant, emmet, pismire': 136, 'cassette': 1, 'ibex, Capra ibex': 1, 'chime, bell, gong': 426, 'harp': 304, 'lion, king of beasts, Panthera leo': 267, 'church, church building': 46, 'tiger, Panthera tigris': 2, 'racket, racquet': 1, 'forklift': 5, 'barometer': 21, 'bonnet, poke bonnet': 2, 'snail': 1, 'ladle': 8, 'monastery': 3, 'mailbox, letter box': 347, 'letter opener, paper knife, paperknife': 2, 'vase': 7, 'violin, fiddle': 318, 'bell cote, bell cot': 1, 'flute, transverse flute': 1, 'rifle': 40, 'lampshade, lamp shade': 1, 'crane': 1, 'teapot': 71, 'plow, plough': 2, 'cornet, horn, trumpet, trump': 159, 'banjo': 9, 'pick, plectrum, plectron': 1, 'acoustic guitar': 1, 'sulphur butterfly, sulfur butterfly': 1, 'mortar': 1, 'hook, claw': 1, 'ram, tup': 5, 'tiger cat': 1, 'cabbage butterfly': 1, 'stopwatch, stop watch': 1, 'bassoon': 4, 'bathtub, bathing tub, bath, tub': 45, 'wall clock': 3, 'harvester, reaper': 6, 'combination lock': 1, 'quill, quill pen': 1, 'wooden spoon': 4, 'lawn mower, mower': 1, 'buckle': 1, 'tractor': 110}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 4, 'purse': 56, 'pitcher, ewer': 1, 'zebra': 4, 'trombone': 14, 'barn': 18, 'custard apple': 1, 'sax, saxophone': 24, 'laptop, laptop computer': 4, 'sock': 53, 'ant, emmet, pismire': 11, 'chime, bell, gong': 79, 'harp': 93, 'lion, king of beasts, Panthera leo': 143, 'church, church building': 11, 'mailbox, letter box': 63, 'bathtub, bathing tub, bath, tub': 20, 'rifle': 22, 'teapot': 10, 'cornet, horn, trumpet, trump': 8, 'violin, fiddle': 131, 'tractor': 53}

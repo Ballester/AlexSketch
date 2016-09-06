@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 658
+Top-1: 479
+Trained Top-5: 650
+Trained Top-1: 479
+Not-Trained Top-5: 8
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 66, 'bucket, pail': 4, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 114, 'submarine, pigboat, sub, U-boat': 14, 'caldron, cauldron': 2, 'hog, pig, grunter, squealer, Sus scrofa': 12, 'purse': 97, 'tub, vat': 6, 'zebra': 45, 'trombone': 77, 'hammer': 86, 'bathtub, bathing tub, bath, tub': 73, 'harp': 114, 'mixing bowl': 2, 'sax, saxophone': 25, 'laptop, laptop computer': 61, 'sock': 27, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 207, 'ant, emmet, pismire': 17, 'microphone, mike': 152, 'chime, bell, gong': 137, 'barn': 143, 'lion, king of beasts, Panthera leo': 94, 'church, church building': 73, 'umbrella': 136, 'cannon': 43, 'mailbox, letter box': 134, 'parachute, chute': 81, 'violin, fiddle': 17, 'rifle': 22, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 18, 'teapot': 15, 'cornet, horn, trumpet, trump': 69, 'Christmas stocking': 1, 'pretzel': 9, 'bee': 67, 'strawberry': 22, 'pineapple, ananas': 17, 'harvester, reaper': 1, 'castle': 65, 'tractor': 42}
+False Positives 1: {'shovel': 14, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 25, 'submarine, pigboat, sub, U-boat': 3, 'hog, pig, grunter, squealer, Sus scrofa': 2, 'purse': 27, 'zebra': 12, 'trombone': 21, 'hammer': 2, 'harp': 43, 'sax, saxophone': 2, 'laptop, laptop computer': 14, 'sock': 4, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 54, 'ant, emmet, pismire': 2, 'microphone, mike': 57, 'chime, bell, gong': 26, 'barn': 44, 'lion, king of beasts, Panthera leo': 44, 'church, church building': 18, 'umbrella': 78, 'cannon': 11, 'mailbox, letter box': 19, 'parachute, chute': 21, 'pineapple, ananas': 4, 'rifle': 16, 'revolver, six-gun, six-shooter': 3, 'teapot': 1, 'cornet, horn, trumpet, trump': 3, 'pretzel': 2, 'bee': 13, 'strawberry': 7, 'bathtub, bathing tub, bath, tub': 39, 'castle': 12, 'tractor': 18}

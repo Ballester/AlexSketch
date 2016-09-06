@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 5
+Test Size: 1140
+Top-5: 105
+Top-1: 93
+Trained Top-5: 100
+Trained Top-1: 93
+Not-Trained Top-5: 5
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 9, 'bucket, pail': 3, 'submarine, pigboat, sub, U-boat': 942, 'pitcher, ewer': 22, 'water jug': 15, 'assault rifle, assault gun': 2, 'coffeepot': 95, 'milk can': 77, 'water tower': 6, 'church, church building': 1019, 'cocktail shaker': 4, 'water bottle': 2, 'soap dispenser': 2, 'dome': 1, 'tricycle, trike, velocipede': 7, 'rifle': 903, 'greenhouse, nursery, glasshouse': 3, 'teapot': 1028, 'turnstile': 1, 'warplane, military plane': 1, 'tractor': 1032, 'whiskey jug': 1}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 33, 'rifle': 84, 'teapot': 274, 'tractor': 543, 'church, church building': 113}

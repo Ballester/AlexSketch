@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 345
+Top-1: 242
+Trained Top-5: 293
+Trained Top-1: 239
+Not-Trained Top-5: 52
+Not-Trained Top-1: 3
+False Positives 5: {'pedestal, plinth, footstall': 24, 'table lamp': 2, 'chambered nautilus, pearly nautilus, nautilus': 1, 'bucket, pail': 6, 'submarine, pigboat, sub, U-boat': 83, 'dishwasher, dish washer, dishwashing machine': 1, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 6, 'caldron, cauldron': 2, 'crate': 1, 'banjo': 1, 'pitcher, ewer': 28, 'wooden spoon': 2, 'tub, vat': 16, 'Loafer': 1, 'strainer': 3, 'zebra': 117, 'sundial': 3, 'trombone': 326, 'shield, buckler': 1, 'medicine chest, medicine cabinet': 2, 'oboe, hautboy, hautbois': 2, 'water jug': 3, 'barn': 282, 'mixing bowl': 2, 'goblet': 2, 'sax, saxophone': 276, 'bassoon': 3, 'fire screen, fireguard': 1, 'balloon': 1, 'ocarina, sweet potato': 3, 'sock': 306, 'hamper': 2, 'ant, emmet, pismire': 337, 'whiskey jug': 1, 'coffee mug': 1, 'chime, bell, gong': 4, 'cornet, horn, trumpet, trump': 298, 'harp': 3, 'lion, king of beasts, Panthera leo': 394, 'broom': 1, 'church, church building': 63, 'black widow, Latrodectus mactans': 1, 'prairie chicken, prairie grouse, prairie fowl': 2, 'mailbag, postbag': 1, 'barometer': 4, 'ladle': 3, 'monastery': 1, 'wardrobe, closet, press': 1, 'safe': 1, 'mailbox, letter box': 496, 'shopping basket': 3, 'barrel, cask': 1, 'vase': 2, 'bathtub, bathing tub, bath, tub': 496, 'umbrella': 1, 'rifle': 74, 'greenhouse, nursery, glasshouse': 2, 'tick': 1, 'teapot': 202, 'flatworm, platyhelminth': 1, 'plate rack': 3, 'bell cote, bell cot': 1, 'eggnog': 1, 'barn spider, Araneus cavaticus': 1, 'hook, claw': 1, 'cup': 5, 'gong, tam-tam': 1, 'crutch': 1, 'turnstile': 1, 'drum, membranophone, tympan': 5, 'tray': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'tractor': 47, 'lighter, light, igniter, ignitor': 1}
+False Positives 1: {'pitcher, ewer': 1, 'submarine, pigboat, sub, U-boat': 4, 'sock': 76, 'sax, saxophone': 59, 'mailbox, letter box': 164, 'church, church building': 11, 'teapot': 46, 'ant, emmet, pismire': 54, 'bathtub, bathing tub, bath, tub': 185, 'zebra': 20, 'rifle': 26, 'trombone': 17, 'cornet, horn, trumpet, trump': 30, 'lion, king of beasts, Panthera leo': 120, 'tractor': 15, 'barn': 70}

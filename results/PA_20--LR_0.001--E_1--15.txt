@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 402
+Top-1: 294
+Trained Top-5: 383
+Trained Top-1: 294
+Not-Trained Top-5: 19
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 4, 'table lamp': 2, 'shovel': 1, 'common iguana, iguana, Iguana iguana': 1, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 21, 'file, file cabinet, filing cabinet': 1, 'purse': 305, 'reflex camera': 1, 'pitcher, ewer': 1, 'trombone': 105, 'bolo tie, bolo, bola tie, bola': 1, 'hartebeest': 1, 'zebra': 59, 'sundial': 6, 'guillotine': 1, 'oboe, hautboy, hautbois': 3, 'birdhouse': 1, 'barn': 183, 'goblet': 2, 'analog clock': 1, 'sax, saxophone': 298, 'laptop, laptop computer': 43, 'balloon': 1, 'sock': 172, 'ant, emmet, pismire': 17, "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk": 1, 'ibex, Capra ibex': 1, 'chime, bell, gong': 421, 'American alligator, Alligator mississipiensis': 1, 'harp': 398, 'lion, king of beasts, Panthera leo': 263, 'church, church building': 60, 'barometer': 13, 'ladle': 2, 'monastery': 1, 'safe': 4, 'mailbox, letter box': 613, 'Christmas stocking': 1, 'violin, fiddle': 149, 'bell cote, bell cot': 1, 'flute, transverse flute': 1, 'rifle': 85, 'lampshade, lamp shade': 1, 'strainer': 1, 'teapot': 19, 'cornet, horn, trumpet, trump': 224, 'spatula': 1, 'tub, vat': 1, 'bassoon': 4, 'bathtub, bathing tub, bath, tub': 96, 'wall clock': 5, 'combination lock': 2, 'quill, quill pen': 1, 'assault rifle, assault gun': 1, 'chiffonier, commode': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'tractor': 84}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 46, 'sax, saxophone': 54, 'laptop, laptop computer': 4, 'mailbox, letter box': 240, 'sock': 14, 'submarine, pigboat, sub, U-boat': 1, 'purse': 43, 'church, church building': 4, 'ant, emmet, pismire': 1, 'violin, fiddle': 15, 'zebra': 10, 'rifle': 38, 'trombone': 10, 'chime, bell, gong': 90, 'barn': 43, 'harp': 76, 'lion, king of beasts, Panthera leo': 121, 'tractor': 13, 'cornet, horn, trumpet, trump': 23}

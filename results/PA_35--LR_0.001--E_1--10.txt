@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 652
+Top-1: 488
+Trained Top-5: 646
+Trained Top-1: 488
+Not-Trained Top-5: 6
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 119, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 138, 'submarine, pigboat, sub, U-boat': 35, 'forklift': 1, 'purse': 86, 'zebra': 20, 'quail': 1, 'trombone': 77, 'barometer': 1, 'hammer': 80, 'bathtub, bathing tub, bath, tub': 50, 'barn': 106, 'vulture': 1, 'letter opener, paper knife, paperknife': 1, 'sax, saxophone': 38, 'laptop, laptop computer': 19, 'sock': 41, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 119, 'ant, emmet, pismire': 13, 'microphone, mike': 177, 'hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa': 1, 'French bulldog': 1, 'chime, bell, gong': 176, 'harp': 126, 'lion, king of beasts, Panthera leo': 38, 'church, church building': 50, 'hog, pig, grunter, squealer, Sus scrofa': 45, 'umbrella': 148, 'puffer, pufferfish, blowfish, globefish': 1, 'cannon': 127, 'mailbox, letter box': 148, 'parachute, chute': 49, 'violin, fiddle': 48, 'rifle': 20, 'revolver, six-gun, six-shooter': 1, 'teapot': 24, 'cornet, horn, trumpet, trump': 103, 'Christmas stocking': 1, 'Model T': 1, 'pretzel': 12, 'bee': 67, 'strawberry': 47, 'pineapple, ananas': 13, 'harvester, reaper': 1, 'castle': 9, 'tractor': 60}
+False Positives 1: {'shovel': 31, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 57, 'submarine, pigboat, sub, U-boat': 8, 'hog, pig, grunter, squealer, Sus scrofa': 5, 'purse': 26, 'zebra': 8, 'trombone': 8, 'hammer': 2, 'barn': 34, 'sax, saxophone': 5, 'sock': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 32, 'microphone, mike': 58, 'chime, bell, gong': 34, 'pineapple, ananas': 6, 'harp': 43, 'lion, king of beasts, Panthera leo': 4, 'church, church building': 9, 'umbrella': 69, 'cannon': 47, 'mailbox, letter box': 27, 'parachute, chute': 11, 'violin, fiddle': 9, 'rifle': 11, 'revolver, six-gun, six-shooter': 1, 'teapot': 4, 'cornet, horn, trumpet, trump': 12, 'pretzel': 1, 'bee': 26, 'strawberry': 13, 'bathtub, bathing tub, bath, tub': 24, 'castle': 2, 'tractor': 22}

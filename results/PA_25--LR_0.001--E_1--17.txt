@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 478
+Top-1: 359
+Trained Top-5: 469
+Trained Top-1: 359
+Not-Trained Top-5: 9
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'pedestal, plinth, footstall': 1, 'shovel': 384, 'submarine, pigboat, sub, U-boat': 13, 'file, file cabinet, filing cabinet': 1, 'forklift': 1, 'purse': 222, 'reflex camera': 1, 'guillotine': 1, 'zebra': 47, 'trombone': 97, 'medicine chest, medicine cabinet': 2, 'hammer': 262, 'switch, electric switch, electrical switch': 6, 'barn': 199, 'mixing bowl': 1, 'goblet': 1, 'sax, saxophone': 61, 'laptop, laptop computer': 67, 'sock': 274, 'garbage truck, dustcart': 1, 'ant, emmet, pismire': 26, 'cassette': 1, 'chime, bell, gong': 303, 'pineapple, ananas': 23, 'harp': 277, 'lion, king of beasts, Panthera leo': 140, 'church, church building': 57, 'saltshaker, salt shaker': 1, 'barometer': 7, 'puffer, pufferfish, blowfish, globefish': 1, 'ladle': 1, 'monastery': 2, 'safe': 5, 'mailbox, letter box': 335, 'Christmas stocking': 2, 'bathtub, bathing tub, bath, tub': 94, 'bell cote, bell cot': 2, 'rifle': 46, 'lampshade, lamp shade': 1, 'strainer': 2, 'abacus': 1, 'teapot': 11, 'cornet, horn, trumpet, trump': 99, 'tape player': 1, 'bee': 77, 'strawberry': 60, 'violin, fiddle': 48, 'wall clock': 1, 'chiffonier, commode': 1, 'tractor': 40, 'lighter, light, igniter, ignitor': 1}
+False Positives 1: {'shovel': 114, 'submarine, pigboat, sub, U-boat': 2, 'purse': 47, 'zebra': 9, 'trombone': 23, 'hammer': 39, 'barn': 70, 'sax, saxophone': 8, 'laptop, laptop computer': 5, 'sock': 85, 'ant, emmet, pismire': 2, 'chime, bell, gong': 45, 'pineapple, ananas': 7, 'harp': 112, 'lion, king of beasts, Panthera leo': 57, 'church, church building': 8, 'mailbox, letter box': 70, 'bathtub, bathing tub, bath, tub': 19, 'rifle': 11, 'cornet, horn, trumpet, trump': 7, 'bee': 15, 'strawberry': 10, 'violin, fiddle': 3, 'tractor': 13}

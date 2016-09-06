@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 331
+Top-1: 222
+Trained Top-5: 287
+Trained Top-1: 219
+Not-Trained Top-5: 44
+Not-Trained Top-1: 3
+False Positives 5: {'pedestal, plinth, footstall': 21, 'table lamp': 2, 'African crocodile, Nile crocodile, Crocodylus niloticus': 1, 'bucket, pail': 4, 'common iguana, iguana, Iguana iguana': 1, 'submarine, pigboat, sub, U-boat': 63, 'coffeepot': 1, 'caldron, cauldron': 1, 'forklift': 1, 'crate': 1, 'pitcher, ewer': 13, 'guillotine': 3, 'tub, vat': 15, 'zebra': 46, 'sundial': 1, 'trombone': 181, 'umbrella': 1, 'water jug': 1, 'medicine chest, medicine cabinet': 44, 'switch, electric switch, electrical switch': 3, 'birdhouse': 11, 'barn': 427, 'mixing bowl': 2, 'lacewing, lacewing fly': 1, 'warthog': 1, 'letter opener, paper knife, paperknife': 1, 'sax, saxophone': 157, 'bassoon': 2, 'sock': 401, 'cloak': 6, 'hamper': 3, 'ant, emmet, pismire': 234, 'chest': 1, 'cradle': 2, 'sliding door': 10, 'lion, king of beasts, Panthera leo': 271, 'church, church building': 198, 'binder, ring-binder': 1, 'black grouse': 1, 'mailbag, postbag': 2, 'barometer': 5, 'ladle': 4, 'yurt': 1, 'monastery': 1, 'wardrobe, closet, press': 36, 'safe': 4, 'mailbox, letter box': 552, 'dome': 3, 'vestment': 4, 'vase': 2, 'cowboy boot': 2, 'iron, smoothing iron': 1, 'bathtub, bathing tub, bath, tub': 362, 'bell cote, bell cot': 3, 'window screen': 1, 'rifle': 85, 'lampshade, lamp shade': 2, 'greenhouse, nursery, glasshouse': 7, 'electric guitar': 1, 'remote control, remote': 1, 'teapot': 275, 'cornet, horn, trumpet, trump': 401, 'clog, geta, patten, sabot': 1, 'boathouse': 3, 'cockroach, roach': 1, 'acoustic guitar': 1, 'milk can': 1, 'mortar': 1, 'slug': 2, 'cup': 1, 'china cabinet, china closet': 2, 'punching bag, punch bag, punching ball, punchball': 5, 'doormat, welcome mat': 1, 'cicada, cicala': 1, 'bookcase': 2, 'combination lock': 1, 'scale, weighing machine': 3, 'turnstile': 2, 'mobile home, manufactured home': 2, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'tray': 1, 'Loafer': 1, 'tractor': 120, 'whiskey jug': 2}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 9, 'sock': 90, 'sax, saxophone': 38, 'mailbox, letter box': 239, 'church, church building': 12, 'teapot': 60, 'ant, emmet, pismire': 24, 'bathtub, bathing tub, bath, tub': 135, 'zebra': 7, 'rifle': 30, 'trombone': 19, 'cornet, horn, trumpet, trump': 45, 'lion, king of beasts, Panthera leo': 65, 'tractor': 18, 'barn': 127}

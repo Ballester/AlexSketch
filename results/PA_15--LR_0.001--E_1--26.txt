@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 318
+Top-1: 243
+Trained Top-5: 292
+Trained Top-1: 243
+Not-Trained Top-5: 26
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 39, 'entertainment center': 2, 'ocarina, sweet potato': 5, 'bucket, pail': 2, 'submarine, pigboat, sub, U-boat': 123, 'file, file cabinet, filing cabinet': 4, 'caldron, cauldron': 2, 'crate': 6, 'pitcher, ewer': 3, 'guillotine': 2, 'tub, vat': 7, 'zebra': 42, 'sundial': 2, 'trombone': 192, 'ladle': 2, 'medicine chest, medicine cabinet': 15, 'scale, weighing machine': 1, 'birdhouse': 3, 'barn': 369, 'letter opener, paper knife, paperknife': 1, 'mixing bowl': 6, 'analog clock': 1, 'sax, saxophone': 129, 'doormat, welcome mat': 2, 'fire screen, fireguard': 1, 'broom': 2, 'coffeepot': 1, 'sock': 417, 'ant, emmet, pismire': 241, 'chest': 12, 'milk can': 1, 'water jug': 1, 'stove': 1, 'lion, king of beasts, Panthera leo': 341, 'church, church building': 257, 'cricket': 2, 'barometer': 6, 'trilobite': 1, 'monastery': 1, 'wardrobe, closet, press': 12, 'safe': 4, 'mailbox, letter box': 606, 'dome': 2, 'brass, memorial tablet, plaque': 1, 'harvestman, daddy longlegs, Phalangium opilio': 2, 'bathtub, bathing tub, bath, tub': 303, 'bell cote, bell cot': 5, 'tricycle, trike, velocipede': 1, 'rifle': 103, 'greenhouse, nursery, glasshouse': 4, 'teapot': 341, 'cornet, horn, trumpet, trump': 373, 'spatula': 1, 'bow tie, bow-tie, bowtie': 1, 'china cabinet, china closet': 1, 'punching bag, punch bag, punching ball, punchball': 1, 'bookcase': 1, 'wall clock': 1, 'combination lock': 1, 'turnstile': 1, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 5, 'chiffonier, commode': 2, 'Loafer': 1, 'tractor': 92}
+False Positives 1: {'sax, saxophone': 14, 'mailbox, letter box': 333, 'submarine, pigboat, sub, U-boat': 37, 'sock': 65, 'lion, king of beasts, Panthera leo': 80, 'ant, emmet, pismire': 16, 'bathtub, bathing tub, bath, tub': 75, 'zebra': 7, 'rifle': 51, 'trombone': 26, 'barn': 47, 'cornet, horn, trumpet, trump': 34, 'teapot': 71, 'tractor': 16, 'church, church building': 25}

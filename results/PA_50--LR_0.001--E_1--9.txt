@@ -1,0 +1,13 @@
+Training Size: 3000
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 50
+Test Size: 1140
+Top-5: 863
+Top-1: 575
+Trained Top-5: 863
+Trained Top-1: 575
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 3, 'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 13, 'canoe': 41, 'hog, pig, grunter, squealer, Sus scrofa': 12, 'purse': 31, 'trombone': 15, 'lighter, light, igniter, ignitor': 41, 'syringe': 95, 'hammer': 8, 'hourglass': 16, 'sax, saxophone': 8, 'laptop, laptop computer': 4, 'scorpion': 147, 'sock': 10, 'radio, wireless': 22, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 21, 'ant, emmet, pismire': 15, 'microphone, mike': 57, 'lion, king of beasts, Panthera leo': 17, 'cannon': 7, 'chime, bell, gong': 51, 'pineapple, ananas': 8, 'barn': 18, 'harp': 20, 'banana': 59, 'church, church building': 17, 'tiger, Panthera tigris': 69, 'binoculars, field glasses, opera glasses': 34, 'umbrella': 95, 'snail': 63, 'jersey, T-shirt, tee shirt': 27, 'mailbox, letter box': 11, 'screwdriver': 21, 'vase': 15, 'parachute, chute': 62, 'violin, fiddle': 9, 'rifle': 9, 'teapot': 4, 'cornet, horn, trumpet, trump': 29, 'submarine, pigboat, sub, U-boat': 11, 'iPod': 13, 'cup': 13, 'pretzel': 33, 'bee': 49, 'strawberry': 41, 'bathtub, bathing tub, bath, tub': 5, 'castle': 7, 'tractor': 1}
+False Positives 1: {'shovel': 2, 'canoe': 17, 'hog, pig, grunter, squealer, Sus scrofa': 2, 'purse': 4, 'trombone': 6, 'lighter, light, igniter, ignitor': 22, 'syringe': 93, 'hourglass': 2, 'cup': 5, 'scorpion': 130, 'sock': 3, 'radio, wireless': 11, 'ant, emmet, pismire': 1, 'microphone, mike': 23, 'chime, bell, gong': 7, 'harp': 2, 'banana': 21, 'church, church building': 2, 'tiger, Panthera tigris': 22, 'binoculars, field glasses, opera glasses': 14, 'umbrella': 63, 'snail': 31, 'jersey, T-shirt, tee shirt': 3, 'barn': 8, 'screwdriver': 1, 'vase': 11, 'parachute, chute': 14, 'pineapple, ananas': 2, 'rifle': 2, 'revolver, six-gun, six-shooter': 1, 'teapot': 1, 'cornet, horn, trumpet, trump': 1, 'submarine, pigboat, sub, U-boat': 1, 'iPod': 2, 'pretzel': 8, 'bee': 4, 'strawberry': 18, 'bathtub, bathing tub, bath, tub': 1, 'castle': 4}

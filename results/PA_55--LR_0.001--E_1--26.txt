@@ -1,0 +1,13 @@
+Training Size: 3300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 55
+Test Size: 1140
+Top-5: 482
+Top-1: 175
+Trained Top-5: 482
+Trained Top-1: 175
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'scorpion': 105, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 17, 'canoe': 127, 'purse': 1, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 37, 'pizza, pizza pie': 1, 'shovel': 1, 'lighter, light, igniter, ignitor': 9, 'syringe': 253, 'hammer': 3, 'hourglass': 2, 'sax, saxophone': 2, 'laptop, laptop computer': 1, 'broom': 1, 'submarine, pigboat, sub, U-boat': 91, 'sock': 27, 'radio, wireless': 174, 'microphone, mike': 3, 'chime, bell, gong': 4, 'harp': 244, 'lion, king of beasts, Panthera leo': 1, 'tiger, Panthera tigris': 444, 'binoculars, field glasses, opera glasses': 175, 'umbrella': 19, 'banana': 56, 'snail': 65, 'jersey, T-shirt, tee shirt': 14, 'envelope': 29, 'screwdriver': 12, 'vase': 18, 'parachute, chute': 27, 'iPod': 623, 'porcupine, hedgehog': 654, 'bee': 49, 'barn': 1}
+False Positives 1: {'tiger, Panthera tigris': 45, 'binoculars, field glasses, opera glasses': 4, 'umbrella': 4, 'snail': 2, 'canoe': 1, 'envelope': 1, 'iPod': 22, 'scorpion': 7, 'sock': 2, 'porcupine, hedgehog': 804, 'vase': 4, 'parachute, chute': 1, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 3, 'syringe': 48, 'harp': 17}

@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 654
+Top-1: 468
+Trained Top-5: 647
+Trained Top-1: 468
+Not-Trained Top-5: 7
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 75, 'bucket, pail': 2, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 173, 'submarine, pigboat, sub, U-boat': 8, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'hog, pig, grunter, squealer, Sus scrofa': 35, 'purse': 97, 'tub, vat': 2, 'zebra': 20, 'trombone': 65, 'hammer': 87, 'hamper': 1, 'barn': 132, 'sax, saxophone': 9, 'laptop, laptop computer': 50, 'sock': 12, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 102, 'ant, emmet, pismire': 38, 'microphone, mike': 82, 'hourglass': 1, 'chime, bell, gong': 38, 'pineapple, ananas': 18, 'harp': 128, 'lion, king of beasts, Panthera leo': 64, 'church, church building': 114, 'umbrella': 211, 'cannon': 42, 'mailbox, letter box': 178, 'parachute, chute': 75, 'bathtub, bathing tub, bath, tub': 65, 'rifle': 26, 'revolver, six-gun, six-shooter': 13, 'teapot': 19, 'cornet, horn, trumpet, trump': 79, 'pretzel': 7, 'bee': 124, 'strawberry': 45, 'violin, fiddle': 48, 'castle': 75, 'tractor': 69}
+False Positives 1: {'shovel': 18, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 47, 'submarine, pigboat, sub, U-boat': 1, 'hog, pig, grunter, squealer, Sus scrofa': 8, 'purse': 31, 'zebra': 5, 'trombone': 16, 'hammer': 5, 'harp': 46, 'sax, saxophone': 1, 'laptop, laptop computer': 2, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 32, 'ant, emmet, pismire': 3, 'microphone, mike': 17, 'chime, bell, gong': 6, 'barn': 39, 'lion, king of beasts, Panthera leo': 6, 'church, church building': 19, 'umbrella': 159, 'cannon': 1, 'mailbox, letter box': 15, 'parachute, chute': 13, 'pineapple, ananas': 4, 'rifle': 16, 'revolver, six-gun, six-shooter': 4, 'teapot': 2, 'cornet, horn, trumpet, trump': 5, 'violin, fiddle': 6, 'pretzel': 1, 'bee': 68, 'strawberry': 7, 'bathtub, bathing tub, bath, tub': 31, 'castle': 6, 'tractor': 32}

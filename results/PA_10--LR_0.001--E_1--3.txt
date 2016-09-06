@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 250
+Top-1: 169
+Trained Top-5: 197
+Trained Top-1: 163
+Not-Trained Top-5: 53
+Not-Trained Top-1: 6
+False Positives 5: {'pedestal, plinth, footstall': 15, 'bucket, pail': 6, 'submarine, pigboat, sub, U-boat': 73, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'stove': 7, 'triumphal arch': 2, 'dumbbell': 1, 'water jug': 14, 'cup': 2, 'assault rifle, assault gun': 4, 'fire screen, fireguard': 26, 'scorpion': 1, 'cloak': 2, 'ladle': 3, 'wardrobe, closet, press': 7, 'safe': 2, 'vase': 3, 'bell cote, bell cot': 9, 'gasmask, respirator, gas helmet': 7, 'greenhouse, nursery, glasshouse': 1, 'window shade': 1, 'cornet, horn, trumpet, trump': 764, 'hook, claw': 1, 'four-poster': 2, 'television, television system': 2, 'shield, buckler': 3, 'caldron, cauldron': 4, 'gong, tam-tam': 2, 'zebra': 231, 'trombone': 571, 'car wheel': 1, 'cradle': 1, 'barometer': 5, 'cocktail shaker': 1, 'Dutch oven': 2, 'magnetic compass': 4, 'dome': 1, 'vestment': 10, 'tricycle, trike, velocipede': 1, 'strainer': 21, 'washer, automatic washer, washing machine': 1, 'prayer rug, prayer mat': 1, 'mountain bike, all-terrain bike, off-roader': 1, 'wall clock': 1, 'dishwasher, dish washer, dishwashing machine': 2, 'forklift': 1, 'scale, weighing machine': 3, 'wine bottle': 1, 'buckle': 1, 'sock': 664, 'coffee mug': 2, 'chime, bell, gong': 1, 'banana': 1, 'electric fan, blower': 1, 'stopwatch, stop watch': 1, 'mailbag, postbag': 2, 'stethoscope': 2, 'rifle': 112, 'reel': 1, 'teapot': 491, 'cuirass': 1, 'scabbard': 1, 'cicada, cicala': 1, 'drum, membranophone, tympan': 5, 'tractor': 182, 'pot, flowerpot': 1, 'table lamp': 2, 'reflex camera': 13, 'pitcher, ewer': 38, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 3, 'medicine chest, medicine cabinet': 5, 'switch, electric switch, electrical switch': 1, 'sax, saxophone': 744, 'coffeepot': 22, 'milk can': 2, 'French horn, horn': 2, 'frying pan, frypan, skillet': 1, 'church, church building': 304, 'bannister, banister, balustrade, balusters, handrail': 1, 'monastery': 2, 'soap dispenser': 1, 'barrel, cask': 3, "loupe, jeweler's loupe": 2, 'sunglass': 4, 'Polaroid camera, Polaroid Land camera': 1, 'punching bag, punch bag, punching ball, punchball': 2, 'turnstile': 1}
+False Positives 1: {'barometer': 2, 'sax, saxophone': 274, 'dishwasher, dish washer, dishwashing machine': 1, 'sock': 225, 'reflex camera': 2, 'zebra': 26, 'rifle': 16, 'trombone': 135, 'cornet, horn, trumpet, trump': 90, 'teapot': 100, 'tractor': 28, 'church, church building': 72}

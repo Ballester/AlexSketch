@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 258
+Top-1: 168
+Trained Top-5: 199
+Trained Top-1: 166
+Not-Trained Top-5: 59
+Not-Trained Top-1: 2
+False Positives 5: {'table lamp': 9, 'pedestal, plinth, footstall': 18, 'ocarina, sweet potato': 2, 'bucket, pail': 3, 'barometer': 2, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 179, 'coffeepot': 10, 'electric guitar': 1, 'forklift': 1, 'pitcher, ewer': 15, 'triumphal arch': 6, 'umbrella': 1, 'paper towel': 2, 'zebra': 206, 'sundial': 4, 'trombone': 723, 'projectile, missile': 3, 'medicine chest, medicine cabinet': 5, 'lighter, light, igniter, ignitor': 1, 'switch, electric switch, electrical switch': 2, 'water jug': 3, 'barn': 2, 'bib': 2, 'sandal': 1, 'sax, saxophone': 717, 'assault rifle, assault gun': 4, 'fire screen, fireguard': 1, 'coffee mug': 3, 'sock': 549, 'cloak': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 1, 'milk can': 1, 'birdhouse': 1, 'abaya': 1, 'French horn, horn': 2, 'magnetic compass': 1, 'church, church building': 273, 'nematode, nematode worm, roundworm': 3, 'ladle': 1, 'yurt': 1, 'monastery': 3, 'wardrobe, closet, press': 3, 'mailbag, postbag': 3, 'mailbox, letter box': 3, 'dome': 1, 'vestment': 1, 'missile': 3, 'Christmas stocking': 1, 'padlock': 1, 'bell cote, bell cot': 19, 'rifle': 301, 'greenhouse, nursery, glasshouse': 1, 'abacus': 1, 'teapot': 411, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 791, 'shield, buckler': 1, 'bulletproof vest': 5, 'picket fence, paling': 1, 'hook, claw': 3, 'brass, memorial tablet, plaque': 1, 'punching bag, punch bag, punching ball, punchball': 2, 'bassoon': 3, 'car wheel': 1, 'washer, automatic washer, washing machine': 2, 'tractor': 67, 'combination lock': 3, 'quill, quill pen': 2, 'vault': 2, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'tray': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'harvester, reaper': 1, 'whiskey jug': 6}
+False Positives 1: {'manhole cover': 1, 'sax, saxophone': 217, 'submarine, pigboat, sub, U-boat': 5, 'sock': 123, 'reflex camera': 1, 'bell cote, bell cot': 1, 'zebra': 36, 'rifle': 47, 'trombone': 236, 'cornet, horn, trumpet, trump': 54, 'teapot': 116, 'tractor': 19, 'church, church building': 116}

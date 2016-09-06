@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 249
+Top-1: 179
+Trained Top-5: 199
+Trained Top-1: 175
+Not-Trained Top-5: 50
+Not-Trained Top-1: 4
+False Positives 5: {'pedestal, plinth, footstall': 18, 'table lamp': 3, 'ocarina, sweet potato': 3, 'bucket, pail': 5, 'submarine, pigboat, sub, U-boat': 170, 'coffeepot': 12, 'stove': 1, 'forklift': 2, 'crate': 1, 'reflex camera': 4, 'pitcher, ewer': 17, 'triumphal arch': 1, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 1, 'zebra': 184, 'sundial': 5, 'trombone': 729, 'spindle': 1, 'medicine chest, medicine cabinet': 1, 'switch, electric switch, electrical switch': 2, 'water jug': 1, 'barn': 3, 'electric fan, blower': 1, 'goblet': 1, 'analog clock': 15, 'sax, saxophone': 719, 'bassoon': 1, 'cloak': 2, 'sock': 535, 'disk brake, disc brake': 1, 'Loafer': 1, 'chest': 1, 'milk can': 7, 'cassette': 1, 'birdhouse': 4, 'coffee mug': 1, 'measuring cup': 1, 'tiger cat': 1, 'caldron, cauldron': 1, 'church, church building': 308, 'timber wolf, grey wolf, gray wolf, Canis lupus': 1, 'barrel, cask': 1, 'saltshaker, salt shaker': 3, 'barometer': 29, 'stopwatch, stop watch': 6, 'monastery': 5, 'wardrobe, closet, press': 2, 'mailbag, postbag': 2, 'mailbox, letter box': 2, 'dome': 2, 'vestment': 2, 'missile': 1, 'cowboy boot': 1, 'horse cart, horse-cart': 8, 'bell cote, bell cot': 23, 'tricycle, trike, velocipede': 5, 'rifle': 139, 'magnetic compass': 1, 'Model T': 1, 'scale, weighing machine': 1, 'snowplow, snowplough': 1, 'reel': 3, 'teapot': 316, 'plow, plough': 2, 'cornet, horn, trumpet, trump': 696, 'unicycle, monocycle': 1, 'jeep, landrover': 1, 'bulletproof vest': 1, 'tray': 1, 'oxcart': 1, 'punching bag, punch bag, punching ball, punchball': 6, 'assault rifle, assault gun': 2, 'wall clock': 3, 'quill, quill pen': 1, 'television, television system': 5, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'chiffonier, commode': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 4, 'tractor': 407, 'whiskey jug': 2}
+False Positives 1: {'barometer': 1, 'stopwatch, stop watch': 1, 'sax, saxophone': 208, 'submarine, pigboat, sub, U-boat': 1, 'sock': 119, 'zebra': 36, 'rifle': 28, 'trombone': 241, 'church, church building': 132, 'teapot': 86, 'tractor': 93, 'cornet, horn, trumpet, trump': 15}

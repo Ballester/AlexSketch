@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 397
+Top-1: 292
+Trained Top-5: 380
+Trained Top-1: 292
+Not-Trained Top-5: 17
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 1, 'shield, buckler': 2, 'manhole cover': 4, 'submarine, pigboat, sub, U-boat': 49, 'garden spider, Aranea diademata': 1, 'plow, plough': 1, 'purse': 404, 'hartebeest': 1, 'zebra': 115, 'sundial': 1, 'trombone': 120, 'oboe, hautboy, hautbois': 6, 'barn': 166, 'wolf spider, hunting spider': 1, 'chain': 1, 'analog clock': 1, 'sax, saxophone': 300, 'laptop, laptop computer': 78, 'balloon': 1, 'sock': 184, 'switch, electric switch, electrical switch': 1, 'ant, emmet, pismire': 147, 'chest': 1, 'hourglass': 1, 'ibex, Capra ibex': 6, 'chime, bell, gong': 374, 'harp': 348, 'lion, king of beasts, Panthera leo': 397, 'church, church building': 54, 'tiger, Panthera tigris': 2, 'mailbag, postbag': 1, 'barometer': 12, 'monastery': 1, 'safe': 2, 'mailbox, letter box': 259, 'Christmas stocking': 2, 'bathtub, bathing tub, bath, tub': 102, 'bell cote, bell cot': 2, 'rifle': 46, 'abacus': 1, 'reel': 1, 'teapot': 9, 'cornet, horn, trumpet, trump': 185, 'banjo': 2, 'barn spider, Araneus cavaticus': 1, 'mask': 1, 'bassoon': 2, 'violin, fiddle': 159, 'harvester, reaper': 1, 'combination lock': 1, 'necklace': 1, 'electric ray, crampfish, numbfish, torpedo': 2, 'drum, membranophone, tympan': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'tractor': 150}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 32, 'manhole cover': 1, 'sock': 52, 'submarine, pigboat, sub, U-boat': 7, 'mailbox, letter box': 36, 'cornet, horn, trumpet, trump': 12, 'sax, saxophone': 48, 'purse': 83, 'church, church building': 10, 'laptop, laptop computer': 10, 'ant, emmet, pismire': 3, 'violin, fiddle': 21, 'zebra': 5, 'rifle': 14, 'trombone': 11, 'chime, bell, gong': 46, 'barn': 39, 'lion, king of beasts, Panthera leo': 260, 'tractor': 43, 'harp': 115}

@@ -1,0 +1,13 @@
+Training Size: 2400
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 40
+Test Size: 1140
+Top-5: 684
+Top-1: 484
+Trained Top-5: 678
+Trained Top-1: 484
+Not-Trained Top-5: 6
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 23, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 92, 'manhole cover': 1, 'canoe': 72, 'hog, pig, grunter, squealer, Sus scrofa': 6, 'purse': 31, 'trombone': 42, 'hammer': 24, 'oboe, hautboy, hautbois': 1, 'bathtub, bathing tub, bath, tub': 5, 'harp': 48, 'sax, saxophone': 47, 'laptop, laptop computer': 88, 'scorpion': 207, 'sock': 29, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 155, 'microphone, mike': 65, 'lion, king of beasts, Panthera leo': 11, 'coffee mug': 1, 'chime, bell, gong': 19, 'barn': 83, 'banana': 50, 'church, church building': 147, 'tiger, Panthera tigris': 128, 'umbrella': 59, 'soup bowl': 1, 'cannon': 59, 'mailbox, letter box': 106, 'screwdriver': 70, 'parachute, chute': 44, 'violin, fiddle': 23, 'rifle': 32, 'revolver, six-gun, six-shooter': 18, 'teapot': 6, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 32, 'submarine, pigboat, sub, U-boat': 40, 'cellular telephone, cellular phone, cellphone, cell, mobile phone': 1, 'pretzel': 12, 'bee': 62, 'strawberry': 59, 'pineapple, ananas': 50, 'castle': 160, 'tractor': 70}
+False Positives 1: {'scorpion': 83, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 12, 'canoe': 39, 'shovel': 9, 'trombone': 13, 'harp': 23, 'sax, saxophone': 10, 'laptop, laptop computer': 20, 'submarine, pigboat, sub, U-boat': 13, 'sock': 6, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 40, 'microphone, mike': 16, 'lion, king of beasts, Panthera leo': 1, 'chime, bell, gong': 8, 'barn': 30, 'banana': 3, 'church, church building': 24, 'tiger, Panthera tigris': 51, 'umbrella': 10, 'cannon': 14, 'mailbox, letter box': 30, 'screwdriver': 35, 'parachute, chute': 25, 'pineapple, ananas': 17, 'rifle': 9, 'revolver, six-gun, six-shooter': 3, 'pretzel': 3, 'bee': 9, 'strawberry': 20, 'violin, fiddle': 2, 'castle': 48, 'tractor': 30}

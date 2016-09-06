@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 340
+Top-1: 258
+Trained Top-5: 298
+Trained Top-1: 258
+Not-Trained Top-5: 42
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 9, 'pedestal, plinth, footstall': 2, 'bucket, pail': 6, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 101, 'mosque': 1, 'forklift': 4, 'black widow, Latrodectus mactans': 1, 'reflex camera': 3, 'pitcher, ewer': 5, 'saltshaker, salt shaker': 1, 'zebra': 124, 'trombone': 245, 'umbrella': 4, 'warthog': 1, 'switch, electric switch, electrical switch': 2, 'water jug': 1, 'barn': 372, 'goblet': 1, 'sax, saxophone': 309, 'bassoon': 1, 'mountain tent': 1, 'canoe': 1, 'sock': 481, 'oboe, hautboy, hautbois': 1, 'ant, emmet, pismire': 324, 'chest': 1, 'cassette': 1, 'birdhouse': 1, 'beer glass': 1, 'lion, king of beasts, Panthera leo': 177, 'church, church building': 175, 'cricket': 1, 'mailbag, postbag': 1, 'barometer': 5, 'ladle': 5, 'monastery': 1, 'safe': 1, 'mailbox, letter box': 552, 'letter opener, paper knife, paperknife': 3, 'harvestman, daddy longlegs, Phalangium opilio': 1, 'bathtub, bathing tub, bath, tub': 129, 'bell cote, bell cot': 3, 'sunglass': 1, 'rifle': 115, 'lampshade, lamp shade': 2, 'strainer': 1, 'teapot': 239, 'plow, plough': 3, 'cornet, horn, trumpet, trump': 437, 'hook, claw': 2, 'cup': 1, 'tape player': 1, 'window screen': 1, 'punching bag, punch bag, punching ball, punchball': 2, 'boathouse': 1, 'tractor': 125, 'combination lock': 1, 'quill, quill pen': 1, 'television, television system': 1, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'tray': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'harvester, reaper': 2}
+False Positives 1: {'sax, saxophone': 53, 'mailbox, letter box': 175, 'cornet, horn, trumpet, trump': 50, 'submarine, pigboat, sub, U-boat': 8, 'sock': 112, 'lion, king of beasts, Panthera leo': 36, 'ant, emmet, pismire': 68, 'bathtub, bathing tub, bath, tub': 40, 'cassette': 1, 'zebra': 25, 'rifle': 38, 'trombone': 39, 'church, church building': 34, 'teapot': 54, 'tractor': 48, 'barn': 101}

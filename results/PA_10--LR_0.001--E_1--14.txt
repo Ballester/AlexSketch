@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 260
+Top-1: 158
+Trained Top-5: 200
+Trained Top-1: 158
+Not-Trained Top-5: 60
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 17, 'bucket, pail': 4, 'submarine, pigboat, sub, U-boat': 397, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 8, 'stove': 3, 'triumphal arch': 3, 'lighter, light, igniter, ignitor': 1, 'spotlight, spot': 2, 'water jug': 6, 'pencil sharpener': 10, 'mixing bowl': 1, 'assault rifle, assault gun': 1, 'fire screen, fireguard': 3, 'disk brake, disc brake': 4, 'cassette': 1, 'vase': 3, 'bell cote, bell cot': 39, 'greenhouse, nursery, glasshouse': 3, 'oil filter': 5, 'flatworm, platyhelminth': 1, 'cornet, horn, trumpet, trump': 794, 'bulletproof vest': 5, 'hook, claw': 3, 'quill, quill pen': 1, 'television, television system': 1, 'caldron, cauldron': 1, 'flagpole, flagstaff': 1, 'digital watch': 1, 'zebra': 206, 'trombone': 690, 'barometer': 8, 'barn': 2, 'analog clock': 3, 'mountain tent': 1, 'car wheel': 1, 'running shoe': 4, 'cradle': 1, "carpenter's kit, tool kit": 1, 'saltshaker, salt shaker': 1, 'umbrella': 3, 'magnetic compass': 1, 'dome': 13, 'vestment': 1, 'iron, smoothing iron': 6, 'plow, plough': 1, 'sundial': 2, 'strainer': 1, 'clog, geta, patten, sabot': 3, 'bow': 1, 'washer, automatic washer, washing machine': 2, 'forklift': 1, 'hand-held computer, hand-held microcomputer': 1, 'scale, weighing machine': 1, 'birdhouse': 3, 'buckle': 2, 'ocarina, sweet potato': 9, 'sock': 525, 'Loafer': 4, 'chime, bell, gong': 1, 'obelisk': 2, 'mailbag, postbag': 6, 'missile': 2, 'rifle': 144, 'reel': 4, 'teapot': 264, 'scabbard': 5, 'king penguin, Aptenodytes patagonica': 1, 'combination lock': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 156, 'table lamp': 2, 'reflex camera': 8, 'pitcher, ewer': 15, 'mouse, computer mouse': 1, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 1, 'switch, electric switch, electrical switch': 1, 'sax, saxophone': 552, 'coffeepot': 9, 'milk can': 3, 'French horn, horn': 1, 'church, church building': 383, 'monastery': 7, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 2, 'hair slide': 1, 'punching bag, punch bag, punching ball, punchball': 6, 'parking meter': 1, 'turnstile': 1, 'whiskey jug': 1}
+False Positives 1: {'saltshaker, salt shaker': 1, 'submarine, pigboat, sub, U-boat': 23, 'ocarina, sweet potato': 1, 'sax, saxophone': 103, 'sock': 170, 'washer, automatic washer, washing machine': 1, 'zebra': 31, 'rifle': 20, 'trombone': 250, 'cornet, horn, trumpet, trump': 103, 'reel': 1, 'teapot': 79, 'tractor': 30, 'church, church building': 169}

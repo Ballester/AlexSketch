@@ -1,0 +1,13 @@
+Training Size: 3000
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 50
+Test Size: 1140
+Top-5: 884
+Top-1: 616
+Trained Top-5: 884
+Trained Top-1: 616
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 28, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 51, 'canoe': 55, 'hog, pig, grunter, squealer, Sus scrofa': 13, 'purse': 20, 'trombone': 23, 'lighter, light, igniter, ignitor': 33, 'syringe': 41, 'projectile, missile': 1, 'bee': 41, 'hammer': 6, 'barn': 11, 'cup': 12, 'laptop, laptop computer': 17, 'scorpion': 89, 'sock': 20, 'radio, wireless': 4, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 13, 'ant, emmet, pismire': 5, 'microphone, mike': 80, 'hourglass': 27, 'jersey, T-shirt, tee shirt': 9, 'chime, bell, gong': 30, 'pineapple, ananas': 8, 'harp': 21, 'banana': 63, 'church, church building': 2, 'tiger, Panthera tigris': 60, 'binoculars, field glasses, opera glasses': 102, 'umbrella': 50, 'snail': 55, 'cannon': 18, 'mailbox, letter box': 21, 'screwdriver': 45, 'vase': 35, 'parachute, chute': 44, 'violin, fiddle': 4, 'revolver, six-gun, six-shooter': 3, 'teapot': 6, 'cornet, horn, trumpet, trump': 10, 'submarine, pigboat, sub, U-boat': 7, 'iPod': 13, 'sax, saxophone': 3, 'pretzel': 24, 'lion, king of beasts, Panthera leo': 29, 'strawberry': 12, 'bathtub, bathing tub, bath, tub': 12, 'castle': 1, 'tractor': 1}
+False Positives 1: {'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 7, 'canoe': 28, 'hog, pig, grunter, squealer, Sus scrofa': 5, 'purse': 6, 'trombone': 17, 'lighter, light, igniter, ignitor': 19, 'syringe': 11, 'bee': 4, 'hourglass': 11, 'cup': 2, 'laptop, laptop computer': 3, 'scorpion': 29, 'sock': 5, 'radio, wireless': 1, 'microphone, mike': 37, 'jersey, T-shirt, tee shirt': 2, 'chime, bell, gong': 5, 'barn': 6, 'harp': 4, 'banana': 14, 'tiger, Panthera tigris': 75, 'binoculars, field glasses, opera glasses': 78, 'umbrella': 28, 'snail': 18, 'cannon': 3, 'mailbox, letter box': 2, 'screwdriver': 19, 'vase': 23, 'parachute, chute': 14, 'pineapple, ananas': 1, 'revolver, six-gun, six-shooter': 2, 'teapot': 2, 'cornet, horn, trumpet, trump': 2, 'iPod': 4, 'pretzel': 9, 'lion, king of beasts, Panthera leo': 4, 'strawberry': 4, 'bathtub, bathing tub, bath, tub': 2, 'castle': 10}

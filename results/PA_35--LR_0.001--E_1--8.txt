@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 642
+Top-1: 457
+Trained Top-5: 638
+Trained Top-1: 457
+Not-Trained Top-5: 4
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 1, 'shovel': 108, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 165, 'submarine, pigboat, sub, U-boat': 20, 'hog, pig, grunter, squealer, Sus scrofa': 52, 'purse': 119, 'tub, vat': 3, 'zebra': 40, 'trombone': 59, 'hammer': 99, 'oboe, hautboy, hautbois': 1, 'harp': 110, 'sax, saxophone': 13, 'laptop, laptop computer': 82, 'sock': 31, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 127, 'ant, emmet, pismire': 10, 'microphone, mike': 136, 'chime, bell, gong': 141, 'pineapple, ananas': 14, 'barn': 128, 'lion, king of beasts, Panthera leo': 53, 'church, church building': 126, 'umbrella': 197, 'cannon': 23, 'mailbox, letter box': 240, 'parachute, chute': 20, 'bathtub, bathing tub, bath, tub': 73, 'rifle': 29, 'revolver, six-gun, six-shooter': 22, 'teapot': 5, 'cornet, horn, trumpet, trump': 40, 'Christmas stocking': 1, 'Norfolk terrier': 1, 'pretzel': 1, 'bee': 49, 'strawberry': 30, 'violin, fiddle': 41, 'castle': 66, 'tractor': 14}
+False Positives 1: {'shovel': 42, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 29, 'submarine, pigboat, sub, U-boat': 4, 'hog, pig, grunter, squealer, Sus scrofa': 8, 'purse': 31, 'zebra': 17, 'trombone': 20, 'hammer': 2, 'bathtub, bathing tub, bath, tub': 35, 'barn': 58, 'sax, saxophone': 4, 'laptop, laptop computer': 11, 'sock': 2, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 39, 'ant, emmet, pismire': 1, 'microphone, mike': 57, 'chime, bell, gong': 25, 'harp': 31, 'lion, king of beasts, Panthera leo': 8, 'church, church building': 26, 'umbrella': 119, 'cannon': 5, 'mailbox, letter box': 42, 'parachute, chute': 2, 'violin, fiddle': 7, 'rifle': 16, 'revolver, six-gun, six-shooter': 4, 'cornet, horn, trumpet, trump': 3, 'bee': 16, 'strawberry': 8, 'pineapple, ananas': 2, 'castle': 6, 'tractor': 3}

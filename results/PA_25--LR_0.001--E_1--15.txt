@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 482
+Top-1: 366
+Trained Top-5: 472
+Trained Top-1: 366
+Not-Trained Top-5: 10
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 116, 'submarine, pigboat, sub, U-boat': 31, 'purse': 333, 'pitcher, ewer': 1, 'guillotine': 2, 'tub, vat': 2, 'zebra': 55, 'trombone': 50, 'hammer': 200, 'bathtub, bathing tub, bath, tub': 132, 'barn': 181, 'mixing bowl': 1, 'sax, saxophone': 86, 'laptop, laptop computer': 144, 'sock': 127, 'ant, emmet, pismire': 24, 'chest': 2, 'cassette': 1, 'chime, bell, gong': 281, 'harp': 388, 'lion, king of beasts, Panthera leo': 163, 'church, church building': 96, 'tiger, Panthera tigris': 2, 'barometer': 3, 'monastery': 1, 'safe': 2, 'mailbox, letter box': 269, 'violin, fiddle': 74, 'bell cote, bell cot': 2, 'rifle': 45, 'teapot': 38, 'cornet, horn, trumpet, trump': 99, 'throne': 1, 'folding chair': 1, 'Egyptian cat': 1, 'bee': 187, 'strawberry': 80, 'pineapple, ananas': 10, 'tractor': 59}
+False Positives 1: {'shovel': 24, 'submarine, pigboat, sub, U-boat': 2, 'purse': 92, 'zebra': 9, 'trombone': 9, 'hammer': 37, 'barn': 29, 'sax, saxophone': 11, 'laptop, laptop computer': 13, 'sock': 22, 'ant, emmet, pismire': 3, 'chime, bell, gong': 59, 'pineapple, ananas': 1, 'harp': 169, 'lion, king of beasts, Panthera leo': 62, 'church, church building': 18, 'mailbox, letter box': 52, 'bathtub, bathing tub, bath, tub': 49, 'rifle': 11, 'teapot': 1, 'cornet, horn, trumpet, trump': 8, 'bee': 33, 'strawberry': 14, 'violin, fiddle': 21, 'tractor': 25}

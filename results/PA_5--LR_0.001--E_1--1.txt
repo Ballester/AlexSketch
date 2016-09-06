@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 5
+Test Size: 1140
+Top-5: 139
+Top-1: 69
+Trained Top-5: 87
+Trained Top-1: 68
+Not-Trained Top-5: 52
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 17, 'pedestal, plinth, footstall': 1, 'stethoscope': 1, 'submarine, pigboat, sub, U-boat': 820, 'electric guitar': 1, 'plow, plough': 20, 'reflex camera': 4, 'pitcher, ewer': 336, 'nail': 16, 'tub, vat': 1, 'sewing machine': 14, 'spotlight, spot': 73, 'syringe': 17, 'dumbbell': 22, 'switch, electric switch, electrical switch': 20, 'water jug': 178, 'pencil sharpener': 7, 'screw': 19, 'goblet': 1, 'studio couch, day bed': 4, 'cup': 65, 'assault rifle, assault gun': 62, 'fire screen, fireguard': 1, 'projector': 1, 'coffeepot': 231, 'oboe, hautboy, hautbois': 4, 'pill bottle': 7, 'corkscrew, bottle screw': 50, 'toilet seat': 14, 'hourglass': 1, 'cleaver, meat cleaver, chopper': 1, 'paintbrush': 4, 'church, church building': 31, 'espresso maker': 2, 'binoculars, field glasses, opera glasses': 2, 'barometer': 3, 'cocktail shaker': 3, 'radiator': 1, 'fountain pen': 1, 'cannon': 5, 'barrel, cask': 1, 'vase': 119, "loupe, jeweler's loupe": 30, 'violin, fiddle': 12, 'vacuum, vacuum cleaner': 1, 'tricycle, trike, velocipede': 1, 'knot': 1, 'rifle': 690, 'park bench': 1, 'lampshade, lamp shade': 6, 'strainer': 1, 'revolver, six-gun, six-shooter': 6, 'teapot': 999, 'cornet, horn, trumpet, trump': 5, 'throne': 1, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 10, 'acoustic guitar': 4, 'toilet tissue, toilet paper, bathroom tissue': 17, 'mortar': 21, 'hook, claw': 51, 'perfume, essence': 11, 'stopwatch, stop watch': 1, 'washer, automatic washer, washing machine': 2, 'pick, plectrum, plectron': 2, 'combination lock': 4, 'necklace': 1, 'paper towel': 1, 'joystick': 1, 'Band Aid': 1, 'measuring cup': 1, 'tractor': 941, 'whiskey jug': 1}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 12, 'teapot': 672, 'tractor': 247, 'rifle': 140}

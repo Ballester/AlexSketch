@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 304
+Top-1: 223
+Trained Top-5: 287
+Trained Top-1: 223
+Not-Trained Top-5: 17
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 22, 'bucket, pail': 5, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 73, 'coffeepot': 1, 'stove': 1, 'crate': 9, 'snowplow, snowplough': 1, 'sundial': 5, 'water jug': 2, 'accordion, piano accordion, squeeze box': 2, 'jeep, landrover': 2, 'abacus': 2, 'goblet': 2, 'fire screen, fireguard': 3, 'panpipe, pandean pipe, syrinx': 1, 'digital clock': 1, 'tiger, Panthera tigris': 1, 'ladle': 1, 'wardrobe, closet, press': 7, 'safe': 5, 'vase': 1, 'boathouse': 2, 'bell cote, bell cot': 5, 'greenhouse, nursery, glasshouse': 5, 'window shade': 2, 'cornet, horn, trumpet, trump': 246, 'caldron, cauldron': 14, 'nail': 1, 'tub, vat': 16, 'digital watch': 1, 'zebra': 122, 'trombone': 149, 'hamper': 1, 'barn': 567, 'analog clock': 1, 'tile roof': 2, 'saltshaker, salt shaker': 1, 'barometer': 8, 'corn': 1, 'mailbox, letter box': 612, 'plow, plough': 5, 'strainer': 2, 'mixing bowl': 9, 'throne': 1, 'chiffonier, commode': 1, 'harvester, reaper': 7, 'forklift': 2, 'scale, weighing machine': 1, 'birdhouse': 19, 'buckle': 1, 'ocarina, sweet potato': 4, 'sock': 370, 'ant, emmet, pismire': 61, 'chime, bell, gong': 1, 'lion, king of beasts, Panthera leo': 334, 'obelisk': 1, 'altar': 1, 'rifle': 120, 'reel': 1, 'teapot': 202, 'cockroach, roach': 1, 'lawn mower, mower': 1, 'centipede': 1, 'combination lock': 3, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 256, 'palace': 2, 'canoe': 1, 'reflex camera': 1, 'pitcher, ewer': 7, 'medicine chest, medicine cabinet': 14, 'switch, electric switch, electrical switch': 4, 'screw': 1, 'sax, saxophone': 248, 'doormat, welcome mat': 6, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'oboe, hautboy, hautbois': 2, 'lacewing, lacewing fly': 1, 'chest': 3, 'crib, cot': 1, 'matchstick': 1, 'church, church building': 264, 'puffer, pufferfish, blowfish, globefish': 2, 'monastery': 2, 'thresher, thrasher, threshing machine': 2, 'bathtub, bathing tub, bath, tub': 301, 'tiger cat': 1, 'window screen': 1, 'punching bag, punch bag, punching ball, punchball': 1, 'bassoon': 2}
+False Positives 1: {'puffer, pufferfish, blowfish, globefish': 2, 'sax, saxophone': 45, 'mailbox, letter box': 202, 'submarine, pigboat, sub, U-boat': 6, 'sock': 77, 'teapot': 37, 'zebra': 31, 'ant, emmet, pismire': 4, 'bathtub, bathing tub, bath, tub': 92, 'church, church building': 28, 'rifle': 27, 'trombone': 14, 'barn': 177, 'lion, king of beasts, Panthera leo': 80, 'tractor': 65, 'cornet, horn, trumpet, trump': 30}

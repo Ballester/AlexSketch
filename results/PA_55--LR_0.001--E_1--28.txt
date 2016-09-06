@@ -1,0 +1,13 @@
+Training Size: 3300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 55
+Test Size: 1140
+Top-5: 895
+Top-1: 575
+Trained Top-5: 895
+Trained Top-1: 575
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 7, 'canoe': 13, 'trombone': 2, 'hog, pig, grunter, squealer, Sus scrofa': 2, 'purse': 14, 'pitcher, ewer': 1, 'syringe': 122, 'pizza, pizza pie': 2, 'lighter, light, igniter, ignitor': 13, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 30, 'bee': 5, 'hammer': 16, 'water jug': 1, 'hourglass': 13, 'cup': 22, 'laptop, laptop computer': 16, 'scorpion': 65, 'sock': 17, 'pretzel': 2, 'radio, wireless': 31, 'candle, taper, wax light': 12, 'microphone, mike': 96, 'jersey, T-shirt, tee shirt': 13, 'envelope': 16, 'chime, bell, gong': 7, 'pineapple, ananas': 2, 'barn': 6, 'harp': 9, 'lion, king of beasts, Panthera leo': 14, 'tiger, Panthera tigris': 78, 'binoculars, field glasses, opera glasses': 132, 'umbrella': 20, 'snail': 15, 'cannon': 20, 'mailbox, letter box': 13, 'screwdriver': 50, 'vase': 34, 'parachute, chute': 13, 'violin, fiddle': 3, 'rifle': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 1, 'revolver, six-gun, six-shooter': 44, 'teapot': 1, 'cornet, horn, trumpet, trump': 45, 'submarine, pigboat, sub, U-boat': 7, 'iPod': 31, 'sax, saxophone': 6, 'porcupine, hedgehog': 110, 'banana': 5, 'strawberry': 3, 'bathtub, bathing tub, bath, tub': 1, 'castle': 8, 'tractor': 3}
+False Positives 1: {'shovel': 2, 'canoe': 6, 'trombone': 1, 'purse': 6, 'syringe': 114, 'lighter, light, igniter, ignitor': 5, 'barn': 1, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 18, 'hammer': 1, 'harp': 3, 'cup': 6, 'laptop, laptop computer': 5, 'scorpion': 11, 'sock': 4, 'radio, wireless': 16, 'mailbox, letter box': 2, 'microphone, mike': 19, 'jersey, T-shirt, tee shirt': 3, 'chime, bell, gong': 3, 'hourglass': 5, 'church, church building': 1, 'tiger, Panthera tigris': 63, 'binoculars, field glasses, opera glasses': 92, 'umbrella': 12, 'snail': 2, 'cannon': 2, 'envelope': 10, 'screwdriver': 31, 'vase': 12, 'parachute, chute': 1, 'revolver, six-gun, six-shooter': 7, 'candle, taper, wax light': 23, 'cornet, horn, trumpet, trump': 9, 'submarine, pigboat, sub, U-boat': 2, 'iPod': 4, 'sax, saxophone': 1, 'porcupine, hedgehog': 57, 'bee': 1, 'strawberry': 1, 'castle': 3}

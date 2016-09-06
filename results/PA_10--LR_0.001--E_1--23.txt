@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 224
+Top-1: 169
+Trained Top-5: 198
+Trained Top-1: 168
+Not-Trained Top-5: 26
+Not-Trained Top-1: 1
+False Positives 5: {'pedestal, plinth, footstall': 9, 'table lamp': 1, 'bucket, pail': 4, 'submarine, pigboat, sub, U-boat': 202, 'coffeepot': 5, 'stove': 1, 'forklift': 4, 'reflex camera': 4, 'pitcher, ewer': 8, 'triumphal arch': 5, 'zebra': 307, 'sundial': 1, 'trombone': 703, 'strainer': 1, 'birdhouse': 2, 'analog clock': 1, 'sax, saxophone': 627, 'assault rifle, assault gun': 1, 'ocarina, sweet potato': 1, 'sock': 643, 'milk can': 2, 'water jug': 2, 'church, church building': 393, 'mailbag, postbag': 1, 'barometer': 7, 'monastery': 4, 'safe': 1, 'dome': 2, 'bell cote, bell cot': 15, 'rifle': 200, 'greenhouse, nursery, glasshouse': 1, 'snowplow, snowplough': 1, 'reel': 3, 'teapot': 333, 'plow, plough': 2, 'cornet, horn, trumpet, trump': 841, 'Model T': 1, 'gong, tam-tam': 1, 'car wheel': 1, 'washer, automatic washer, washing machine': 4, 'tractor': 233, 'harvester, reaper': 2}
+False Positives 1: {'barometer': 1, 'sax, saxophone': 171, 'submarine, pigboat, sub, U-boat': 12, 'sock': 183, 'zebra': 42, 'rifle': 42, 'trombone': 155, 'church, church building': 141, 'teapot': 95, 'tractor': 60, 'cornet, horn, trumpet, trump': 69}

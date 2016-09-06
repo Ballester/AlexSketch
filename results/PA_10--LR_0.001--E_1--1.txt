@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 241
+Top-1: 172
+Trained Top-5: 199
+Trained Top-1: 172
+Not-Trained Top-5: 42
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 21, 'bucket, pail': 1, "academic gown, academic robe, judge's robe": 1, 'submarine, pigboat, sub, U-boat': 296, 'hoopskirt, crinoline': 1, 'coffeepot': 10, 'stove': 3, 'forklift': 6, 'reflex camera': 3, 'pitcher, ewer': 10, 'triumphal arch': 2, 'saltshaker, salt shaker': 1, 'zebra': 295, 'sundial': 1, 'trombone': 619, 'switch, electric switch, electrical switch': 3, 'water jug': 4, 'barn': 4, 'jeep, landrover': 1, 'velvet': 1, 'analog clock': 6, 'sax, saxophone': 750, 'bassoon': 2, 'fire screen, fireguard': 1, 'ocarina, sweet potato': 1, 'sock': 563, 'cloak': 3, 'milk can': 2, 'birdhouse': 1, 'ibex, Capra ibex': 2, 'washer, automatic washer, washing machine': 1, 'church, church building': 344, 'megalith, megalithic structure': 3, 'viaduct': 1, 'barometer': 18, 'amphibian, amphibious vehicle': 1, 'monastery': 2, 'barrel, cask': 1, 'Christmas stocking': 1, 'apron': 1, 'bell cote, bell cot': 14, 'tricycle, trike, velocipede': 2, 'rifle': 246, 'scale, weighing machine': 4, 'teapot': 228, 'plow, plough': 6, 'cornet, horn, trumpet, trump': 836, 'folding chair': 1, 'Model T': 1, 'tiger cat': 1, 'punching bag, punch bag, punching ball, punchball': 4, 'chime, bell, gong': 2, 'wall clock': 1, 'harvester, reaper': 6, 'combination lock': 2, 'turnstile': 1, 'tractor': 151, 'oxcart': 2}
+False Positives 1: {'pedestal, plinth, footstall': 1, 'barometer': 2, 'sax, saxophone': 224, 'submarine, pigboat, sub, U-boat': 16, 'sock': 218, 'zebra': 87, 'rifle': 38, 'trombone': 128, 'cornet, horn, trumpet, trump': 39, 'teapot': 63, 'tractor': 51, 'church, church building': 101}

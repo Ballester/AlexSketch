@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 338
+Top-1: 237
+Trained Top-5: 292
+Trained Top-1: 236
+Not-Trained Top-5: 46
+Not-Trained Top-1: 1
+False Positives 5: {'pedestal, plinth, footstall': 9, 'table lamp': 3, 'water buffalo, water ox, Asiatic buffalo, Bubalus bubalis': 2, 'bucket, pail': 6, 'chain': 1, 'submarine, pigboat, sub, U-boat': 127, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 5, 'manhole cover': 1, 'triceratops': 1, 'reflex camera': 2, 'pitcher, ewer': 6, 'triumphal arch': 2, 'wooden spoon': 1, 'tub, vat': 3, 'Loafer': 1, 'zebra': 39, 'sundial': 3, 'trombone': 322, 'shield, buckler': 2, 'switch, electric switch, electrical switch': 7, 'birdhouse': 3, 'barn': 176, 'mixing bowl': 3, 'wolf spider, hunting spider': 1, 'goblet': 4, 'sax, saxophone': 321, 'canoe': 1, 'sock': 372, 'ant, emmet, pismire': 363, 'monastery': 2, 'toilet seat': 1, 'lion, king of beasts, Panthera leo': 376, 'church, church building': 85, 'mailbag, postbag': 3, 'barometer': 16, 'soup bowl': 1, 'bib': 2, 'magnetic compass': 1, 'safe': 1, 'mailbox, letter box': 563, 'barrel, cask': 1, 'vase': 1, 'padlock': 1, 'bathtub, bathing tub, bath, tub': 263, 'bell cote, bell cot': 4, 'vestment': 1, 'rifle': 53, 'lampshade, lamp shade': 2, 'tick': 1, 'reel': 1, 'teapot': 267, 'cornet, horn, trumpet, trump': 400, 'clog, geta, patten, sabot': 2, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 1, 'barn spider, Araneus cavaticus': 1, 'punching bag, punch bag, punching ball, punchball': 1, 'wall clock': 2, 'ox': 1, 'brass, memorial tablet, plaque': 1, 'drum, membranophone, tympan': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 165}
+False Positives 1: {'pedestal, plinth, footstall': 1, 'submarine, pigboat, sub, U-boat': 13, 'sock': 86, 'sax, saxophone': 59, 'mailbox, letter box': 226, 'teapot': 65, 'ant, emmet, pismire': 25, 'bathtub, bathing tub, bath, tub': 95, 'church, church building': 11, 'rifle': 8, 'trombone': 81, 'cornet, horn, trumpet, trump': 28, 'lion, king of beasts, Panthera leo': 123, 'tractor': 49, 'barn': 33}

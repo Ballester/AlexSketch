@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 567
+Top-1: 437
+Trained Top-5: 562
+Trained Top-1: 437
+Not-Trained Top-5: 5
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 130, 'submarine, pigboat, sub, U-boat': 25, 'purse': 92, 'zebra': 26, 'trombone': 30, 'hammer': 135, 'water jug': 1, 'harp': 97, 'goblet': 1, 'sax, saxophone': 16, 'laptop, laptop computer': 29, 'sock': 96, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 395, 'ant, emmet, pismire': 33, 'microphone, mike': 225, 'chime, bell, gong': 345, 'barn': 102, 'lion, king of beasts, Panthera leo': 107, 'church, church building': 42, 'barometer': 2, 'cannon': 67, 'mailbox, letter box': 296, 'Christmas stocking': 1, 'pineapple, ananas': 19, 'bell cote, bell cot': 1, 'rifle': 21, 'revolver, six-gun, six-shooter': 28, 'teapot': 56, 'cornet, horn, trumpet, trump': 56, 'violin, fiddle': 23, 'pretzel': 52, 'bee': 99, 'strawberry': 98, 'bathtub, bathing tub, bath, tub': 75, 'tractor': 44}
+False Positives 1: {'shovel': 52, 'submarine, pigboat, sub, U-boat': 2, 'purse': 22, 'zebra': 10, 'trombone': 7, 'hammer': 18, 'harp': 31, 'sax, saxophone': 1, 'laptop, laptop computer': 2, 'sock': 21, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 156, 'ant, emmet, pismire': 2, 'microphone, mike': 46, 'chime, bell, gong': 70, 'barn': 29, 'lion, king of beasts, Panthera leo': 23, 'church, church building': 7, 'cannon': 14, 'mailbox, letter box': 61, 'bathtub, bathing tub, bath, tub': 33, 'rifle': 9, 'revolver, six-gun, six-shooter': 4, 'teapot': 6, 'cornet, horn, trumpet, trump': 5, 'violin, fiddle': 3, 'pretzel': 1, 'bee': 29, 'strawberry': 28, 'pineapple, ananas': 5, 'tractor': 6}

@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 428
+Top-1: 317
+Trained Top-5: 393
+Trained Top-1: 316
+Not-Trained Top-5: 35
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 2, 'cello, violoncello': 1, 'bucket, pail': 1, 'palace': 1, 'submarine, pigboat, sub, U-boat': 58, 'caldron, cauldron': 1, 'forklift': 2, 'purse': 401, 'gong, tam-tam': 2, 'trombone': 114, 'missile': 1, 'Norwich terrier': 2, 'zebra': 70, 'sundial': 1, 'guillotine': 2, 'beaver': 2, 'pug, pug-dog': 2, 'barn': 167, 'analog clock': 1, 'sax, saxophone': 121, 'laptop, laptop computer': 62, 'sock': 124, 'ant, emmet, pismire': 162, 'cassette': 1, 'ibex, Capra ibex': 2, 'chime, bell, gong': 422, 'harp': 286, 'lion, king of beasts, Panthera leo': 286, 'church, church building': 125, 'timber wolf, grey wolf, gray wolf, Canis lupus': 1, 'barometer': 10, 'puffer, pufferfish, blowfish, globefish': 1, 'trilobite': 1, 'monastery': 1, 'safe': 3, 'mailbox, letter box': 333, 'teddy, teddy bear': 1, 'violin, fiddle': 200, 'bell cote, bell cot': 10, 'rifle': 52, 'lampshade, lamp shade': 1, 'tick': 1, 'teapot': 93, 'plow, plough': 2, 'cornet, horn, trumpet, trump': 230, 'soft-coated wheaten terrier': 1, 'shield, buckler': 1, 'bathtub, bathing tub, bath, tub': 68, 'harvester, reaper': 1, 'combination lock': 1, 'guinea pig, Cavia cobaya': 1, 'lycaenid, lycaenid butterfly': 1, 'tractor': 123, 'whiskey jug': 1}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 18, 'submarine, pigboat, sub, U-boat': 8, 'laptop, laptop computer': 6, 'purse': 99, 'cornet, horn, trumpet, trump': 28, 'sax, saxophone': 9, 'mailbox, letter box': 84, 'teapot': 2, 'ant, emmet, pismire': 25, 'sock': 11, 'violin, fiddle': 57, 'zebra': 9, 'rifle': 21, 'trombone': 28, 'chime, bell, gong': 93, 'barn': 22, 'church, church building': 31, 'lion, king of beasts, Panthera leo': 102, 'tractor': 65, 'harp': 105}

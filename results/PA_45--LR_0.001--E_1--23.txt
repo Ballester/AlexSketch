@@ -1,0 +1,13 @@
+Training Size: 2700
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 45
+Test Size: 1140
+Top-5: 776
+Top-1: 498
+Trained Top-5: 774
+Trained Top-1: 498
+Not-Trained Top-5: 2
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 33, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 21, 'canoe': 121, 'hog, pig, grunter, squealer, Sus scrofa': 13, 'purse': 21, 'pitcher, ewer': 1, 'lighter, light, igniter, ignitor': 24, 'barn': 30, 'trombone': 56, 'hammer': 10, 'bathtub, bathing tub, bath, tub': 9, 'harp': 121, 'sax, saxophone': 32, 'laptop, laptop computer': 2, 'scorpion': 150, 'sock': 20, 'cloak': 1, 'radio, wireless': 13, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 13, 'ant, emmet, pismire': 12, 'microphone, mike': 108, 'lion, king of beasts, Panthera leo': 33, 'chime, bell, gong': 64, 'hourglass': 26, 'banana': 169, 'church, church building': 18, 'tiger, Panthera tigris': 148, 'umbrella': 49, 'snail': 87, 'cannon': 4, 'mailbox, letter box': 18, 'screwdriver': 62, 'parachute, chute': 39, 'violin, fiddle': 24, 'rifle': 9, 'lampshade, lamp shade': 1, 'teapot': 16, 'cornet, horn, trumpet, trump': 38, 'submarine, pigboat, sub, U-boat': 32, 'iPod': 30, 'pretzel': 22, 'bee': 64, 'strawberry': 26, 'pineapple, ananas': 11, 'castle': 10, 'tractor': 1, 'zebra': 6}
+False Positives 1: {'scorpion': 50, 'canoe': 54, 'hog, pig, grunter, squealer, Sus scrofa': 2, 'purse': 3, 'pitcher, ewer': 1, 'shovel': 6, 'lighter, light, igniter, ignitor': 12, 'trombone': 13, 'barn': 16, 'sax, saxophone': 5, 'submarine, pigboat, sub, U-boat': 7, 'sock': 3, 'radio, wireless': 3, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 2, 'ant, emmet, pismire': 1, 'microphone, mike': 40, 'hourglass': 10, 'chime, bell, gong': 15, 'harp': 40, 'banana': 70, 'church, church building': 1, 'tiger, Panthera tigris': 126, 'umbrella': 17, 'snail': 41, 'cannon': 1, 'mailbox, letter box': 1, 'screwdriver': 45, 'parachute, chute': 7, 'violin, fiddle': 1, 'rifle': 1, 'revolver, six-gun, six-shooter': 2, 'teapot': 1, 'cornet, horn, trumpet, trump': 2, 'iPod': 14, 'pretzel': 3, 'bee': 9, 'strawberry': 9, 'pineapple, ananas': 1, 'castle': 7}

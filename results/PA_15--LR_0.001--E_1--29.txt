@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 338
+Top-1: 191
+Trained Top-5: 289
+Trained Top-1: 191
+Not-Trained Top-5: 49
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 80, 'birdhouse': 4, 'rotisserie': 1, 'bucket, pail': 5, 'submarine, pigboat, sub, U-boat': 56, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 52, 'caldron, cauldron': 1, 'forklift': 1, 'crate': 1, 'reflex camera': 2, 'pitcher, ewer': 19, 'guillotine': 1, 'tub, vat': 11, 'Loafer': 1, 'zebra': 47, 'sundial': 5, 'trombone': 388, 'ladle': 3, 'medicine chest, medicine cabinet': 17, 'switch, electric switch, electrical switch': 3, 'water jug': 6, 'barn': 193, 'mixing bowl': 2, 'can opener, tin opener': 1, 'goblet': 4, 'sax, saxophone': 69, 'doormat, welcome mat': 2, 'buckle': 5, 'ocarina, sweet potato': 6, 'sock': 466, 'chest': 1, 'ant, emmet, pismire': 163, 'thimble': 1, 'milk can': 1, 'sliding door': 5, 'file, file cabinet, filing cabinet': 1, 'stove': 1, 'safety pin': 1, 'lion, king of beasts, Panthera leo': 209, 'church, church building': 38, 'barometer': 35, 'parking meter': 7, 'coffeepot': 2, 'monastery': 1, 'wardrobe, closet, press': 8, 'safe': 12, 'mailbox, letter box': 744, 'barrel, cask': 1, 'vase': 13, 'iron, smoothing iron': 1, 'bookcase': 5, 'bell cote, bell cot': 2, 'vestment': 1, 'rifle': 98, 'pay-phone, pay-station': 2, 'lampshade, lamp shade': 3, 'scale, weighing machine': 13, 'reel': 1, 'teapot': 154, 'cornet, horn, trumpet, trump': 408, 'china cabinet, china closet': 3, 'spotlight, spot': 1, 'hook, claw': 1, 'cup': 8, 'window screen': 1, 'scabbard': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, "loupe, jeweler's loupe": 1, 'bathtub, bathing tub, bath, tub': 467, 'combination lock': 8, 'turnstile': 1, 'television, television system': 2, 'whiskey jug': 1, 'chiffonier, commode': 3, 'plate rack': 2, 'tractor': 112, 'lighter, light, igniter, ignitor': 13}
+False Positives 1: {'sax, saxophone': 7, 'mailbox, letter box': 484, 'submarine, pigboat, sub, U-boat': 5, 'sock': 83, 'lion, king of beasts, Panthera leo': 19, 'ant, emmet, pismire': 11, 'bathtub, bathing tub, bath, tub': 124, 'zebra': 9, 'rifle': 8, 'trombone': 107, 'barn': 13, 'church, church building': 4, 'teapot': 36, 'tractor': 20, 'cornet, horn, trumpet, trump': 19}

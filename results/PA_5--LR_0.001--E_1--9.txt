@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 5
+Test Size: 1140
+Top-5: 146
+Top-1: 97
+Trained Top-5: 100
+Trained Top-1: 97
+Not-Trained Top-5: 46
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 13, 'table lamp': 20, 'stretcher': 7, 'bucket, pail': 5, 'submarine, pigboat, sub, U-boat': 901, 'caldron, cauldron': 25, 'rifle': 758, 'pitcher, ewer': 24, 'triumphal arch': 18, 'theater curtain, theatre curtain': 1, 'tub, vat': 1, 'paper towel': 2, 'zebra': 3, 'sundial': 3, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 2, 'umbrella': 3, 'ladle': 1, 'strainer': 2, 'water jug': 12, 'barn': 73, 'window shade': 1, 'four-poster': 1, 'mixing bowl': 3, 'analog clock': 1, 'assault rifle, assault gun': 38, 'fire screen, fireguard': 17, 'barrow, garden cart, lawn cart, wheelbarrow': 3, 'coffeepot': 70, 'airship, dirigible': 1, 'pickelhaube': 3, 'tile roof': 1, 'milk can': 11, 'wok': 1, 'monastery': 13, 'flagpole, flagstaff': 1, 'chime, bell, gong': 2, 'goose': 1, 'frying pan, frypan, skillet': 1, 'stupa, tope': 14, 'church, church building': 863, 'projectile, missile': 1, 'viaduct': 1, 'barometer': 2, 'beacon, lighthouse, beacon light, pharos': 5, 'cannon': 18, 'vase': 9, 'quill, quill pen': 2, 'thresher, thrasher, threshing machine': 1, 'dome': 19, 'barrel, cask': 17, 'missile': 2, 'bell cote, bell cot': 24, 'tricycle, trike, velocipede': 8, 'sunglass': 3, 'plow, plough': 6, 'park bench': 1, 'stove': 1, 'greenhouse, nursery, glasshouse': 4, 'revolver, six-gun, six-shooter': 4, 'pier': 1, 'teapot': 941, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 3, 'unicycle, monocycle': 1, 'Model T': 9, 'studio couch, day bed': 1, 'toilet tissue, toilet paper, bathroom tissue': 1, 'bow tie, bow-tie, bowtie': 1, 'scabbard': 7, 'horse cart, horse-cart': 19, 'bulletproof vest': 1, 'wall clock': 1, 'cradle': 1, 'gondola': 4, 'vault': 27, 'warplane, military plane': 1, 'tractor': 903}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 122, 'rifle': 142, 'teapot': 417, 'tractor': 164, 'church, church building': 198}

@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 433
+Top-1: 316
+Trained Top-5: 392
+Trained Top-1: 314
+Not-Trained Top-5: 41
+Not-Trained Top-1: 2
+False Positives 5: {'table lamp': 5, 'harvester, reaper': 1, 'bucket, pail': 1, 'submarine, pigboat, sub, U-boat': 91, 'paddle, boat paddle': 1, 'forklift': 1, 'purse': 269, 'gong, tam-tam': 1, 'guillotine': 3, 'tub, vat': 1, 'zebra': 49, 'sundial': 4, 'trombone': 240, 'shield, buckler': 6, 'medicine chest, medicine cabinet': 2, 'oboe, hautboy, hautbois': 1, 'harp': 386, 'sulphur butterfly, sulfur butterfly': 1, 'mixing bowl': 6, 'analog clock': 1, 'sax, saxophone': 98, 'laptop, laptop computer': 64, 'balloon': 5, 'sock': 101, 'cloak': 1, 'ant, emmet, pismire': 160, 'Petri dish': 1, 'hourglass': 1, 'monastery': 1, 'chime, bell, gong': 384, 'barn': 137, 'lion, king of beasts, Panthera leo': 124, 'church, church building': 82, 'cassette': 1, 'barometer': 10, 'soup bowl': 2, 'ladle': 1, 'ibex, Capra ibex': 1, 'safe': 1, 'mailbox, letter box': 397, 'vase': 1, 'bathtub, bathing tub, bath, tub': 91, 'bell cote, bell cot': 3, 'rifle': 66, 'lampshade, lamp shade': 1, 'missile': 1, 'teapot': 106, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 283, 'banjo': 1, 'spatula': 1, 'mortar': 1, 'crutch': 2, 'bassoon': 2, 'violin, fiddle': 231, 'pick, plectrum, plectron': 2, 'quill, quill pen': 1, 'tractor': 99}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 33, 'sax, saxophone': 8, 'laptop, laptop computer': 1, 'purse': 41, 'sock': 12, 'submarine, pigboat, sub, U-boat': 13, 'mailbox, letter box': 100, 'church, church building': 30, 'lion, king of beasts, Panthera leo': 49, 'ant, emmet, pismire': 29, 'violin, fiddle': 50, 'zebra': 8, 'rifle': 25, 'trombone': 40, 'chime, bell, gong': 75, 'barn': 15, 'cornet, horn, trumpet, trump': 38, 'teapot': 20, 'tractor': 41, 'harp': 196}

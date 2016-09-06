@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 322
+Top-1: 255
+Trained Top-5: 296
+Trained Top-1: 255
+Not-Trained Top-5: 26
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 3, 'ocarina, sweet potato': 1, 'bucket, pail': 2, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 96, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 3, 'rhinoceros beetle': 1, 'library': 1, 'pitcher, ewer': 1, 'zebra': 36, 'sundial': 2, 'trombone': 222, 'medicine chest, medicine cabinet': 12, 'switch, electric switch, electrical switch': 7, 'sliding door': 1, 'barn': 243, 'wolf spider, hunting spider': 1, 'analog clock': 1, 'sax, saxophone': 368, 'harmonica, mouth organ, harp, mouth harp': 1, 'sock': 287, 'ant, emmet, pismire': 449, 'birdhouse': 2, 'file, file cabinet, filing cabinet': 1, 'lion, king of beasts, Panthera leo': 336, 'church, church building': 184, 'mailbag, postbag': 2, 'barometer': 12, 'monastery': 2, 'safe': 3, 'mailbox, letter box': 671, 'dome': 1, 'padlock': 1, 'bathtub, bathing tub, bath, tub': 148, 'bell cote, bell cot': 1, 'rifle': 68, 'black widow, Latrodectus mactans': 3, 'window shade': 1, 'teapot': 249, 'cornet, horn, trumpet, trump': 583, 'barn spider, Araneus cavaticus': 1, 'hook, claw': 1, 'cup': 1, 'window screen': 1, 'parking meter': 2, 'television, television system': 1, 'chiffonier, commode': 1, 'tractor': 75}
+False Positives 1: {'sax, saxophone': 72, 'sock': 32, 'cornet, horn, trumpet, trump': 36, 'submarine, pigboat, sub, U-boat': 11, 'mailbox, letter box': 362, 'teapot': 41, 'ant, emmet, pismire': 77, 'bathtub, bathing tub, bath, tub': 42, 'zebra': 5, 'rifle': 19, 'trombone': 33, 'church, church building': 25, 'lion, king of beasts, Panthera leo': 90, 'tractor': 12, 'barn': 28}

@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 402
+Top-1: 281
+Trained Top-5: 379
+Trained Top-1: 280
+Not-Trained Top-5: 23
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 2, 'pedestal, plinth, footstall': 1, 'bucket, pail': 1, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 52, 'caldron, cauldron': 1, 'forklift': 1, 'purse': 403, 'gong, tam-tam': 2, 'trombone': 228, 'bolo tie, bolo, bola tie, bola': 1, 'zebra': 29, 'guillotine': 1, 'shield, buckler': 12, 'medicine chest, medicine cabinet': 1, 'switch, electric switch, electrical switch': 1, 'barn': 129, 'analog clock': 4, 'sax, saxophone': 329, 'laptop, laptop computer': 57, 'fire screen, fireguard': 1, 'sock': 118, 'oboe, hautboy, hautbois': 3, 'ant, emmet, pismire': 23, 'chest': 1, 'cradle': 1, 'golden retriever': 1, 'ibex, Capra ibex': 3, 'chime, bell, gong': 506, 'harp': 548, 'lion, king of beasts, Panthera leo': 244, 'church, church building': 52, 'safe': 1, 'barometer': 10, 'monastery': 3, 'mailbag, postbag': 1, 'mailbox, letter box': 274, 'Christmas stocking': 2, 'bathtub, bathing tub, bath, tub': 76, 'bell cote, bell cot': 1, 'rifle': 53, 'lampshade, lamp shade': 2, 'reel': 1, 'teapot': 8, 'cornet, horn, trumpet, trump': 156, 'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis': 1, 'tape player': 1, 'bassoon': 3, 'violin, fiddle': 277, 'wall clock': 5, 'combination lock': 1, 'drum, membranophone, tympan': 1, 'chiffonier, commode': 1, 'tractor': 55}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 20, 'sax, saxophone': 38, 'laptop, laptop computer': 7, 'mailbox, letter box': 35, 'cornet, horn, trumpet, trump': 5, 'submarine, pigboat, sub, U-boat': 5, 'purse': 59, 'church, church building': 18, 'sock': 8, 'violin, fiddle': 55, 'zebra': 5, 'rifle': 25, 'trombone': 35, 'chime, bell, gong': 129, 'barn': 25, 'lion, king of beasts, Panthera leo': 132, 'tractor': 20, 'harp': 238}

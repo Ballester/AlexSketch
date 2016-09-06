@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 238
+Top-1: 170
+Trained Top-5: 198
+Trained Top-1: 170
+Not-Trained Top-5: 40
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 11, 'ocarina, sweet potato': 1, 'bucket, pail': 6, 'submarine, pigboat, sub, U-boat': 83, 'coffeepot': 6, 'caldron, cauldron': 2, 'viaduct': 1, 'reflex camera': 1, 'pitcher, ewer': 7, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 1, 'zebra': 502, 'sundial': 1, 'trombone': 699, 'medicine chest, medicine cabinet': 4, 'scale, weighing machine': 2, 'water jug': 1, 'barn': 1, 'analog clock': 1, 'sax, saxophone': 478, 'fire screen, fireguard': 3, 'buckle': 1, 'guillotine': 1, 'sock': 749, 'cloak': 2, 'milk can': 2, 'sliding door': 1, 'coffee mug': 1, 'French horn, horn': 1, 'mailbag, postbag': 2, 'church, church building': 479, 'forklift': 1, 'barometer': 10, 'monastery': 1, 'wardrobe, closet, press': 7, 'safe': 3, 'vestment': 1, 'bell cote, bell cot': 5, 'tricycle, trike, velocipede': 1, 'rifle': 180, 'greenhouse, nursery, glasshouse': 1, 'teapot': 261, 'cornet, horn, trumpet, trump': 695, 'Model T': 2, 'punching bag, punch bag, punching ball, punchball': 1, 'car wheel': 1, 'washer, automatic washer, washing machine': 2, 'television, television system': 3, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 5, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'tractor': 277}
+False Positives 1: {'barometer': 1, 'sax, saxophone': 55, 'submarine, pigboat, sub, U-boat': 7, 'sock': 338, 'zebra': 69, 'rifle': 31, 'trombone': 182, 'church, church building': 114, 'teapot': 69, 'tractor': 58, 'cornet, horn, trumpet, trump': 46}

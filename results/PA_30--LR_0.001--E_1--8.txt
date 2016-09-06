@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 586
+Top-1: 473
+Trained Top-5: 568
+Trained Top-1: 469
+Not-Trained Top-5: 18
+Not-Trained Top-1: 4
+False Positives 5: {'table lamp': 2, 'pedestal, plinth, footstall': 1, 'shovel': 118, 'ibex, Capra ibex': 1, 'submarine, pigboat, sub, U-boat': 52, 'caldron, cauldron': 2, 'purse': 191, 'guillotine': 1, 'tub, vat': 1, 'saltshaker, salt shaker': 1, 'zebra': 46, 'trombone': 79, 'medicine chest, medicine cabinet': 1, 'hammer': 119, 'harp': 108, 'goblet': 2, 'sax, saxophone': 17, 'laptop, laptop computer': 39, 'sock': 137, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 323, 'ant, emmet, pismire': 71, 'microphone, mike': 197, 'cassette': 1, 'monastery': 1, 'chime, bell, gong': 108, 'barn': 66, 'lion, king of beasts, Panthera leo': 169, 'church, church building': 70, 'safe': 2, 'barometer': 4, 'cannon': 87, 'mailbag, postbag': 1, 'mailbox, letter box': 214, 'teddy, teddy bear': 1, 'Christmas stocking': 1, 'bathtub, bathing tub, bath, tub': 107, 'bell cote, bell cot': 2, 'rifle': 21, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 17, 'teapot': 12, 'cornet, horn, trumpet, trump': 54, 'violin, fiddle': 66, 'tape player': 1, 'pretzel': 45, 'bee': 101, 'strawberry': 39, 'pineapple, ananas': 15, 'wall clock': 2, 'chiffonier, commode': 1, 'tractor': 52}
+False Positives 1: {'shovel': 27, 'submarine, pigboat, sub, U-boat': 7, 'purse': 53, 'zebra': 9, 'trombone': 27, 'hammer': 18, 'harp': 28, 'sax, saxophone': 2, 'laptop, laptop computer': 3, 'sock': 49, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 89, 'ant, emmet, pismire': 9, 'microphone, mike': 37, 'chime, bell, gong': 17, 'barn': 20, 'lion, king of beasts, Panthera leo': 77, 'church, church building': 17, 'cannon': 21, 'mailbox, letter box': 37, 'bathtub, bathing tub, bath, tub': 39, 'rifle': 13, 'revolver, six-gun, six-shooter': 2, 'cornet, horn, trumpet, trump': 2, 'pretzel': 1, 'bee': 20, 'strawberry': 7, 'violin, fiddle': 19, 'tractor': 17}

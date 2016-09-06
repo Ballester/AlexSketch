@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 252
+Top-1: 174
+Trained Top-5: 197
+Trained Top-1: 168
+Not-Trained Top-5: 55
+Not-Trained Top-1: 6
+False Positives 5: {'pedestal, plinth, footstall': 11, 'bucket, pail': 3, 'manhole cover': 2, 'submarine, pigboat, sub, U-boat': 176, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'stove': 3, 'rifle': 131, 'triumphal arch': 6, 'sundial': 1, 'shopping cart': 1, 'water jug': 5, 'abacus': 2, 'goblet': 1, 'assault rifle, assault gun': 1, 'fire screen, fireguard': 1, 'coffee mug': 2, 'radio, wireless': 1, 'cassette': 1, 'digital clock': 1, 'wardrobe, closet, press': 4, 'safe': 4, 'bib': 1, 'cowboy boot': 1, 'bell cote, bell cot': 20, 'greenhouse, nursery, glasshouse': 1, 'tick': 1, 'cornet, horn, trumpet, trump': 805, 'bulletproof vest': 8, 'hook, claw': 7, 'television, television system': 2, 'file, file cabinet, filing cabinet': 1, 'zebra': 205, 'trombone': 726, 'hamper': 1, 'barn': 3, 'analog clock': 4, 'corkscrew, bottle screw': 4, 'American alligator, Alligator mississipiensis': 1, 'barometer': 8, 'yurt': 1, 'dome': 3, 'vestment': 3, 'strainer': 1, 'throne': 1, 'washer, automatic washer, washing machine': 1, 'vault': 2, 'chiffonier, commode': 1, 'wall clock': 2, "academic gown, academic robe, judge's robe": 4, 'scale, weighing machine': 2, 'birdhouse': 1, 'buckle': 4, 'ocarina, sweet potato': 1, 'sock': 745, 'Loafer': 1, 'chime, bell, gong': 1, 'clog, geta, patten, sabot': 1, 'mailbag, postbag': 1, 'rocking chair, rocker': 1, 'reel': 1, 'teapot': 297, 'cuirass': 1, 'tape player': 1, 'car wheel': 1, 'combination lock': 11, 'gas pump, gasoline pump, petrol pump, island dispenser': 2, 'tractor': 167, 'table lamp': 3, 'palace': 5, 'reflex camera': 4, 'pitcher, ewer': 19, 'paper towel': 3, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 3, 'medicine chest, medicine cabinet': 4, 'switch, electric switch, electrical switch': 8, 'sax, saxophone': 696, 'bassoon': 2, 'coffeepot': 12, 'milk can': 1, 'French horn, horn': 6, 'church, church building': 234, 'monastery': 5, "loupe, jeweler's loupe": 3, 'sunglass': 2, 'punching bag, punch bag, punching ball, punchball': 1, 'turnstile': 5, 'whiskey jug': 8}
+False Positives 1: {'medicine chest, medicine cabinet': 1, 'barometer': 1, 'manhole cover': 1, 'sax, saxophone': 138, 'submarine, pigboat, sub, U-boat': 5, 'sock': 200, 'reflex camera': 1, 'zebra': 31, 'rifle': 14, 'trombone': 256, 'church, church building': 83, 'teapot': 91, 'tractor': 35, 'cornet, horn, trumpet, trump': 109}

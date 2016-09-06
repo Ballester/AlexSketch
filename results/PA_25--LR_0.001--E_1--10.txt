@@ -1,0 +1,13 @@
+Training Size: 1500
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 25
+Test Size: 1140
+Top-5: 507
+Top-1: 385
+Trained Top-5: 473
+Trained Top-1: 377
+Not-Trained Top-5: 34
+Not-Trained Top-1: 8
+False Positives 5: {'table lamp': 8, 'pedestal, plinth, footstall': 3, 'water buffalo, water ox, Asiatic buffalo, Bubalus bubalis': 1, 'shovel': 140, "academic gown, academic robe, judge's robe": 1, 'submarine, pigboat, sub, U-boat': 27, 'forklift': 1, 'purse': 257, 'reflex camera': 2, 'pitcher, ewer': 3, 'guillotine': 4, 'tub, vat': 3, 'bassoon': 1, 'zebra': 88, 'trombone': 59, 'warthog': 4, 'hammer': 132, 'pug, pug-dog': 3, 'bathtub, bathing tub, bath, tub': 118, 'barn': 198, 'lynx, catamount': 1, 'sax, saxophone': 43, 'laptop, laptop computer': 45, 'sock': 138, 'ant, emmet, pismire': 81, 'cassette': 1, 'Windsor tie': 1, 'chime, bell, gong': 365, 'harp': 237, 'lion, king of beasts, Panthera leo': 168, 'church, church building': 66, 'tiger, Panthera tigris': 1, 'French bulldog': 1, 'saltshaker, salt shaker': 2, 'barometer': 10, 'puffer, pufferfish, blowfish, globefish': 1, 'ladle': 1, 'monastery': 1, 'pomegranate': 1, 'safe': 1, 'mailbox, letter box': 368, 'vestment': 3, 'teddy, teddy bear': 1, 'Christmas stocking': 1, 'pineapple, ananas': 12, 'bell cote, bell cot': 6, 'rifle': 28, 'lampshade, lamp shade': 2, 'strainer': 2, 'teapot': 45, 'cornet, horn, trumpet, trump': 90, 'tabby, tabby cat': 1, 'Egyptian cat': 1, 'golf ball': 1, 'bee': 195, 'strawberry': 73, 'violin, fiddle': 60, 'wall clock': 1, 'bonnet, poke bonnet': 2, 'abaya': 1, 'chiffonier, commode': 1, 'tractor': 53}
+False Positives 1: {'shovel': 26, 'submarine, pigboat, sub, U-boat': 2, 'purse': 54, 'zebra': 19, 'trombone': 6, 'hammer': 14, 'barn': 62, 'sax, saxophone': 10, 'sock': 35, 'ant, emmet, pismire': 10, 'chime, bell, gong': 94, 'pineapple, ananas': 1, 'harp': 96, 'lion, king of beasts, Panthera leo': 64, 'church, church building': 23, 'mailbox, letter box': 67, 'violin, fiddle': 3, 'rifle': 17, 'teapot': 7, 'cornet, horn, trumpet, trump': 9, 'bee': 41, 'strawberry': 19, 'bathtub, bathing tub, bath, tub': 50, 'tractor': 26}

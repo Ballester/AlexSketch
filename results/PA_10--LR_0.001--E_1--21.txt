@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 258
+Top-1: 166
+Trained Top-5: 198
+Trained Top-1: 164
+Not-Trained Top-5: 60
+Not-Trained Top-1: 2
+False Positives 5: {'pedestal, plinth, footstall': 40, 'table lamp': 3, 'electric guitar': 1, 'ocarina, sweet potato': 1, 'bucket, pail': 3, 'manhole cover': 3, 'submarine, pigboat, sub, U-boat': 150, 'coffeepot': 6, 'stove': 17, 'forklift': 1, 'goblet': 1, 'reflex camera': 3, 'gong, tam-tam': 4, 'triumphal arch': 7, 'saltshaker, salt shaker': 1, 'zebra': 288, 'sundial': 10, 'trombone': 698, 'shield, buckler': 1, 'warthog': 1, 'switch, electric switch, electrical switch': 2, 'water jug': 4, 'barn': 3, 'medicine chest, medicine cabinet': 1, 'mixing bowl': 1, 'analog clock': 6, 'sax, saxophone': 681, 'assault rifle, assault gun': 5, 'fire screen, fireguard': 6, 'coffee mug': 1, 'sock': 523, 'cloak': 1, 'hamper': 1, 'Loafer': 1, 'chest': 2, 'milk can': 10, 'cassette': 1, 'birdhouse': 3, 'upright, upright piano': 1, 'chime, bell, gong': 4, 'cornet, horn, trumpet, trump': 756, 'stupa, tope': 1, 'church, church building': 327, 'cuirass': 1, 'viaduct': 1, 'barometer': 20, 'cocktail shaker': 1, 'water bottle': 2, 'obelisk': 2, 'monastery': 10, 'wardrobe, closet, press': 1, 'mailbag, postbag': 1, 'mailbox, letter box': 3, 'dome': 3, 'vase': 2, 'bell cote, bell cot': 24, 'vault': 1, 'rifle': 227, 'magnetic compass': 1, 'greenhouse, nursery, glasshouse': 1, 'pitcher, ewer': 17, 'teapot': 267, 'plow, plough': 2, 'plate rack': 1, 'clog, geta, patten, sabot': 1, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 2, 'bulletproof vest': 2, 'washer, automatic washer, washing machine': 2, 'spotlight, spot': 2, 'tray': 2, 'punching bag, punch bag, punching ball, punchball': 2, 'teddy, teddy bear': 1, 'wall clock': 1, 'combination lock': 1, 'mortar': 1, 'turnstile': 1, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 4, 'chiffonier, commode': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'tractor': 214, 'tricycle, trike, velocipede': 1}
+False Positives 1: {'pedestal, plinth, footstall': 1, 'barometer': 1, 'manhole cover': 1, 'sax, saxophone': 150, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'sundial': 1, 'submarine, pigboat, sub, U-boat': 13, 'sock': 129, 'zebra': 73, 'rifle': 36, 'trombone': 279, 'cornet, horn, trumpet, trump': 51, 'teapot': 69, 'tractor': 49, 'church, church building': 120}

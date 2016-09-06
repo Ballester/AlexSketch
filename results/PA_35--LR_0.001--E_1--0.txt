@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 664
+Top-1: 472
+Trained Top-5: 659
+Trained Top-1: 472
+Not-Trained Top-5: 5
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 111, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 115, 'submarine, pigboat, sub, U-boat': 4, 'hog, pig, grunter, squealer, Sus scrofa': 33, 'purse': 107, 'zebra': 32, 'trombone': 40, 'hammer': 111, 'barn': 128, 'sax, saxophone': 9, 'laptop, laptop computer': 57, 'sock': 21, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 162, 'ant, emmet, pismire': 25, 'microphone, mike': 226, 'cradle': 1, 'chime, bell, gong': 108, 'harp': 46, 'lion, king of beasts, Panthera leo': 75, 'church, church building': 43, 'umbrella': 208, 'cannon': 54, 'mailbox, letter box': 151, 'parachute, chute': 96, 'bathtub, bathing tub, bath, tub': 81, 'rifle': 23, 'revolver, six-gun, six-shooter': 17, 'teapot': 49, 'cornet, horn, trumpet, trump': 56, 'violin, fiddle': 39, 'pretzel': 6, 'bee': 40, 'strawberry': 25, 'pineapple, ananas': 16, 'castle': 40, 'tractor': 25}
+False Positives 1: {'shovel': 20, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 23, 'hog, pig, grunter, squealer, Sus scrofa': 6, 'purse': 24, 'zebra': 12, 'trombone': 15, 'hammer': 4, 'harp': 9, 'laptop, laptop computer': 8, 'sock': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 39, 'ant, emmet, pismire': 4, 'microphone, mike': 118, 'chime, bell, gong': 17, 'barn': 34, 'lion, king of beasts, Panthera leo': 29, 'church, church building': 7, 'umbrella': 133, 'cannon': 20, 'mailbox, letter box': 21, 'parachute, chute': 32, 'bathtub, bathing tub, bath, tub': 38, 'rifle': 10, 'revolver, six-gun, six-shooter': 2, 'teapot': 8, 'cornet, horn, trumpet, trump': 3, 'violin, fiddle': 1, 'bee': 8, 'strawberry': 6, 'pineapple, ananas': 4, 'castle': 6, 'tractor': 6}

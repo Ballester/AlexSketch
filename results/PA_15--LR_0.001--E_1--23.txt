@@ -1,0 +1,13 @@
+Training Size: 900
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 15
+Test Size: 1140
+Top-5: 323
+Top-1: 210
+Trained Top-5: 281
+Trained Top-1: 209
+Not-Trained Top-5: 42
+Not-Trained Top-1: 1
+False Positives 5: {'table lamp': 7, 'pedestal, plinth, footstall': 23, 'electric guitar': 1, 'shovel': 1, 'bucket, pail': 6, 'caldron, cauldron': 4, 'submarine, pigboat, sub, U-boat': 70, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 10, 'stove': 1, 'forklift': 3, 'crate': 1, 'reflex camera': 1, 'pitcher, ewer': 13, 'guillotine': 3, 'tub, vat': 20, 'saltshaker, salt shaker': 1, 'digital watch': 1, 'zebra': 109, 'sundial': 2, 'trombone': 115, 'shield, buckler': 2, 'medicine chest, medicine cabinet': 4, 'hamper': 9, 'birdhouse': 35, 'barn': 429, 'mixing bowl': 11, 'little blue heron, Egretta caerulea': 1, 'goblet': 4, 'analog clock': 3, 'sax, saxophone': 343, 'bassoon': 1, 'ocarina, sweet potato': 2, 'sock': 381, 'switch, electric switch, electrical switch': 3, 'ant, emmet, pismire': 32, 'chest': 2, 'cradle': 2, 'water jug': 2, 'file, file cabinet, filing cabinet': 1, 'chime, bell, gong': 1, 'American alligator, Alligator mississipiensis': 2, 'tiger cat': 1, 'lion, king of beasts, Panthera leo': 392, 'barrow, garden cart, lawn cart, wheelbarrow': 1, 'church, church building': 325, "academic gown, academic robe, judge's robe": 1, 'mailbag, postbag': 1, 'barometer': 17, 'parking meter': 1, 'bookcase': 2, 'bittern': 2, 'monastery': 1, 'safe': 3, 'mailbox, letter box': 596, 'barrel, cask': 3, 'vase': 15, 'bathtub, bathing tub, bath, tub': 415, 'bell cote, bell cot': 15, 'library': 1, 'rifle': 71, 'pay-phone, pay-station': 1, 'lampshade, lamp shade': 4, 'greenhouse, nursery, glasshouse': 1, 'reel': 1, 'teapot': 202, 'cornet, horn, trumpet, trump': 226, 'clog, geta, patten, sabot': 1, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 1, 'mortar': 2, 'cup': 1, 'tape player': 1, 'rain barrel': 1, 'boathouse': 3, 'wall clock': 3, 'tractor': 101, 'combination lock': 1, 'brass, memorial tablet, plaque': 1, 'television, television system': 3, 'drum, membranophone, tympan': 1, 'chiffonier, commode': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'harvester, reaper': 1}
+False Positives 1: {'pedestal, plinth, footstall': 1, 'submarine, pigboat, sub, U-boat': 5, 'sock': 93, 'cornet, horn, trumpet, trump': 5, 'sax, saxophone': 62, 'mailbox, letter box': 166, 'teapot': 25, 'bathtub, bathing tub, bath, tub': 183, 'zebra': 16, 'rifle': 30, 'trombone': 5, 'church, church building': 40, 'lion, king of beasts, Panthera leo': 117, 'tractor': 36, 'barn': 146}

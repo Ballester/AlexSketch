@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 431
+Top-1: 327
+Trained Top-5: 392
+Trained Top-1: 323
+Not-Trained Top-5: 39
+Not-Trained Top-1: 4
+False Positives 5: {'table lamp': 4, 'tiger, Panthera tigris': 2, 'water buffalo, water ox, Asiatic buffalo, Bubalus bubalis': 1, 'bucket, pail': 1, 'ibex, Capra ibex': 2, 'submarine, pigboat, sub, U-boat': 41, 'Scottish deerhound, deerhound': 1, 'caldron, cauldron': 1, 'forklift': 2, 'purse': 361, 'pitcher, ewer': 1, 'hartebeest': 1, 'zebra': 78, 'sundial': 2, 'trombone': 112, 'shield, buckler': 3, 'manhole cover': 1, 'medicine chest, medicine cabinet': 2, 'oboe, hautboy, hautbois': 1, 'barn': 131, 'bib': 1, 'warthog': 4, 'goblet': 2, 'analog clock': 3, 'sax, saxophone': 148, 'laptop, laptop computer': 35, 'balloon': 2, 'sock': 138, 'switch, electric switch, electrical switch': 2, 'ant, emmet, pismire': 203, 'file, file cabinet, filing cabinet': 1, 'chime, bell, gong': 343, 'harp': 374, 'lion, king of beasts, Panthera leo': 252, 'church, church building': 70, 'timber wolf, grey wolf, gray wolf, Canis lupus': 1, 'saltshaker, salt shaker': 1, 'barometer': 12, 'ladle': 4, 'monastery': 2, 'wardrobe, closet, press': 2, 'safe': 2, 'mailbox, letter box': 302, 'vase': 3, 'violin, fiddle': 326, 'bell cote, bell cot': 2, 'knot': 1, 'rifle': 45, 'lampshade, lamp shade': 2, 'teapot': 74, 'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis': 1, 'cornet, horn, trumpet, trump': 224, 'banjo': 2, 'sidewinder, horned rattlesnake, Crotalus cerastes': 1, 'horned viper, cerastes, sand viper, horned asp, Cerastes cornutus': 1, 'bassoon': 1, 'bathtub, bathing tub, bath, tub': 78, 'wall clock': 2, 'Irish wolfhound': 1, 'pedestal, plinth, footstall': 4, 'electric ray, crampfish, numbfish, torpedo': 1, 'chiffonier, commode': 1, 'tractor': 123}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 25, 'sax, saxophone': 15, 'laptop, laptop computer': 1, 'mailbox, letter box': 55, 'sock': 21, 'submarine, pigboat, sub, U-boat': 7, 'purse': 108, 'church, church building': 15, 'teapot': 6, 'ant, emmet, pismire': 34, 'violin, fiddle': 86, 'zebra': 11, 'rifle': 23, 'trombone': 25, 'chime, bell, gong': 59, 'barn': 18, 'cornet, horn, trumpet, trump': 17, 'lion, king of beasts, Panthera leo': 105, 'tractor': 46, 'harp': 136}

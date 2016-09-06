@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 236
+Top-1: 157
+Trained Top-5: 198
+Trained Top-1: 157
+Not-Trained Top-5: 38
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 24, 'timber wolf, grey wolf, gray wolf, Canis lupus': 2, 'bucket, pail': 4, "academic gown, academic robe, judge's robe": 3, 'submarine, pigboat, sub, U-boat': 62, 'television, television system': 1, 'coffeepot': 3, 'wallet, billfold, notecase, pocketbook': 1, 'library': 4, 'pitcher, ewer': 6, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 1, 'Loafer': 1, 'handkerchief, hankie, hanky, hankey': 1, 'zebra': 250, 'Persian cat': 1, 'sundial': 2, 'trombone': 705, 'umbrella': 2, 'mortarboard': 2, 'medicine chest, medicine cabinet': 21, 'switch, electric switch, electrical switch': 12, 'water jug': 1, 'barn': 3, 'fountain pen': 2, 'window shade': 11, 'Egyptian cat': 1, 'palace': 1, 'analog clock': 16, 'sax, saxophone': 635, 'bassoon': 1, 'fire screen, fireguard': 11, 'buckle': 19, 'ocarina, sweet potato': 1, 'sock': 665, 'cloak': 20, 'hamper': 2, 'lacewing, lacewing fly': 1, 'wine bottle': 1, 'Windsor tie': 1, 'prison, prison house': 1, 'French horn, horn': 1, 'Norfolk terrier': 1, 'harp': 1, 'church, church building': 563, 'Norwegian elkhound, elkhound': 1, 'barometer': 14, 'stopwatch, stop watch': 1, 'overskirt': 1, 'obelisk': 1, 'monastery': 3, 'wardrobe, closet, press': 3, 'mailbag, postbag': 6, 'mailbox, letter box': 7, 'vestment': 14, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, "loupe, jeweler's loupe": 3, 'groenendael': 1, 'bell cote, bell cot': 15, 'rifle': 224, 'iPod': 1, 'abacus': 3, 'teapot': 275, 'cornet, horn, trumpet, trump': 749, 'tabby, tabby cat': 1, 'Arctic fox, white fox, Alopex lagopus': 1, 'shield, buckler': 1, 'wooden spoon': 1, 'digital clock': 1, 'hook, claw': 2, 'window screen': 12, 'punching bag, punch bag, punching ball, punchball': 2, 'doormat, welcome mat': 1, 'bookcase': 1, 'wall clock': 6, 'keeshond': 2, 'combination lock': 1, 'iron, smoothing iron': 2, 'vault': 3, 'prayer rug, prayer mat': 9, 'jean, blue jean, denim': 2, 'tray': 9, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'tractor': 68, 'whiskey jug': 1}
+False Positives 1: {'Norwegian elkhound, elkhound': 1, 'barometer': 4, 'sax, saxophone': 169, 'mailbag, postbag': 1, 'sock': 233, 'keeshond': 1, 'zebra': 25, 'rifle': 22, 'trombone': 189, 'church, church building': 196, 'teapot': 66, 'tractor': 14, 'cornet, horn, trumpet, trump': 62}

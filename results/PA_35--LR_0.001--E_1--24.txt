@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 652
+Top-1: 473
+Trained Top-5: 646
+Trained Top-1: 473
+Not-Trained Top-5: 6
+Not-Trained Top-1: 0
+False Positives 5: {'shovel': 167, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 97, 'submarine, pigboat, sub, U-boat': 17, 'hog, pig, grunter, squealer, Sus scrofa': 59, 'purse': 71, 'gong, tam-tam': 1, 'tub, vat': 1, 'zebra': 31, 'trombone': 48, 'hammer': 91, 'oboe, hautboy, hautbois': 1, 'harp': 71, 'sax, saxophone': 16, 'laptop, laptop computer': 34, 'sock': 45, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 112, 'ant, emmet, pismire': 47, 'microphone, mike': 109, 'chime, bell, gong': 170, 'pineapple, ananas': 9, 'barn': 135, 'lion, king of beasts, Panthera leo': 53, 'church, church building': 130, 'umbrella': 172, 'ladle': 1, 'cannon': 33, 'mailbox, letter box': 183, 'parachute, chute': 47, 'bathtub, bathing tub, bath, tub': 66, 'rifle': 29, 'revolver, six-gun, six-shooter': 28, 'teapot': 3, 'cornet, horn, trumpet, trump': 41, 'Christmas stocking': 1, 'pretzel': 17, 'bee': 71, 'strawberry': 40, 'violin, fiddle': 29, 'castle': 120, 'tractor': 44}
+False Positives 1: {'shovel': 41, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 31, 'submarine, pigboat, sub, U-boat': 6, 'hog, pig, grunter, squealer, Sus scrofa': 21, 'purse': 30, 'zebra': 12, 'trombone': 14, 'hammer': 6, 'bathtub, bathing tub, bath, tub': 30, 'barn': 36, 'sax, saxophone': 4, 'laptop, laptop computer': 2, 'sock': 4, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 30, 'ant, emmet, pismire': 15, 'microphone, mike': 25, 'chime, bell, gong': 30, 'harp': 32, 'lion, king of beasts, Panthera leo': 9, 'church, church building': 33, 'umbrella': 88, 'cannon': 6, 'mailbox, letter box': 44, 'parachute, chute': 8, 'pineapple, ananas': 3, 'rifle': 22, 'revolver, six-gun, six-shooter': 4, 'cornet, horn, trumpet, trump': 1, 'pretzel': 1, 'bee': 12, 'strawberry': 15, 'violin, fiddle': 1, 'castle': 28, 'tractor': 23}

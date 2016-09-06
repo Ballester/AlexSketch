@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 416
+Top-1: 324
+Trained Top-5: 388
+Trained Top-1: 323
+Not-Trained Top-5: 28
+Not-Trained Top-1: 1
+False Positives 5: {'shield, buckler': 2, 'submarine, pigboat, sub, U-boat': 79, 'forklift': 1, 'purse': 218, 'pitcher, ewer': 1, 'trombone': 187, 'isopod': 1, 'zebra': 153, 'guillotine': 1, 'warthog': 1, 'water jug': 1, 'barn': 188, 'lacewing, lacewing fly': 1, 'analog clock': 1, 'sax, saxophone': 226, 'laptop, laptop computer': 39, 'sock': 81, 'ant, emmet, pismire': 145, 'cassette': 1, 'ibex, Capra ibex': 6, 'chime, bell, gong': 349, 'harp': 341, 'lion, king of beasts, Panthera leo': 235, 'church, church building': 126, 'tiger, Panthera tigris': 2, 'barometer': 8, 'ladle': 1, 'monastery': 1, 'safe': 2, 'mailbox, letter box': 410, 'French horn, horn': 1, 'bathtub, bathing tub, bath, tub': 109, 'bell cote, bell cot': 3, 'flute, transverse flute': 2, 'rifle': 53, 'strainer': 1, 'abacus': 1, 'teapot': 80, 'cornet, horn, trumpet, trump': 242, 'impala, Aepyceros melampus': 1, 'tub, vat': 1, 'bassoon': 1, 'centipede': 1, 'violin, fiddle': 215, 'pick, plectrum, plectron': 2, 'combination lock': 1, 'assault rifle, assault gun': 2, 'electric ray, crampfish, numbfish, torpedo': 2, 'gas pump, gasoline pump, petrol pump, island dispenser': 1, 'tractor': 93}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 39, 'sax, saxophone': 35, 'laptop, laptop computer': 2, 'mailbox, letter box': 81, 'cornet, horn, trumpet, trump': 24, 'submarine, pigboat, sub, U-boat': 20, 'purse': 33, 'church, church building': 27, 'teapot': 9, 'ant, emmet, pismire': 20, 'sock': 4, 'violin, fiddle': 40, 'zebra': 20, 'rifle': 18, 'trombone': 60, 'chime, bell, gong': 80, 'barn': 33, 'lion, king of beasts, Panthera leo': 82, 'tractor': 42, 'harp': 147}

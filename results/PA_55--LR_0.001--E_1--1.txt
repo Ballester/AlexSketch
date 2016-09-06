@@ -1,0 +1,13 @@
+Training Size: 3300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 55
+Test Size: 1140
+Top-5: 1033
+Top-1: 779
+Trained Top-5: 1033
+Trained Top-1: 779
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 7, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 8, 'canoe': 24, 'hog, pig, grunter, squealer, Sus scrofa': 8, 'purse': 6, 'pretzel': 4, 'syringe': 15, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 6, 'lighter, light, igniter, ignitor': 5, 'trombone': 23, 'hammer': 7, 'pizza, pizza pie': 2, 'hourglass': 6, 'cup': 7, 'laptop, laptop computer': 3, 'scorpion': 33, 'sock': 1, 'radio, wireless': 13, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 25, 'ant, emmet, pismire': 1, 'microphone, mike': 25, 'lion, king of beasts, Panthera leo': 8, 'jersey, T-shirt, tee shirt': 5, 'envelope': 3, 'chime, bell, gong': 7, 'harp': 5, 'banana': 9, 'tiger, Panthera tigris': 23, 'binoculars, field glasses, opera glasses': 41, 'umbrella': 15, 'snail': 5, 'cannon': 40, 'mailbox, letter box': 18, 'screwdriver': 7, 'rocking chair, rocker': 1, 'vase': 4, 'parachute, chute': 12, 'violin, fiddle': 3, 'rifle': 5, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 7, 'teapot': 1, 'cornet, horn, trumpet, trump': 19, 'submarine, pigboat, sub, U-boat': 4, 'castle': 3, 'iPod': 14, 'sax, saxophone': 4, 'porcupine, hedgehog': 6, 'bee': 13, 'bathtub, bathing tub, bath, tub': 3, 'barn': 9, 'tractor': 9}
+False Positives 1: {'shovel': 3, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 1, 'submarine, pigboat, sub, U-boat': 3, 'hog, pig, grunter, squealer, Sus scrofa': 6, 'purse': 8, 'porcupine, hedgehog': 4, 'trombone': 14, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 4, 'lighter, light, igniter, ignitor': 6, 'barn': 9, 'syringe': 10, 'hammer': 1, 'pizza, pizza pie': 1, 'harp': 5, 'sax, saxophone': 1, 'laptop, laptop computer': 1, 'scorpion': 14, 'sock': 1, 'radio, wireless': 10, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 12, 'microphone, mike': 18, 'lion, king of beasts, Panthera leo': 3, 'jersey, T-shirt, tee shirt': 1, 'canoe': 20, 'hourglass': 6, 'banana': 4, 'church, church building': 3, 'tiger, Panthera tigris': 47, 'binoculars, field glasses, opera glasses': 15, 'umbrella': 16, 'snail': 3, 'envelope': 2, 'cannon': 33, 'mailbox, letter box': 4, 'screwdriver': 15, 'vase': 3, 'parachute, chute': 2, 'pineapple, ananas': 8, 'rifle': 1, 'revolver, six-gun, six-shooter': 2, 'candle, taper, wax light': 6, 'cornet, horn, trumpet, trump': 2, 'iPod': 6, 'cup': 3, 'pretzel': 4, 'bee': 13, 'bathtub, bathing tub, bath, tub': 1, 'castle': 4, 'tractor': 2}

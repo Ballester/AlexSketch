@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.1
+Partial Amount: 5
+Test Size: 1140
+Top-5: 40
+Top-1: 20
+Trained Top-5: 20
+Trained Top-1: 20
+Not-Trained Top-5: 20
+Not-Trained Top-1: 0
+False Positives 5: {'toilet tissue, toilet paper, bathroom tissue': 1100, 'sea urchin': 1100, 'sorrel': 1100, 'zebra': 1100, 'submarine, pigboat, sub, U-boat': 1100}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 1120}

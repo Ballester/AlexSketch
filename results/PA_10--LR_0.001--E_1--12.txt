@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 230
+Top-1: 163
+Trained Top-5: 198
+Trained Top-1: 163
+Not-Trained Top-5: 32
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 17, 'bucket, pail': 3, 'manhole cover': 3, 'submarine, pigboat, sub, U-boat': 73, 'triumphal arch': 9, 'sundial': 1, 'sliding door': 1, 'jeep, landrover': 7, 'window shade': 49, 'letter opener, paper knife, paperknife': 1, 'cloak': 64, 'radio, wireless': 1, 'hay': 1, 'digital clock': 1, 'apron': 1, 'ladle': 1, 'wardrobe, closet, press': 24, 'cowboy boot': 1, 'bell cote, bell cot': 66, 'gasmask, respirator, gas helmet': 1, 'greenhouse, nursery, glasshouse': 5, 'tick': 1, 'cornet, horn, trumpet, trump': 635, 'bulletproof vest': 4, 'hook, claw': 2, 'four-poster': 7, 'tray': 1, 'zebra': 327, 'trombone': 531, 'barometer': 4, 'hamper': 1, 'barn': 19, 'velvet': 1, 'water jug': 6, 'corkscrew, bottle screw': 1, 'umbrella': 2, 'yurt': 1, 'mailbox, letter box': 3, 'dome': 13, 'vestment': 24, 'iron, smoothing iron': 1, 'plow, plough': 1, 'throne': 3, 'picket fence, paling': 2, 'long-horned beetle, longicorn, longicorn beetle': 1, 'bow tie, bow-tie, bowtie': 1, 'pickup, pickup truck': 1, 'washer, automatic washer, washing machine': 1, 'vault': 11, 'prayer rug, prayer mat': 1, 'harvester, reaper': 3, "academic gown, academic robe, judge's robe": 1, 'theater curtain, theatre curtain': 1, 'birdhouse': 2, 'ocarina, sweet potato': 2, 'sock': 478, 'nematode, nematode worm, roundworm': 1, 'obelisk': 17, 'altar': 8, 'rifle': 159, 'teapot': 341, 'swab, swob, mop': 2, 'bonnet, poke bonnet': 1, 'jean, blue jean, denim': 1, 'gas pump, gasoline pump, petrol pump, island dispenser': 3, 'tractor': 344, 'palace': 3, 'reflex camera': 2, 'pitcher, ewer': 21, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 10, 'beaver': 1, 'medicine chest, medicine cabinet': 8, 'stole': 1, 'switch, electric switch, electrical switch': 3, 'sax, saxophone': 566, 'bassoon': 1, 'coffeepot': 16, 'oboe, hautboy, hautbois': 1, 'lacewing, lacewing fly': 1, 'milk can': 2, 'French horn, horn': 1, 'church, church building': 585, 'fire engine, fire truck': 1, 'monastery': 13, 'barrel, cask': 4, 'mobile home, manufactured home': 2, 'punching bag, punch bag, punching ball, punchball': 5, 'doormat, welcome mat': 3}
+False Positives 1: {'sax, saxophone': 153, 'submarine, pigboat, sub, U-boat': 3, 'sock': 90, 'zebra': 51, 'rifle': 27, 'trombone': 141, 'cornet, horn, trumpet, trump': 39, 'teapot': 86, 'tractor': 75, 'church, church building': 312}

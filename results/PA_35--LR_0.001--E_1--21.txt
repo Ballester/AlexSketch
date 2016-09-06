@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 655
+Top-1: 455
+Trained Top-5: 652
+Trained Top-1: 455
+Not-Trained Top-5: 3
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 2, 'shovel': 132, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 155, 'submarine, pigboat, sub, U-boat': 19, 'hog, pig, grunter, squealer, Sus scrofa': 75, 'purse': 85, 'tub, vat': 1, 'zebra': 43, 'trombone': 54, 'hammer': 88, 'bathtub, bathing tub, bath, tub': 51, 'harp': 96, 'sax, saxophone': 6, 'laptop, laptop computer': 38, 'sock': 13, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 75, 'ant, emmet, pismire': 65, 'microphone, mike': 116, 'chime, bell, gong': 108, 'barn': 101, 'lion, king of beasts, Panthera leo': 56, 'church, church building': 62, 'umbrella': 259, 'cannon': 44, 'mailbox, letter box': 173, 'parachute, chute': 103, 'violin, fiddle': 41, 'rifle': 21, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 12, 'teapot': 41, 'cornet, horn, trumpet, trump': 86, 'pretzel': 5, 'bee': 51, 'strawberry': 46, 'pineapple, ananas': 36, 'castle': 26, 'tractor': 39}
+False Positives 1: {'shovel': 31, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 66, 'submarine, pigboat, sub, U-boat': 4, 'hog, pig, grunter, squealer, Sus scrofa': 13, 'purse': 28, 'zebra': 24, 'trombone': 10, 'hammer': 3, 'harp': 28, 'sax, saxophone': 3, 'laptop, laptop computer': 4, 'sock': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 11, 'ant, emmet, pismire': 17, 'microphone, mike': 35, 'chime, bell, gong': 15, 'pineapple, ananas': 11, 'barn': 21, 'lion, king of beasts, Panthera leo': 4, 'church, church building': 4, 'umbrella': 178, 'cannon': 5, 'mailbox, letter box': 22, 'parachute, chute': 26, 'bathtub, bathing tub, bath, tub': 26, 'rifle': 16, 'revolver, six-gun, six-shooter': 2, 'teapot': 9, 'cornet, horn, trumpet, trump': 18, 'bee': 9, 'strawberry': 8, 'violin, fiddle': 8, 'castle': 4, 'tractor': 21}

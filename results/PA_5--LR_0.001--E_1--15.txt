@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 5
+Test Size: 1140
+Top-5: 142
+Top-1: 98
+Trained Top-5: 100
+Trained Top-1: 98
+Not-Trained Top-5: 42
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 7, 'electric fan, blower': 1, 'bucket, pail': 14, 'submarine, pigboat, sub, U-boat': 966, 'strainer': 1, 'mosque': 1, 'stupa, tope': 16, 'viaduct': 2, 'pitcher, ewer': 26, 'triumphal arch': 3, 'paper towel': 1, 'killer whale, killer, orca, grampus, sea wolf, Orcinus orca': 2, 'spotlight, spot': 5, 'projectile, missile': 8, 'horse cart, horse-cart': 2, 'medicine chest, medicine cabinet': 1, 'switch, electric switch, electrical switch': 1, 'water jug': 6, 'barn': 10, 'mixing bowl': 1, 'goblet': 1, 'analog clock': 8, 'cup': 2, 'assault rifle, assault gun': 4, 'desk': 1, 'suspension bridge': 2, 'coffeepot': 96, 'airship, dirigible': 2, 'radio telescope, radio reflector': 1, 'milk can': 3, 'fountain': 8, 'water tower': 1, 'altar': 1, 'pencil sharpener': 1, 'toilet seat': 1, 'frying pan, frypan, skillet': 3, 'caldron, cauldron': 1, 'church, church building': 895, 'forklift': 1, 'barometer': 4, 'cocktail shaker': 3, 'soup bowl': 1, 'beacon, lighthouse, beacon light, pharos': 10, 'obelisk': 1, 'monastery': 15, 'magnetic compass': 1, 'dome': 29, 'missile': 23, "loupe, jeweler's loupe": 1, 'yawl': 2, 'bell cote, bell cot': 19, 'tricycle, trike, velocipede': 2, 'rifle': 766, 'sundial': 10, 'greenhouse, nursery, glasshouse': 3, 'barbell': 1, 'teapot': 991, 'plow, plough': 32, 'plate rack': 2, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 13, 'bulletproof vest': 2, 'picket fence, paling': 4, 'bow': 1, 'amphibian, amphibious vehicle': 1, 'washer, automatic washer, washing machine': 3, 'harvester, reaper': 2, 'quill, quill pen': 1, 'scale, weighing machine': 1, 'four-poster': 2, 'warplane, military plane': 5, 'measuring cup': 1, 'tractor': 932}
+False Positives 1: {'rifle': 73, 'submarine, pigboat, sub, U-boat': 259, 'teapot': 321, 'tractor': 163, 'church, church building': 226}

@@ -1,0 +1,13 @@
+Training Size: 2100
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 35
+Test Size: 1140
+Top-5: 675
+Top-1: 477
+Trained Top-5: 652
+Trained Top-1: 473
+Not-Trained Top-5: 23
+Not-Trained Top-1: 4
+False Positives 5: {'table lamp': 9, 'shovel': 88, 'bucket, pail': 1, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 90, 'submarine, pigboat, sub, U-boat': 3, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 2, 'caldron, cauldron': 1, 'hog, pig, grunter, squealer, Sus scrofa': 47, 'purse': 82, 'guillotine': 3, 'tub, vat': 1, 'zebra': 60, 'trombone': 43, 'projectile, missile': 1, 'hammer': 63, 'bathtub, bathing tub, bath, tub': 40, 'barn': 177, 'sax, saxophone': 7, 'laptop, laptop computer': 54, 'sock': 15, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 141, 'ant, emmet, pismire': 54, 'microphone, mike': 99, 'hourglass': 1, 'chime, bell, gong': 133, 'harp': 71, 'lion, king of beasts, Panthera leo': 79, 'church, church building': 52, 'umbrella': 159, 'cannon': 51, 'safe': 1, 'mailbox, letter box': 156, 'missile': 1, 'parachute, chute': 92, 'violin, fiddle': 39, 'tricycle, trike, velocipede': 1, 'rifle': 33, 'lampshade, lamp shade': 1, 'revolver, six-gun, six-shooter': 37, 'teapot': 15, 'cornet, horn, trumpet, trump': 79, 'pretzel': 6, 'bee': 89, 'strawberry': 53, 'pineapple, ananas': 15, 'castle': 50, 'tractor': 30}
+False Positives 1: {'shovel': 28, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 24, 'submarine, pigboat, sub, U-boat': 1, 'hog, pig, grunter, squealer, Sus scrofa': 7, 'purse': 31, 'zebra': 19, 'trombone': 14, 'hammer': 4, 'bathtub, bathing tub, bath, tub': 20, 'barn': 66, 'laptop, laptop computer': 3, 'sock': 2, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 34, 'ant, emmet, pismire': 9, 'microphone, mike': 27, 'chime, bell, gong': 22, 'harp': 26, 'lion, king of beasts, Panthera leo': 24, 'church, church building': 9, 'umbrella': 88, 'cannon': 12, 'mailbox, letter box': 37, 'parachute, chute': 42, 'violin, fiddle': 10, 'rifle': 23, 'revolver, six-gun, six-shooter': 5, 'teapot': 1, 'cornet, horn, trumpet, trump': 14, 'bee': 25, 'strawberry': 11, 'pineapple, ananas': 4, 'castle': 10, 'tractor': 11}

@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 578
+Top-1: 453
+Trained Top-5: 560
+Trained Top-1: 453
+Not-Trained Top-5: 18
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 3, 'shovel': 150, 'submarine, pigboat, sub, U-boat': 11, 'file, file cabinet, filing cabinet': 1, 'caldron, cauldron': 1, 'purse': 145, 'tub, vat': 1, 'zebra': 47, 'trombone': 22, 'hammer': 140, 'harp': 122, 'sax, saxophone': 11, 'laptop, laptop computer': 36, 'coffee mug': 1, 'sock': 110, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 331, 'ant, emmet, pismire': 44, 'microphone, mike': 265, 'cassette': 1, 'monastery': 1, 'buckeye, horse chestnut, conker': 1, 'chime, bell, gong': 166, 'pineapple, ananas': 8, 'barn': 83, 'lion, king of beasts, Panthera leo': 155, 'church, church building': 95, 'saltshaker, salt shaker': 1, 'puffer, pufferfish, blowfish, globefish': 1, 'cannon': 36, 'mailbox, letter box': 261, 'Christmas stocking': 1, 'bathtub, bathing tub, bath, tub': 85, 'bell cote, bell cot': 4, 'gasmask, respirator, gas helmet': 1, 'rifle': 15, 'lampshade, lamp shade': 1, 'strainer': 1, 'revolver, six-gun, six-shooter': 6, 'teapot': 55, 'cornet, horn, trumpet, trump': 79, 'iPod': 1, 'pretzel': 87, 'bee': 107, 'strawberry': 72, 'violin, fiddle': 22, 'tractor': 23}
+False Positives 1: {'shovel': 53, 'submarine, pigboat, sub, U-boat': 1, 'purse': 34, 'zebra': 12, 'trombone': 2, 'hammer': 5, 'barn': 14, 'sax, saxophone': 2, 'laptop, laptop computer': 7, 'sock': 14, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 115, 'ant, emmet, pismire': 3, 'microphone, mike': 67, 'chime, bell, gong': 44, 'pineapple, ananas': 1, 'harp': 36, 'lion, king of beasts, Panthera leo': 54, 'church, church building': 27, 'cannon': 6, 'mailbox, letter box': 61, 'bathtub, bathing tub, bath, tub': 41, 'rifle': 3, 'revolver, six-gun, six-shooter': 2, 'teapot': 8, 'cornet, horn, trumpet, trump': 18, 'pretzel': 12, 'bee': 20, 'strawberry': 16, 'violin, fiddle': 1, 'tractor': 8}

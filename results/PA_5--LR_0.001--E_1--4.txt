@@ -1,0 +1,13 @@
+Training Size: 300
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 5
+Test Size: 1140
+Top-5: 146
+Top-1: 98
+Trained Top-5: 100
+Trained Top-1: 97
+Not-Trained Top-5: 46
+Not-Trained Top-1: 1
+False Positives 5: {'pedestal, plinth, footstall': 13, 'bucket, pail': 3, 'submarine, pigboat, sub, U-boat': 760, 'viaduct': 3, 'triumphal arch': 5, 'remote control, remote': 1, 'sundial': 6, 'water jug': 102, 'mixing bowl': 1, 'cup': 9, 'assault rifle, assault gun': 4, 'fire screen, fireguard': 1, 'coffee mug': 2, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 2, 'toilet seat': 5, 'projectile, missile': 2, 'ladle': 2, 'bib': 1, 'vase': 23, 'bell cote, bell cot': 23, 'bulletproof vest': 4, 'hook, claw': 9, 'nipple': 1, 'warplane, military plane': 1, 'nail': 3, 'zebra': 5, 'barometer': 16, 'hammer': 2, 'barn': 4, 'can opener, tin opener': 1, 'analog clock': 5, 'fountain': 1, 'corkscrew, bottle screw': 1, 'umbrella': 1, 'cocktail shaker': 4, 'beacon, lighthouse, beacon light, pharos': 2, 'magnetic compass': 1, 'dome': 8, 'vestment': 1, 'tricycle, trike, velocipede': 2, 'strainer': 4, 'goblet': 1, 'beaker': 7, 'picket fence, paling': 6, 'mortar': 1, 'washer, automatic washer, washing machine': 1, 'vault': 17, 'cassette player': 1, 'scale, weighing machine': 3, 'chime, bell, gong': 4, 'obelisk': 4, 'mailbag, postbag': 1, 'missile': 8, 'padlock': 3, 'violin, fiddle': 2, 'stethoscope': 1, 'rifle': 614, 'lampshade, lamp shade': 1, 'teapot': 991, 'toilet tissue, toilet paper, bathroom tissue': 8, 'crutch': 1, 'combination lock': 3, 'tractor': 885, 'table lamp': 9, 'canoe': 1, 'pitcher, ewer': 222, 'paper towel': 8, 'killer whale, killer, orca, grampus, sea wolf, Orcinus orca': 2, 'medicine chest, medicine cabinet': 6, 'switch, electric switch, electrical switch': 41, 'breakwater, groin, groyne, mole, bulwark, seawall, jetty': 1, 'speedboat': 1, 'coffeepot': 352, 'milk can': 15, 'prison, prison house': 1, 'wall clock': 3, 'cleaver, meat cleaver, chopper': 4, 'church, church building': 609, 'espresso maker': 1, 'monastery': 23, 'soap dispenser': 1, "loupe, jeweler's loupe": 10, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 3, 'punching bag, punch bag, punching ball, punchball': 1, 'measuring cup': 13, 'parking meter': 1, 'turnstile': 5, 'whiskey jug': 30}
+False Positives 1: {'submarine, pigboat, sub, U-boat': 56, 'rifle': 63, 'teapot': 727, 'tractor': 94, 'church, church building': 102}

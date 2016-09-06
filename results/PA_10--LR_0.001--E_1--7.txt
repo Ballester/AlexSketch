@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 227
+Top-1: 164
+Trained Top-5: 199
+Trained Top-1: 164
+Not-Trained Top-5: 28
+Not-Trained Top-1: 0
+False Positives 5: {'pedestal, plinth, footstall': 33, 'shield, buckler': 1, 'palace': 6, 'submarine, pigboat, sub, U-boat': 143, 'coffeepot': 5, 'manhole cover': 1, 'forklift': 1, 'reflex camera': 1, 'gong, tam-tam': 4, 'triumphal arch': 8, 'zebra': 186, 'sundial': 7, 'trombone': 789, 'nematode, nematode worm, roundworm': 6, 'medicine chest, medicine cabinet': 4, 'switch, electric switch, electrical switch': 1, 'water jug': 4, 'slide rule, slipstick': 2, 'dumbbell': 1, 'wolf spider, hunting spider': 1, 'goblet': 1, 'analog clock': 5, 'sax, saxophone': 641, 'suspension bridge': 1, 'sock': 683, 'cloak': 1, 'lacewing, lacewing fly': 1, 'chest': 1, 'French horn, horn': 3, 'magnetic compass': 1, 'church, church building': 500, 'saltshaker, salt shaker': 1, 'barometer': 15, 'stopwatch, stop watch': 1, 'Petri dish': 1, 'obelisk': 1, 'monastery': 4, 'wardrobe, closet, press': 7, 'vase': 1, "loupe, jeweler's loupe": 1, 'bell cote, bell cot': 11, 'knot': 1, 'rifle': 343, 'pitcher, ewer': 15, 'teapot': 240, 'plow, plough': 1, 'cornet, horn, trumpet, trump': 746, 'throne': 1, 'hook, claw': 1, 'wall clock': 1, 'harvester, reaper': 1, 'combination lock': 3, 'vault': 3, 'prayer rug, prayer mat': 7, 'tractor': 117}
+False Positives 1: {'shield, buckler': 1, 'sax, saxophone': 137, 'submarine, pigboat, sub, U-boat': 7, 'sock': 290, 'zebra': 29, 'rifle': 55, 'trombone': 160, 'cornet, horn, trumpet, trump': 72, 'teapot': 54, 'tractor': 30, 'church, church building': 141}

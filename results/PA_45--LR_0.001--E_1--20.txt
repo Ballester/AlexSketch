@@ -1,0 +1,13 @@
+Training Size: 2700
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 45
+Test Size: 1140
+Top-5: 803
+Top-1: 548
+Trained Top-5: 801
+Trained Top-1: 548
+Not-Trained Top-5: 2
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 1, 'shovel': 39, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 90, 'canoe': 90, 'hog, pig, grunter, squealer, Sus scrofa': 21, 'purse': 38, 'lighter, light, igniter, ignitor': 34, 'trombone': 10, 'hammer': 26, 'hamper': 1, 'hourglass': 27, 'laptop, laptop computer': 7, 'scorpion': 134, 'sock': 31, 'radio, wireless': 48, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 77, 'ant, emmet, pismire': 2, 'microphone, mike': 72, 'lion, king of beasts, Panthera leo': 20, 'chime, bell, gong': 40, 'barn': 50, 'harp': 38, 'banana': 131, 'church, church building': 14, 'tiger, Panthera tigris': 102, 'umbrella': 84, 'snail': 41, 'cannon': 19, 'mailbox, letter box': 36, 'screwdriver': 67, 'parachute, chute': 23, 'bathtub, bathing tub, bath, tub': 32, 'rifle': 9, 'revolver, six-gun, six-shooter': 2, 'teapot': 11, 'cornet, horn, trumpet, trump': 26, 'submarine, pigboat, sub, U-boat': 6, 'iPod': 38, 'pretzel': 26, 'bee': 25, 'violin, fiddle': 5, 'strawberry': 22, 'pineapple, ananas': 15, 'castle': 44, 'tractor': 11}
+False Positives 1: {'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 13, 'canoe': 38, 'hog, pig, grunter, squealer, Sus scrofa': 6, 'purse': 13, 'lighter, light, igniter, ignitor': 18, 'trombone': 1, 'hammer': 1, 'hourglass': 13, 'scorpion': 54, 'sock': 4, 'radio, wireless': 11, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 9, 'microphone, mike': 20, 'chime, bell, gong': 9, 'harp': 5, 'banana': 58, 'church, church building': 1, 'tiger, Panthera tigris': 112, 'umbrella': 39, 'snail': 22, 'cannon': 4, 'barn': 11, 'screwdriver': 38, 'parachute, chute': 5, 'bathtub, bathing tub, bath, tub': 10, 'revolver, six-gun, six-shooter': 3, 'teapot': 1, 'cornet, horn, trumpet, trump': 1, 'submarine, pigboat, sub, U-boat': 1, 'iPod': 8, 'pretzel': 10, 'bee': 1, 'violin, fiddle': 1, 'strawberry': 9, 'pineapple, ananas': 3, 'castle': 25, 'tractor': 6}

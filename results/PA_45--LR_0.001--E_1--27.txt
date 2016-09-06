@@ -1,0 +1,13 @@
+Training Size: 2700
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 45
+Test Size: 1140
+Top-5: 751
+Top-1: 417
+Trained Top-5: 751
+Trained Top-1: 417
+Not-Trained Top-5: 0
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 1, 'shovel': 40, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 65, 'canoe': 113, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'hog, pig, grunter, squealer, Sus scrofa': 1, 'purse': 32, 'lighter, light, igniter, ignitor': 96, 'barn': 18, 'trombone': 16, 'hammer': 21, 'bathtub, bathing tub, bath, tub': 12, 'harp': 53, 'sax, saxophone': 24, 'scorpion': 245, 'sock': 21, 'radio, wireless': 4, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 6, 'ant, emmet, pismire': 63, 'microphone, mike': 118, 'milk can': 1, 'water jug': 1, 'coffee mug': 3, 'chime, bell, gong': 55, 'hourglass': 14, 'lion, king of beasts, Panthera leo': 62, 'church, church building': 21, 'tiger, Panthera tigris': 122, 'umbrella': 35, 'banana': 175, 'snail': 97, 'cannon': 8, 'mailbox, letter box': 62, 'screwdriver': 63, 'parachute, chute': 30, 'pineapple, ananas': 7, 'rifle': 10, 'revolver, six-gun, six-shooter': 1, 'teapot': 55, 'cornet, horn, trumpet, trump': 68, 'submarine, pigboat, sub, U-boat': 6, 'iPod': 13, 'pretzel': 10, 'bee': 36, 'strawberry': 9, 'violin, fiddle': 19, 'castle': 2, 'zebra': 10}
+False Positives 1: {'shovel': 8, 'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca': 7, 'canoe': 56, 'purse': 11, 'lighter, light, igniter, ignitor': 85, 'trombone': 3, 'barn': 9, 'sax, saxophone': 1, 'scorpion': 171, 'sock': 5, 'radio, wireless': 1, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 4, 'ant, emmet, pismire': 2, 'microphone, mike': 19, 'hourglass': 2, 'chime, bell, gong': 14, 'harp': 13, 'lion, king of beasts, Panthera leo': 15, 'church, church building': 1, 'tiger, Panthera tigris': 63, 'umbrella': 9, 'snail': 37, 'cannon': 2, 'mailbox, letter box': 8, 'screwdriver': 41, 'parachute, chute': 2, 'violin, fiddle': 4, 'revolver, six-gun, six-shooter': 1, 'teapot': 13, 'cornet, horn, trumpet, trump': 10, 'iPod': 7, 'banana': 96, 'strawberry': 3}

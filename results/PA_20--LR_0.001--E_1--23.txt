@@ -1,0 +1,13 @@
+Training Size: 1200
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 20
+Test Size: 1140
+Top-5: 419
+Top-1: 299
+Trained Top-5: 390
+Trained Top-1: 299
+Not-Trained Top-5: 29
+Not-Trained Top-1: 0
+False Positives 5: {'table lamp': 3, 'pedestal, plinth, footstall': 5, 'shovel': 1, 'ibex, Capra ibex': 1, 'submarine, pigboat, sub, U-boat': 67, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'purse': 391, 'pitcher, ewer': 2, 'triumphal arch': 1, 'tub, vat': 3, 'zebra': 83, 'trombone': 175, 'medicine chest, medicine cabinet': 4, 'oboe, hautboy, hautbois': 1, 'water jug': 1, 'barn': 146, 'mixing bowl': 2, 'lacewing, lacewing fly': 1, 'warthog': 2, 'goblet': 1, 'analog clock': 1, 'sax, saxophone': 107, 'laptop, laptop computer': 62, 'coffee mug': 1, 'sock': 151, 'cloak': 2, 'switch, electric switch, electrical switch': 4, 'ant, emmet, pismire': 111, 'chest': 1, 'kimono': 2, 'birdhouse': 1, 'monastery': 3, 'chime, bell, gong': 389, 'harp': 412, 'lion, king of beasts, Panthera leo': 270, 'church, church building': 64, 'tiger, Panthera tigris': 1, 'saltshaker, salt shaker': 2, 'barometer': 3, 'bonnet, poke bonnet': 1, 'thresher, thrasher, threshing machine': 1, 'safe': 1, 'mailbox, letter box': 452, 'barrel, cask': 1, 'vase': 4, 'violin, fiddle': 120, 'bell cote, bell cot': 3, 'vestment': 1, 'crate': 1, 'rifle': 58, 'lampshade, lamp shade': 5, 'teapot': 118, 'cornet, horn, trumpet, trump': 160, 'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis': 1, 'pick, plectrum, plectron': 1, 'can opener, tin opener': 1, 'ram, tup': 3, 'cabbage butterfly': 1, 'bassoon': 4, 'bathtub, bathing tub, bath, tub': 98, 'harvester, reaper': 1, 'combination lock': 2, 'quill, quill pen': 1, 'tractor': 88}
+False Positives 1: {'bathtub, bathing tub, bath, tub': 33, 'sax, saxophone': 15, 'laptop, laptop computer': 5, 'mailbox, letter box': 109, 'sock': 14, 'submarine, pigboat, sub, U-boat': 7, 'purse': 59, 'teapot': 23, 'ant, emmet, pismire': 4, 'violin, fiddle': 27, 'cornet, horn, trumpet, trump': 13, 'zebra': 14, 'rifle': 26, 'trombone': 36, 'chime, bell, gong': 83, 'barn': 19, 'church, church building': 16, 'lion, king of beasts, Panthera leo': 107, 'tractor': 32, 'harp': 199}

@@ -1,0 +1,13 @@
+Training Size: 1800
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 30
+Test Size: 1140
+Top-5: 600
+Top-1: 436
+Trained Top-5: 571
+Trained Top-1: 434
+Not-Trained Top-5: 29
+Not-Trained Top-1: 2
+False Positives 5: {'pedestal, plinth, footstall': 1, 'shovel': 101, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 37, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 1, 'caldron, cauldron': 2, 'purse': 105, 'tub, vat': 3, 'zebra': 23, 'trombone': 45, 'hammer': 108, 'barn': 132, 'mixing bowl': 1, 'sax, saxophone': 27, 'laptop, laptop computer': 75, 'sock': 49, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 372, 'ant, emmet, pismire': 38, 'microphone, mike': 256, 'cassette': 1, 'monastery': 1, 'chime, bell, gong': 138, 'pineapple, ananas': 7, 'harp': 99, 'lion, king of beasts, Panthera leo': 143, 'church, church building': 68, 'puffer, pufferfish, blowfish, globefish': 1, 'cannon': 97, 'safe': 1, 'mailbox, letter box': 219, 'bathtub, bathing tub, bath, tub': 101, 'bell cote, bell cot': 2, 'rifle': 14, 'revolver, six-gun, six-shooter': 42, 'teapot': 54, 'cornet, horn, trumpet, trump': 85, 'tape player': 1, 'pretzel': 13, 'bee': 95, 'strawberry': 52, 'violin, fiddle': 50, 'harvester, reaper': 1, 'parking meter': 2, 'tractor': 36}
+False Positives 1: {'shovel': 30, 'submarine, pigboat, sub, U-boat': 2, 'purse': 17, 'zebra': 1, 'trombone': 17, 'barn': 38, 'sax, saxophone': 5, 'laptop, laptop computer': 14, 'sock': 7, 'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system': 226, 'ant, emmet, pismire': 2, 'microphone, mike': 47, 'chime, bell, gong': 36, 'harp': 17, 'lion, king of beasts, Panthera leo': 60, 'church, church building': 27, 'cannon': 13, 'mailbox, letter box': 50, 'bathtub, bathing tub, bath, tub': 39, 'rifle': 8, 'revolver, six-gun, six-shooter': 6, 'teapot': 5, 'cornet, horn, trumpet, trump': 5, 'bee': 12, 'strawberry': 3, 'violin, fiddle': 3, 'tractor': 14}

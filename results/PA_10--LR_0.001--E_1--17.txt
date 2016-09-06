@@ -1,0 +1,13 @@
+Training Size: 600
+Epochs: 1
+Learning Rate: 0.001
+Partial Amount: 10
+Test Size: 1140
+Top-5: 231
+Top-1: 175
+Trained Top-5: 199
+Trained Top-1: 173
+Not-Trained Top-5: 32
+Not-Trained Top-1: 2
+False Positives 5: {'pedestal, plinth, footstall': 23, 'bucket, pail': 6, 'manhole cover': 1, 'submarine, pigboat, sub, U-boat': 200, 'coffeepot': 2, 'stove': 2, 'triumphal arch': 17, 'spatula': 1, 'sundial': 11, 'sliding door': 7, 'mixing bowl': 1, 'cup': 2, 'fire screen, fireguard': 1, 'coffee mug': 2, 'hay': 3, 'Egyptian cat': 1, 'digital clock': 1, 'projectile, missile': 1, 'wardrobe, closet, press': 15, 'safe': 3, 'bell cote, bell cot': 21, 'greenhouse, nursery, glasshouse': 3, 'window shade': 2, 'cornet, horn, trumpet, trump': 746, 'bulletproof vest': 1, 'quill, quill pen': 1, 'shield, buckler': 2, 'caldron, cauldron': 1, 'triceratops': 1, 'library': 2, 'zebra': 222, 'trombone': 809, 'barometer': 6, 'harp': 1, 'analog clock': 7, 'water jug': 2, 'umbrella': 3, 'mailbox, letter box': 3, 'dome': 1, 'plow, plough': 1, 'strainer': 1, 'goblet': 1, 'tabby, tabby cat': 2, 'picket fence, paling': 2, 'washer, automatic washer, washing machine': 9, 'vault': 11, 'chiffonier, commode': 2, 'china cabinet, china closet': 1, 'gondola': 1, 'sock': 469, 'upright, upright piano': 1, 'Petri dish': 1, 'obelisk': 10, 'mailbag, postbag': 1, 'letter opener, paper knife, paperknife': 1, 'missile': 3, 'rifle': 216, 'teapot': 224, 'swab, swob, mop': 1, 'scabbard': 1, 'car wheel': 1, 'combination lock': 2, 'brass, memorial tablet, plaque': 1, 'tractor': 264, 'pot, flowerpot': 1, 'table lamp': 3, 'palace': 3, 'reflex camera': 2, 'pitcher, ewer': 9, 'planetarium': 1, 'paper towel': 2, 'backpack, back pack, knapsack, packsack, rucksack, haversack': 1, 'medicine chest, medicine cabinet': 19, 'switch, electric switch, electrical switch': 1, 'sax, saxophone': 647, 'bassoon': 2, 'balloon': 2, 'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin': 4, 'chest': 2, 'milk can': 1, 'French horn, horn': 10, 'barn': 1, 'church, church building': 459, 'puffer, pufferfish, blowfish, globefish': 1, 'monastery': 4, 'mosquito net': 1, 'washbasin, handbasin, washbowl, lavabo, wash-hand basin': 1, 'Model T': 2, 'window screen': 1, 'measuring cup': 1, 'whiskey jug': 3}
+False Positives 1: {'medicine chest, medicine cabinet': 3, 'barometer': 1, 'manhole cover': 1, 'puffer, pufferfish, blowfish, globefish': 2, 'sax, saxophone': 107, 'sundial': 2, 'submarine, pigboat, sub, U-boat': 4, 'sock': 61, 'zebra': 50, 'rifle': 37, 'trombone': 290, 'cornet, horn, trumpet, trump': 53, 'teapot': 80, 'tractor': 52, 'church, church building': 222}
