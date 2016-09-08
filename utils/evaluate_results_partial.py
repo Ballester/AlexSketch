@@ -35,7 +35,13 @@ for f in natsorted(files):
 
 fid = open('results_evaluated.csv', 'wb')
 writer = csv.writer(fid, delimiter=' ')
-writer.writerow(['Partial Amount (n of 57)', 'Learning Rate', 'Mean Top-5', 'Std Top-5', 'Mean Trained Top-5', 'Std Trained Top-5' ,'Mean Not-Trained Top-5', 'Std Not-Trained Top-5', 'Trained Top-1', 'Std Trained Top-1', 'Not-Trained Top-1', 'Std Not-Trained Top-1'])
+writer.writerow(['Partial Amount (n of 57)', 'Learning Rate',
+    'Mean Top-5', 'Mean Top-5 (%)', 'Std Top-5',
+    'Mean Trained Top-5', 'Mean Trained Top-5 (%)', 'Std Trained Top-5',
+    'Mean Not-Trained Top-5', 'Mean Not-Trained Top-5 (%)', 'Std Not-Trained Top-5',
+    'Mean Top-1', 'Mean Top-1 (%)', 'Std Top-1',
+    'Mean Trained Top-1', 'Mean Trained Top-1 (%)', 'Std Trained Top-1',
+    'Mean Not-Trained Top-1', 'Mean Not-Trained Top-1 (%)', 'Std Not-Trained Top-1'])
 for k, v in results.iteritems():
     print 'Files: ', k
     top_5 = []
@@ -57,7 +63,14 @@ for k, v in results.iteritems():
     print 'Mean Trained Top-5: ', np.mean(trained_top_5), ' Std Dev: ', np.std(trained_top_5)
     print 'Mean Trained Top-1: ', np.mean(trained_top_1), ' Std Dev: ', np.std(trained_top_1)
     print 'Mean Not-Trained Top-5: ', np.mean(not_trained_top_5), ' Std Dev: ', np.std(not_trained_top_5)
-    print 'Mean Not-Trained Top-1: ', np.mean(not_trained_top_1), ' Std Dev: ', np.std(not_trained_top_1) 
-    writer.writerow([str(v[0]['PA']), str(v[0]['LR']), str('%.4f') % np.mean(top_5), str('%.4f') % np.std(top_5), str('%.4f') % np.mean(trained_top_5), str('%.4f') % np.std(trained_top_5), str('%.4f') % np.mean(not_trained_top_5), str('%.4f') % np.std(not_trained_top_5), str('%.4f') % np.mean(trained_top_1), str('%.4f') % np.std(trained_top_1), str('%.4f') % np.mean(not_trained_top_1), str('%.4f') % np.std(not_trained_top_1)])
+    print 'Mean Not-Trained Top-1: ', np.mean(not_trained_top_1), ' Std Dev: ', np.std(not_trained_top_1)
+    v[0]['PA'] = float(v[0]['PA'])
+    writer.writerow([str(v[0]['PA']), str(v[0]['LR']),
+        str('%.4f') % np.mean(top_5), str('%.4f') % (np.mean(top_5)/1140.0), str('%.4f') % (np.std(top_5)),
+        str('%.4f') % np.mean(trained_top_5), str('%.4f') % (np.mean(trained_top_5)/(v[0]['PA']*20)), str('%.4f') % (np.std(trained_top_5)),
+        str('%.4f') % np.mean(not_trained_top_5), str('%.4f') % (np.mean(not_trained_top_5)/((57.0-v[0]['PA'])*20)), str('%.4f') % (np.std(not_trained_top_5)),
+        str('%.4f') % np.mean(top_1), str('%.4f') % (np.mean(top_1)/1140.0), str('%.4f') % (np.std(top_1)),
+        str('%.4f') % np.mean(trained_top_1), str('%.4f') % (np.mean(trained_top_1)/(v[0]['PA']*20)), str('%.4f') % np.std(trained_top_1),
+        str('%.4f') % np.mean(not_trained_top_1), str('%.4f') % (np.mean(not_trained_top_1)/((57.0-v[0]['PA'])*20)), str('%.4f') % np.std(not_trained_top_1)])
 
 fid.close()
