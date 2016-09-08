@@ -20,15 +20,14 @@ partial_amount = int(options.partial_amount)
 restore_file = options.restore_file   # set to '' if not using
 learning_rate = float(options.learning_rate)
 iteration = int(options.iteration)
-imagenet_respecting = bool(options.imagenet_respecting)
 
 """Running Options"""
 AlexFullSketchTest = False
 AlexHalfSketchTest = False
 AlexNoSketchTest   = False
 
-AlexFullSketchTrain = False
-AlexHalfSketchTrain = True
+AlexFullSketchTrain = True
+AlexHalfSketchTrain = False
 
 AlexFromScratchTest = False
 AlexFromScratchTrain = False

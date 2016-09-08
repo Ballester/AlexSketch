@@ -287,7 +287,7 @@ if config.test:
     """Next test image"""
     im, truth = dataset.next_test()
 
-    output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000] * 2})
+    output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000]})
     
     inds = argsort(output)[0,:]
 
@@ -307,7 +307,7 @@ if config.test:
 
     """Verify correct answers"""
     if key in outs:
-      print 'correct 5: ', key, outs
+      #print 'correct 5: ', key, outs
       dict_correct_5[key] = dict_correct_5.get(key, 0) + 1
       correct += 1
     else:
@@ -315,7 +315,7 @@ if config.test:
         dict_false_positives_5[l] = dict_false_positives_5.get(l, 0) + 1
     if key in outs[0]:
       dict_correct_1[key] = dict_correct_1.get(key, 0) + 1
-      print 'correct 1: ', key, outs[0]
+      #print 'correct 1: ', key, outs[0]
       correct_1 += 1
     else:
       dict_false_positives_1[outs[0]] = dict_false_positives_1.get(outs[0], 0) + 1
