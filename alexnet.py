@@ -92,8 +92,8 @@ def conv(input, kernel, biases, k_h, k_w, c_o, s_h, s_w,  padding="VALID", group
 
 dataset = Sketch()
 # im, truth = dataset.next_batch(1)
-x = tf.placeholder("float", shape=[2, 227, 227, 3])
-y = tf.placeholder("float", shape=[2, 1000])
+x = tf.placeholder("float", shape=[1, 227, 227, 3])
+y = tf.placeholder("float", shape=[1, 1000])
 
 
 #conv1
@@ -175,7 +175,7 @@ maxpool5 = tf.nn.max_pool(conv5, ksize=[1, k_h, k_w, 1], strides=[1, s_h, s_w, 1
 #fc(4096, name='fc6')
 fc6W = tf.Variable(net_data["fc6"][0])
 fc6b = tf.Variable(net_data["fc6"][1])
-fc6 = tf.nn.relu_layer(tf.reshape(maxpool5, [2, int(prod(maxpool5.get_shape()[1:]))]), fc6W, fc6b)
+fc6 = tf.nn.relu_layer(tf.reshape(maxpool5, [1, int(prod(maxpool5.get_shape()[1:]))]), fc6W, fc6b)
 
 #fc7
 #fc(4096, name='fc7')
@@ -332,21 +332,21 @@ if config.test:
     # imshow(im[0])
     # print
 
-    """FOR IMAGENET"""
-    inds = argsort(output)[1,:]
-    expected_number = truth[1].index(1.0)
+    # """FOR IMAGENET"""
+    # inds = argsort(output)[1,:]
+    # expected_number = truth[1].index(1.0)
 
-    """Class names in the outputs"""
-    outs = []
-    for i in range(5):
-      outs.append(class_names[inds[-1-i]])
+    # """Class names in the outputs"""
+    # outs = []
+    # for i in range(5):
+    #   outs.append(class_names[inds[-1-i]])
 
-    if key in outs:
-        print 'correct 5 IN: ', key, outs
-        correct_IN_5 += 1
-    if key in outs[0]
-        print 'correct 1 IN: ', key, outs[0]
-        correct_IN_1 += 1
+    # if key in outs:
+    #     print 'correct 5 IN: ', key, outs
+    #     correct_IN_5 += 1
+    # if key in outs[0]
+    #     print 'correct 1 IN: ', key, outs[0]
+    #     correct_IN_1 += 1
 
     
 
@@ -378,8 +378,8 @@ with open('results/PA_' + str(config.partial_amount) + '--LR_' + str(config.lear
   print 'Correct in top-1 \%: ', float(correct_1)/float(dataset.test_size)
   print 'Correct trained in top-5: ', correct_train
   print 'Correct trained in top-1: ', correct_train_1
-  print 'Correct in top-5 IN: ', correct_IN_5
-  print 'Correct in top-1 IN: ', correct_IN_1
+  # print 'Correct in top-5 IN: ', correct_IN_5
+  # print 'Correct in top-1 IN: ', correct_IN_1
 
 
 # print dict_expected

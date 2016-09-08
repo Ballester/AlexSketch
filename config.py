@@ -11,8 +11,6 @@ parser.add_option("-r", "--restore_file", dest="restore_file",
                   help="which file to restore", default='')
 parser.add_option("-i", "--iteration", dest="iteration",
                   help="iteration at the moment", default="1000")
-parser.add_option("-n", "--imagenet", dest="imagenet_respecting",
-                  help="imagenet image in the same batch", default=False)
 
 (options, args) = parser.parse_args()
 
