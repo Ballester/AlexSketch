@@ -185,13 +185,14 @@ class Sketch(object):
         gray = imresize((imread('sketch_test/' + folder + '/' + str(name) + '.png')[:,:]).astype(float32), (227, 227, 3))
         image = zeros((227, 227, 3))
         image[:,:,0] = image[:,:,1] = image[:,:,2] = gray
+        images[0,:,:,:] = image
 
         if config.imagenet_respecting:
             image = imresize((imread('imagenet_test/' + folder + '/' + str(name) + '.jpg', mode='RGB')).astype(float32), (227, 227, 3))
             images[1,:,:,:] = image
 
         # print image.shape
-        images[0,:,:,:] = image
+        #images[0,:,:,:] = image
         # imshow(images[i,:,:,:])
 
         """Finds the index of the one-hot encoding by checking the one-hot reference"""
