@@ -54,7 +54,8 @@ class Sketch(object):
 
     """Now training with half and testing with the other half"""
     def create_sets(self, half=False):
-        random.seed(500)
+        #random.seed(500) ORIGINAL TESTS WITH PARTIAL AMOUNT
+        random.seed(2368712)
         random.shuffle(self.folders)
         n_folders = 0
         """Used 0 - 28 to train (60 training 20 test)"""

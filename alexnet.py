@@ -356,9 +356,11 @@ if config.test:
     # if not (j+1)%30:
     #   print 'Tested: ', str(j+1) + '. Top-5: ', str(float(correct)/float(j+1)) + '. Top-1: ', str(float(correct_1)/float(j+1))
 
-if not os.path.isdir('results'):
-  os.mkdir('results')
-with open('results/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
+
+#print dict_expected
+if not os.path.isdir('results_new'):
+  os.mkdir('results_new')
+with open('results_new/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
   print >>fid, 'Training Size: ' + str(dataset.training_size)
   print >>fid, 'Epochs: ' + str(config.epochs)
   print >>fid, 'Learning Rate: ' + str(config.learning_rate)

@@ -4,13 +4,13 @@ import numpy as np
 from natsort import natsorted
 from collections import defaultdict
 
-files = os.listdir('results/')
+files = os.listdir('results_new/')
 results = defaultdict(list)
 
 for f in natsorted(files):
     f = f.rsplit('--', 1)
     print f
-    with open('results/' + f[0] + '--' + f[1].replace('.txt', "") + '.txt') as fid:
+    with open('results_new/' + f[0] + '--' + f[1].replace('.txt', "") + '.txt') as fid:
         pa = lr = f[0].split('--')
         pa = pa[0].split('_')[1]
         lr = lr[1].split('_')[1]
@@ -33,7 +33,7 @@ for f in natsorted(files):
         #print results[f[0]]
         #print f[0], preliminar
 
-fid = open('results_evaluated.csv', 'wb')
+fid = open('results_evaluated_new.csv', 'wb')
 writer = csv.writer(fid, delimiter=' ')
 writer.writerow(['Partial Amount (n of 57)', 'Learning Rate',
     'Mean Top-5', 'Mean Top-5 (%)', 'Std Top-5',
