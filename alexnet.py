@@ -228,34 +228,35 @@ print 'Training set size: ', dataset.training_size
 print 'Learning rate: ', config.learning_rate
 print 'Partial Amount: ', config.partial_amount
 if config.training:
-  for i in range(1, dataset.training_size+1):
-    if not i%30:
-      print 'Train Step: ', i
+  for j in range(0, config.epochs):
+    for i in range(1, dataset.training_size+1):
+      if not i%30:
+        print 'Train Step: ', i
 
-    """Next training batch"""
-    im, truth = dataset.next_batch_respecting_classes(1)
-    # im, truth = dataset.next_batch(1)
+      """Next training batch"""
+      im, truth = dataset.next_batch_respecting_classes(1)
+      # im, truth = dataset.next_batch(1)
 
-    """Run training step"""
-    sess.run(train_step, feed_dict={x: im, y: truth})
+      """Run training step"""
+      sess.run(train_step, feed_dict={x: im, y: truth})
 
-    # expected_number = truth[0].index(1.0)
-    # key = class_names[expected_number]
-    # print key
-    # imshow(im[0])
+      # expected_number = truth[0].index(1.0)
+      # key = class_names[expected_number]
+      # print key
+      # imshow(im[0])
 
-    # ims.append(im)
-    # truths.append(truth)
+      # ims.append(im)
+      # truths.append(truth)
 
-    # output = sess.run(prob, feed_dict={x: im, y: truth})
-    # inds = argsort(output)[0,:]
+      # output = sess.run(prob, feed_dict={x: im, y: truth})
+      # inds = argsort(output)[0,:]
 
-    # for i in range(5):
-    #   # print expected[0].index(1.0)
-    #   print class_names[inds[-1-i]], output[0, inds[-1-i]]
-    # print
-    # if i%57 == 0:
-    #   print i/57, ' - Images from each class.'
+      # for i in range(5):
+      #   # print expected[0].index(1.0)
+      #   print class_names[inds[-1-i]], output[0, inds[-1-i]]
+      # print
+      # if i%57 == 0:
+      #   print i/57, ' - Images from each class.'
 
 
 """Save model trained"""
