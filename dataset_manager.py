@@ -40,7 +40,7 @@ class Sketch(object):
                 # self.dataset[aux[0]] = random.randint(0, 999)
                 # self.folders.append(aux[0])
 
-            # random.shuffle(one_hots_values) --> Use this to test whether the same object in sketch and photo is important to train
+            random.shuffle(one_hots_values) #--Use this to test whether the same object in sketch and photo is important to train
             for i in range(0, 57):
                 self.dataset[one_hots[i]] = one_hots_values[i]
                 self.folders.append(one_hots[i])
@@ -54,10 +54,14 @@ class Sketch(object):
 
     """Now training with half and testing with the other half"""
     def create_sets(self, half=False):
-        #random.seed(500) ORIGINAL TESTS WITH PARTIAL AMOUNT
-        random.seed(2368712)
+        random.seed(500) # ORIGINAL TESTS WITH PARTIAL AMOUNT
+        #random.seed(2368712) # NEW GRAPHIC OF PARTIAL AMOUNT
         random.shuffle(self.folders)
         n_folders = 0
+        #TESTS WITH ALEXSKETCH LIMITATING TEST SET --REMOVE FOLLOWING LINES AFTER DAY 15/09/2016--
+        #self.folders = self.folders[::-1]
+        
+        #--END OF REMOVE FOLLOWING LINES--
         """Used 0 - 28 to train (60 training 20 test)"""
         """Using 29 - N to test (20 test)"""
         if half:
@@ -80,8 +84,11 @@ class Sketch(object):
                 n_folders += 1
 
         self.training_size = len(self.train)
+        #self.test_size = len(self.test)
+        #--REMOVE AFTER 15/09--
+        #self.test = self.test[0:12*20]
+        #--END OF REMOVE--
         self.test_size = len(self.test)
-
 
     """Shuffles test set"""
     """Fixed seed for controling the exactly same shuffle"""

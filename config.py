@@ -47,7 +47,7 @@ elif AlexHalfSketchTest:
     restore_last = True
     training     = False
     test         = True
-    restore_path = 'half_sketch/'
+    restore_path = 'half_sketch/partial_testing'
 
 elif AlexNoSketchTest:
     save_training = False
@@ -64,7 +64,7 @@ elif AlexFromScratchTest:
     restore_path = 'full_sketch_scratch/'
 
 elif AlexFullSketchTrain:
-    save_training = True
+    save_training = False
     restore_last = False
     training = True
     test = True
@@ -75,7 +75,7 @@ elif AlexHalfSketchTrain:
     restore_last = False
     training = True
     test = True
-    restore_path = 'half_sketch/'
+    restore_path = 'half_sketch/partial_testing_with_trained'
 
 elif AlexFromScratchTrain:
     save_training = True

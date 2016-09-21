@@ -209,15 +209,18 @@ if not os.path.isdir(config.restore_path):
   os.mkdir(config.restore_path)
 
 """Restore last model trained"""
-if config.restore_last:
-  ckpt = tf.train.get_checkpoint_state(config.restore_path)
-  if ckpt.model_checkpoint_path:
-    if config.restore_file == '':
-      print 'Restoring from ', ckpt.model_checkpoint_path 
-      saver.restore(sess, ckpt.model_checkpoint_path)
-    else:
-      print 'Restoring from ', os.path.join(config.restore_path, config.restore_file)
-      saver.restore(sess, os.path.join(config.restore_path, config.restore_file))
+#if config.restore_last:
+#  ckpt = tf.train.get_checkpoint_state(config.restore_path)
+#  if ckpt.model_checkpoint_path:
+#    if config.restore_file == '':
+#      print 'Restoring from ', ckpt.model_checkpoint_path 
+#      saver.restore(sess, ckpt.model_checkpoint_path)
+#    else:
+#      print 'Restoring from ', os.path.join(config.restore_path, config.restore_file)
+#      saver.restore(sess, os.path.join(config.restore_path, config.restore_file))
+if config.restore_file != '':
+    print 'Restoring from ', config.restore_file
+    saver.restore(sess, os.path.join(config.restore_path, config.restore_file))
 else:
   ckpt = 0
 
@@ -228,17 +231,17 @@ print 'Training set size: ', dataset.training_size
 print 'Learning rate: ', config.learning_rate
 print 'Partial Amount: ', config.partial_amount
 if config.training:
-  for j in range(0, config.epochs):
+  for e in range(0, config.epochs):
     for i in range(1, dataset.training_size+1):
-      if not i%30:
-        print 'Train Step: ', i
+      #if not i%30:
+      #  print 'Train Step: ', i
 
       """Next training batch"""
-      im, truth = dataset.next_batch_respecting_classes(1)
+      #im, truth = dataset.next_batch_respecting_classes(1)
       # im, truth = dataset.next_batch(1)
 
       """Run training step"""
-      sess.run(train_step, feed_dict={x: im, y: truth})
+      #sess.run(train_step, feed_dict={x: im, y: truth})
 
       # expected_number = truth[0].index(1.0)
       # key = class_names[expected_number]
@@ -259,130 +262,132 @@ if config.training:
       #   print i/57, ' - Images from each class.'
 
 
-"""Save model trained"""
-if config.save_training:
-  saver = tf.train.Saver(tf.all_variables())
-  saver.save(sess, os.path.join(config.restore_path, 'PA_' + str(config.partial_amount) +'--LR_' + str(config.learning_rate) + '_' + str(config.iteration) + '_model.ckpt'), global_step=i)
-
-
-"""Testing"""
-correct = 0
-correct_1 = 0
-correct_train = 0
-correct_train_1 = 0
-correct_IN_5 = 0
-correct_IN_1 = 0
-
-dict_expected = {}
-dict_correct_5 = {}
-dict_correct_1 = {}
-dict_false_positives_5 = {}
-dict_false_positives_1 = {}
-
-""""Used only in half-trained"""
-used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
-# print 'Used in training: ', used_train
-
-if config.test:
-  for j in range(0, dataset.test_size):
-    """Next test image"""
-    im, truth = dataset.next_test()
-
-    output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000]})
+      #"""Save model trained"""
+      #if config.save_training:
+      #  saver = tf.train.Saver(tf.all_variables())
+      #  saver.save(sess, os.path.join(config.restore_path, 'PA_' + str(config.partial_amount) +'--LR_' + str(config.learning_rate) + '_' + str(config.iteration) + '_model.ckpt'), global_step=i)
     
-    inds = argsort(output)[0,:]
-
-    expected_number = truth[0].index(1.0)
-
-    """Class names in the outputs"""
-    outs = []
-    for i in range(5):
-      outs.append(class_names[inds[-1-i]])
-    # for i in range(5):
-    #   print class_names[inds[-1-i]], output[0, inds[-1-i]]
-    key = class_names[expected_number]
-    if key not in dict_expected:
-      dict_expected[key] = 1
-    else:
-      dict_expected[key] += 1
-
-    """Verify correct answers"""
-    if key in outs:
-      #print 'correct 5: ', key, outs
-      dict_correct_5[key] = dict_correct_5.get(key, 0) + 1
-      correct += 1
-    else:
-      for l in outs:
-        dict_false_positives_5[l] = dict_false_positives_5.get(l, 0) + 1
-    if key in outs[0]:
-      dict_correct_1[key] = dict_correct_1.get(key, 0) + 1
-      #print 'correct 1: ', key, outs[0]
-      correct_1 += 1
-    else:
-      dict_false_positives_1[outs[0]] = dict_false_positives_1.get(outs[0], 0) + 1
-
+      if i == 1:
+        print i/57, ' - Images from each class.'
+        """Testing"""
+        correct = 0
+        correct_1 = 0
+        correct_train = 0
+        correct_train_1 = 0
+        correct_IN_5 = 0
+        correct_IN_1 = 0
     
-
-    # print 'Expected: ', class_names[expected_number]
-    # print 'Expected class is in training: ', class_names[expected_number] in used_train
-    if class_names[expected_number] in used_train:
-      if class_names[expected_number] in outs:
-        correct_train += 1
-      if class_names[expected_number] in outs[0]:
-        correct_train_1 += 1
-    # imshow(im[0])
-    # print
-
-    # """FOR IMAGENET"""
-    # inds = argsort(output)[1,:]
-    # expected_number = truth[1].index(1.0)
-
-    # """Class names in the outputs"""
-    # outs = []
-    # for i in range(5):
-    #   outs.append(class_names[inds[-1-i]])
-
-    # if key in outs:
-    #     print 'correct 5 IN: ', key, outs
-    #     correct_IN_5 += 1
-    # if key in outs[0]
-    #     print 'correct 1 IN: ', key, outs[0]
-    #     correct_IN_1 += 1
-
+        dict_expected = {}
+        dict_correct_5 = {}
+        dict_correct_1 = {}
+        dict_false_positives_5 = {}
+        dict_false_positives_1 = {}
     
+        """Used only in half-trained"""
+        used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
+        # print 'Used in training: ', used_train
+    
+        #if config.test:
+        for j in range(0, dataset.test_size):
+          """Next test image"""
+          im, truth = dataset.next_test()
+    
+          output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000]})
+        
+          inds = argsort(output)[0,:]
+    
+          expected_number = truth[0].index(1.0)
+    
+          """Class names in the outputs"""
+          outs = []
+          for i in range(5):
+            outs.append(class_names[inds[-1-i]])
+          # for i in range(5):
+          #   print class_names[inds[-1-i]], output[0, inds[-1-i]]
+          key = class_names[expected_number]
+          if key not in dict_expected:
+            dict_expected[key] = 1
+          else:
+            dict_expected[key] += 1
+    
+          """Verify correct answers"""
+          if key in outs:
+            #print 'correct 5: ', key, outs
+            dict_correct_5[key] = dict_correct_5.get(key, 0) + 1
+            correct += 1
+          else:
+            for l in outs:
+              dict_false_positives_5[l] = dict_false_positives_5.get(l, 0) + 1
+          if key in outs[0]:
+            dict_correct_1[key] = dict_correct_1.get(key, 0) + 1
+            #print 'correct 1: ', key, outs[0]
+            correct_1 += 1
+          else:
+            dict_false_positives_1[outs[0]] = dict_false_positives_1.get(outs[0], 0) + 1
+          
+        print 'Correct Top-5: ', correct
+        print 'Correct Top-1: ', correct_1
+    
+        # print 'Expected: ', class_names[expected_number]
+        # print 'Expected class is in training: ', class_names[expected_number] in used_train
+        if class_names[expected_number] in used_train:
+          if class_names[expected_number] in outs:
+            correct_train += 1
+          if class_names[expected_number] in outs[0]:
+            correct_train_1 += 1
+        # imshow(im[0])
+        # print
+    
+        # """FOR IMAGENET"""
+        # inds = argsort(output)[1,:]
+        # expected_number = truth[1].index(1.0)
+    
+        # """Class names in the outputs"""
+        # outs = []
+        # for i in range(5):
+        #   outs.append(class_names[inds[-1-i]])
+    
+        # if key in outs:
+        #     print 'correct 5 IN: ', key, outs
+        #     correct_IN_5 += 1
+        # if key in outs[0]
+        #     print 'correct 1 IN: ', key, outs[0]
+        #     correct_IN_1 += 1
+    
+        
+    
+    
+        # answers.append(correct)
+    
+        # if not (j+1)%30:
+        #   print 'Tested: ', str(j+1) + '. Top-5: ', str(float(correct)/float(j+1)) + '. Top-1: ', str(float(correct_1)/float(j+1))
 
 
-    # answers.append(correct)
-
-    # if not (j+1)%30:
-    #   print 'Tested: ', str(j+1) + '. Top-5: ', str(float(correct)/float(j+1)) + '. Top-1: ', str(float(correct_1)/float(j+1))
-
-
-#print dict_expected
-if not os.path.isdir('results_new'):
-  os.mkdir('results_new')
-with open('results_new/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
-  print >>fid, 'Training Size: ' + str(dataset.training_size)
-  print >>fid, 'Epochs: ' + str(config.epochs)
-  print >>fid, 'Learning Rate: ' + str(config.learning_rate)
-  print >>fid, 'Partial Amount: ' + str(config.partial_amount)
-  print >>fid, 'Test Size: ' + str(dataset.test_size)
-  print >>fid, 'Top-5: ' + str(correct)
-  print >>fid, 'Top-1: ' + str(correct_1)
-  print >>fid, 'Trained Top-5: ' + str(correct_train)
-  print >>fid, 'Trained Top-1: ' + str(correct_train_1)
-  print >>fid, 'Not-Trained Top-5: ' + str(correct-correct_train)
-  print >>fid, 'Not-Trained Top-1: ' + str(correct_1-correct_train_1)
-  print >>fid, 'False Positives 5: ' + str(dict_false_positives_5)
-  print >>fid, 'False Positives 1: ' + str(dict_false_positives_1)
-  print 'Correct in top-5: ', correct
-  print 'Correct in top-5 \%: ', float(correct)/float(dataset.test_size)
-  print 'Correct in top-1: ', correct_1
-  print 'Correct in top-1 \%: ', float(correct_1)/float(dataset.test_size)
-  print 'Correct trained in top-5: ', correct_train
-  print 'Correct trained in top-1: ', correct_train_1
-  # print 'Correct in top-5 IN: ', correct_IN_5
-  # print 'Correct in top-1 IN: ', correct_IN_1
+    #print dict_expected
+    if not os.path.isdir('results_incremental_with_trained_13-09'):
+      os.mkdir('results_incremental_with_trained_13-09')
+    with open('results_incremental_with_trained_13-09/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(e) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
+      print >>fid, 'Training Size: ' + str(dataset.training_size)
+      print >>fid, 'Epochs: ' + str(config.epochs)
+      print >>fid, 'Learning Rate: ' + str(config.learning_rate)
+      print >>fid, 'Partial Amount: ' + str(config.partial_amount)
+      print >>fid, 'Test Size: ' + str(dataset.test_size)
+      print >>fid, 'Top-5: ' + str(correct)
+      print >>fid, 'Top-1: ' + str(correct_1)
+      print >>fid, 'Trained Top-5: ' + str(correct_train)
+      print >>fid, 'Trained Top-1: ' + str(correct_train_1)
+      print >>fid, 'Not-Trained Top-5: ' + str(correct-correct_train)
+      print >>fid, 'Not-Trained Top-1: ' + str(correct_1-correct_train_1)
+      print >>fid, 'False Positives 5: ' + str(dict_false_positives_5)
+      print >>fid, 'False Positives 1: ' + str(dict_false_positives_1)
+      print 'Correct in top-5: ', correct
+      print 'Correct in top-5 \%: ', float(correct)/float(dataset.test_size)
+      print 'Correct in top-1: ', correct_1
+      print 'Correct in top-1 \%: ', float(correct_1)/float(dataset.test_size)
+      print 'Correct trained in top-5: ', correct_train
+      print 'Correct trained in top-1: ', correct_train_1
+      # print 'Correct in top-5 IN: ', correct_IN_5
+      # print 'Correct in top-1 IN: ', correct_IN_1
 
 
 # print dict_expected
