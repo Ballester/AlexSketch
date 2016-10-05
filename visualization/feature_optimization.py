@@ -1,11 +1,59 @@
-def optimize_feature(input_size, x, feature_map):
+import tensorflow as tf
+import numpy as np
+import math
+from PIL import Image
+import os
+
+from scipy.ndimage.filters import gaussian_filter
+
+def normalize_std(img, eps=1e-10):
+    '''Normalize image by making its standard deviation = 1.0'''
+    std = tf.sqrt(tf.reduce_mean(tf.square(img)))
+    return img/tf.maximum(std, eps)
+
+def lap_normalize(img, scale_n=4):
+    '''Perform the Laplacian pyramid normalization.'''
+    k = np.float32([1,4,6,4,1])
+    k = np.outer(k, k)
+    k5x5 = k[:,:,None,None]/k.sum()*np.eye(3, dtype=np.float32)
+    img = tf.expand_dims(img,0)
+
+    levels = []
+    for i in xrange(scale_n):
+        lo = tf.nn.conv2d(img, k5x5, [1,2,2,1], 'SAME')
+        lo2 = tf.nn.conv2d_transpose(lo, k5x5*4, tf.shape(img), [1,2,2,1])
+        hi = img-lo2
+        levels.append(hi)
+	img=lo
+    levels.append(img)
+    tlevels=levels[::-1]
+    tlevels = map(normalize_std, tlevels)
+
+    img = tlevels[0]
+    for hi in tlevels[1:]:
+        img = tf.nn.conv2d_transpose(img, k5x5*4, tf.shape(hi), [1,2,2,1]) + hi
+    return img[0,:,:,:]
+
+
+class configOptimization:
+	def __init__(self):
+		self.opt_step=1
+		self.opt_n_iters=50
+		self.decay=0
+		self.blur_iter=0
+		self.blur_width=1
+		self.norm_pct_thrshld=0
+		self.contrib_pct_thrshld=0
+		self.lap_grad_normalization=True
+
+def optimize_feature(input_size, x, feature_map, sess):
  config= configOptimization()
  images = np.empty((1,)+input_size)
  img_noise = np.random.uniform(low=0.0, high=1.0, size=input_size)
  config= configOptimization()
  #graph=sess.graph
  #x=graph.get_tensor_by_name("input_image:0")
- sess=tf.get_default_session()
+#  sess=tf.get_default_session()
  t_score = tf.reduce_mean(feature_map)
  t_grad = tf.gradients(t_score, x)[0]
 
@@ -41,12 +89,10 @@ def optimize_feature(input_size, x, feature_map):
 
  return images[0].astype(np.float32)
  
-def save_optimazed_image_to_disk(opt_output,channel,n_channels,key,path):
+def save_optimized_image_to_disk(opt_output, name):
 	opt_output_rescaled = (opt_output - opt_output.min())
 	opt_output_rescaled *= (255/opt_output_rescaled.max())
 	im = Image.fromarray(opt_output_rescaled.astype(np.uint8))
-	file_name="opt_"+str(channel).zfill(len(str(n_channels)))+".bmp"
-	folder_name=path+"/feature_maps/"+key+"/optimization"
-	if not os.path.exists(folder_name):
-	  os.makedirs(folder_name)
-	im.save(folder_name+"/"+file_name)
+	if not os.path.exists('features'):
+	  os.makedirs('features')
+	im.save("features/" + name)

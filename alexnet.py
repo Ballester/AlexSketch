@@ -11,6 +11,7 @@
 #
 ################################################################################
 
+from visualization.feature_optimization import optimize_feature, save_optimized_image_to_disk
 from numpy import *
 import os
 from pylab import *
@@ -282,6 +283,11 @@ dict_false_positives_1 = {}
 """"Used only in half-trained"""
 used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
 # print 'Used in training: ', used_train
+
+for i in xrange(56):
+  opt_output = optimize_feature((227, 227, 3), x, conv5[:,:,:,i], sess)
+  save_optimized_image_to_disk(opt_output, "conv5_" + str(i) + ".png")
+raise
 
 if config.test:
   for j in range(0, dataset.test_size):
