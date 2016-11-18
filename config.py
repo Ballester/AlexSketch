@@ -24,9 +24,9 @@ iteration = int(options.iteration)
 """Running Options"""
 AlexFullSketchTest = False
 AlexHalfSketchTest = False
-AlexNoSketchTest   = True
+AlexNoSketchTest   = False
 
-AlexFullSketchTrain = False
+AlexFullSketchTrain = True
 AlexHalfSketchTrain = False
 
 AlexFromScratchTest = False

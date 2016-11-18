@@ -280,13 +280,26 @@ dict_correct_1 = {}
 dict_false_positives_5 = {}
 dict_false_positives_1 = {}
 
-""""Used only in half-trained"""
+"""Used only in half-trained"""
 used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
 # print 'Used in training: ', used_train
 
-for i in xrange(56):
+for i in xrange(96):
+  opt_output = optimize_feature((227, 227, 3), x, conv1[:,:,:,i], sess)
+  save_optimized_image_to_disk(opt_output, "conv1_fine_" + str(i) + ".png")
+for i in xrange(256):
+  opt_output = optimize_feature((227, 227, 3), x, conv2[:,:,:,i], sess)
+  save_optimized_image_to_disk(opt_output, "conv2_fine_" + str(i) + ".png")
+for i in xrange(384):
+  opt_output = optimize_feature((227, 227, 3), x, conv3[:,:,:,i], sess)
+  save_optimized_image_to_disk(opt_output, "conv3_fine_" + str(i) + ".png")
+for i in xrange(384):
+  opt_output = optimize_feature((227, 227, 3), x, conv4[:,:,:,i], sess)
+  save_optimized_image_to_disk(opt_output, "conv4_fine_" + str(i) + ".png")
+for i in xrange(256):
   opt_output = optimize_feature((227, 227, 3), x, conv5[:,:,:,i], sess)
-  save_optimized_image_to_disk(opt_output, "conv5_" + str(i) + ".png")
+  save_optimized_image_to_disk(opt_output, "conv5_fine_" + str(i) + ".png")
+
 raise
 
 if config.test:

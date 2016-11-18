@@ -40,7 +40,7 @@ class configOptimization:
 		self.opt_step=1
 		self.opt_n_iters=50
 		self.decay=0
-		self.blur_iter=0
+		self.blur_iter=4
 		self.blur_width=1
 		self.norm_pct_thrshld=0
 		self.contrib_pct_thrshld=0
