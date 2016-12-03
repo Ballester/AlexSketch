@@ -284,23 +284,23 @@ dict_false_positives_1 = {}
 used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
 # print 'Used in training: ', used_train
 
-for i in xrange(96):
-  opt_output = optimize_feature((227, 227, 3), x, conv1[:,:,:,i], sess)
-  save_optimized_image_to_disk(opt_output, "conv1_fine_" + str(i) + ".png")
-for i in xrange(256):
-  opt_output = optimize_feature((227, 227, 3), x, conv2[:,:,:,i], sess)
-  save_optimized_image_to_disk(opt_output, "conv2_fine_" + str(i) + ".png")
-for i in xrange(384):
-  opt_output = optimize_feature((227, 227, 3), x, conv3[:,:,:,i], sess)
-  save_optimized_image_to_disk(opt_output, "conv3_fine_" + str(i) + ".png")
-for i in xrange(384):
-  opt_output = optimize_feature((227, 227, 3), x, conv4[:,:,:,i], sess)
-  save_optimized_image_to_disk(opt_output, "conv4_fine_" + str(i) + ".png")
-for i in xrange(256):
-  opt_output = optimize_feature((227, 227, 3), x, conv5[:,:,:,i], sess)
-  save_optimized_image_to_disk(opt_output, "conv5_fine_" + str(i) + ".png")
+# for i in xrange(96):
+#   opt_output = optimize_feature((227, 227, 3), x, conv1[:,:,:,i], sess)
+#   save_optimized_image_to_disk(opt_output, "conv1_fine_" + str(i) + ".png")
+# for i in xrange(256):
+#   opt_output = optimize_feature((227, 227, 3), x, conv2[:,:,:,i], sess)
+#   save_optimized_image_to_disk(opt_output, "conv2_fine_" + str(i) + ".png")
+# for i in xrange(384):
+#   opt_output = optimize_feature((227, 227, 3), x, conv3[:,:,:,i], sess)
+#   save_optimized_image_to_disk(opt_output, "conv3_fine_" + str(i) + ".png")
+# for i in xrange(384):
+#   opt_output = optimize_feature((227, 227, 3), x, conv4[:,:,:,i], sess)
+#   save_optimized_image_to_disk(opt_output, "conv4_fine_" + str(i) + ".png")
+# for i in xrange(256):
+#   opt_output = optimize_feature((227, 227, 3), x, conv5[:,:,:,i], sess)
+#   save_optimized_image_to_disk(opt_output, "conv5_fine_" + str(i) + ".png")
 
-raise
+# raise
 
 if config.test:
   for j in range(0, dataset.test_size):
