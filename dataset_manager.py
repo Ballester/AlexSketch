@@ -55,7 +55,8 @@ class Sketch(object):
     """Now training with half and testing with the other half"""
     def create_sets(self, half=False):
         #random.seed(500) ORIGINAL TESTS WITH PARTIAL AMOUNT
-        random.seed(2368712)
+        # random.seed(2368712)
+        random.seed()
         random.shuffle(self.folders)
         n_folders = 0
         """Used 0 - 28 to train (60 training 20 test)"""
@@ -93,7 +94,7 @@ class Sketch(object):
 
     """Shuffles training set"""
     def shuffle_set(self):
-        random.seed()    
+        random.seed()
         random.shuffle(self.train)
         print 'Training size: ', self.training_size
 
@@ -109,7 +110,7 @@ class Sketch(object):
             # if self.counter >= len(self.train):
             #     self.counter = 0
             #     self.shuffle_set()
-            
+
             """Turns gray image into RGB image"""
             gray = imresize((imread('sketch_set/' + folder + '/' + str(name) + '.png')[:,:]).astype(float32), (227, 227, 3))
             image = zeros((227, 227, 3))
@@ -133,7 +134,7 @@ class Sketch(object):
     Considering that the function shuffle_set was never used
     """
     def next_batch_respecting_classes(self, batch_size):
-        x_dummy = (random.random((batch_size,)+ self.xdim)/255.).astype(float32) 
+        x_dummy = (random.random((batch_size,)+ self.xdim)/255.).astype(float32)
         images = x_dummy.copy()
         one_hots = []
         for i in range(0, batch_size):

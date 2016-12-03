@@ -26,8 +26,8 @@ AlexFullSketchTest = False
 AlexHalfSketchTest = False
 AlexNoSketchTest   = False
 
-AlexFullSketchTrain = True
-AlexHalfSketchTrain = False
+AlexFullSketchTrain = False
+AlexHalfSketchTrain = True
 
 AlexFromScratchTest = False
 AlexFromScratchTrain = False
@@ -83,4 +83,3 @@ elif AlexFromScratchTrain:
     training = True
     test = True
     restore_path = 'full_sketch_scratch/'
-

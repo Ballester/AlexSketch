@@ -214,7 +214,7 @@ if config.restore_last:
   ckpt = tf.train.get_checkpoint_state(config.restore_path)
   if ckpt.model_checkpoint_path:
     if config.restore_file == '':
-      print 'Restoring from ', ckpt.model_checkpoint_path 
+      print 'Restoring from ', ckpt.model_checkpoint_path
       saver.restore(sess, ckpt.model_checkpoint_path)
     else:
       print 'Restoring from ', os.path.join(config.restore_path, config.restore_file)
@@ -308,7 +308,7 @@ if config.test:
     im, truth = dataset.next_test()
 
     output = sess.run(prob, feed_dict={x: im, y: [[0.0] * 1000]})
-    
+
     inds = argsort(output)[0,:]
 
     expected_number = truth[0].index(1.0)
@@ -340,7 +340,7 @@ if config.test:
     else:
       dict_false_positives_1[outs[0]] = dict_false_positives_1.get(outs[0], 0) + 1
 
-    
+
 
     # print 'Expected: ', class_names[expected_number]
     # print 'Expected class is in training: ', class_names[expected_number] in used_train
@@ -368,7 +368,7 @@ if config.test:
     #     print 'correct 1 IN: ', key, outs[0]
     #     correct_IN_1 += 1
 
-    
+
 
 
     # answers.append(correct)
@@ -415,5 +415,3 @@ with open('results_new/PA_' + str(config.partial_amount) + '--LR_' + str(config.
 # print latexFullSketch(dict_expected, dict_correct_5, dict_correct_1, dict_false_positives_5, dict_false_positives_1)
 # print latex.latexHalfSketch(dict_expected, dict_correct_5, dict_correct_1, dict_false_positives_5, dict_false_positives_1, used_train)
 # print latex.latexNoSketch(dict_expected, dict_correct_5, dict_correct_1, dict_false_positives_5, dict_false_positives_1)
-
-
