@@ -30,7 +30,7 @@ from numpy import random
 import tensorflow as tf
 
 from caffe_classes import class_names
-from dataset_manager import Sketch
+from dataset_manager_ijcai import Sketch
 import config
 import latex_sketch as latex
 
