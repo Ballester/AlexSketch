@@ -379,9 +379,9 @@ if config.test:
 
 
 #print dict_expected
-if not os.path.isdir('results_new'):
-  os.mkdir('results_new')
-with open('results_new/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
+if not os.path.isdir('results_ijcai_14_02_17'):
+  os.mkdir('results_ijcai_14_02_17')
+with open('results_ijcai_14_02_17/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
   print >>fid, 'Training Size: ' + str(dataset.training_size)
   print >>fid, 'Epochs: ' + str(config.epochs)
   print >>fid, 'Learning Rate: ' + str(config.learning_rate)

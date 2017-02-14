@@ -103,3 +103,33 @@ class Sketch(object):
             one_hots.append(one_hot)
 
         return images, one_hots
+
+    """Outputs the next image and one-hot from the test set"""
+    def next_test(self):
+        x_dummy = (random.random((1,)+ self.xdim)/255.).astype(float32)
+        images = x_dummy.copy()
+        one_hots = []
+
+        folder = self.test[self.test_counter][0]
+        name = self.test[self.test_counter][1]
+        self.test_counter += 1
+        if self.test_counter >= len(self.test):
+            self.test_counter = 0
+
+        """Turns gray image into RGB image"""
+        gray = imresize((imread('sketch_test/' + folder + '/' + str(name) + '.png')[:,:]).astype(float32), (227, 227, 3))
+        image = zeros((227, 227, 3))
+        image[:,:,0] = image[:,:,1] = image[:,:,2] = gray
+        images[0,:,:,:] = image
+
+        # print image.shape
+        #images[0,:,:,:] = image
+        # imshow(images[i,:,:,:])
+
+        """Finds the index of the one-hot encoding by checking the one-hot reference"""
+        one_hot = [0.0] * 1000
+        l = self.dataset[folder]
+        one_hot[l] = 1.0
+        one_hots.append(one_hot)
+
+        return images, one_hots
