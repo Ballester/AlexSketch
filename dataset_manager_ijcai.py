@@ -55,7 +55,7 @@ class Sketch(object):
         n_folders = 0
         """Used 0 - 28 to train (60 training 20 test)"""
         """Using 29 - N to test (20 test)"""
-        for i in range(0, 38):
+        for i in range(0, config.partial_amount):
             for n in range(0, 60):
                 self.train.append((self.folders[i], n))
 

@@ -226,6 +226,7 @@ else:
 # ims = []
 # truths = []
 print 'Training set size: ', dataset.training_size
+print 'Test set size', dataset.test_size
 print 'Learning rate: ', config.learning_rate
 print 'Partial Amount: ', config.partial_amount
 if config.training:

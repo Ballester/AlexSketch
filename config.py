@@ -26,8 +26,8 @@ AlexFullSketchTest = False
 AlexHalfSketchTest = False
 AlexNoSketchTest   = False
 
-AlexFullSketchTrain = False
-AlexHalfSketchTrain = True
+AlexFullSketchTrain = True
+AlexHalfSketchTrain = False
 
 AlexFromScratchTest = False
 AlexFromScratchTrain = False

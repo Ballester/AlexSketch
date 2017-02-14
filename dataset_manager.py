@@ -45,7 +45,6 @@ class Sketch(object):
                 self.dataset[one_hots[i]] = one_hots_values[i]
                 self.folders.append(one_hots[i])
 
-
             half = config.AlexHalfSketchTest or config.AlexHalfSketchTrain
             self.create_sets(half=half)
             # self.shuffle_set()
