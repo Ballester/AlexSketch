@@ -282,8 +282,8 @@ dict_false_positives_5 = {}
 dict_false_positives_1 = {}
 
 """Used only in half-trained"""
-used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
-# print 'Used in training: ', used_train
+used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:38]]
+print 'Used in training: ', used_train, len(used_train)
 
 # for i in xrange(96):
 #   opt_output = optimize_feature((227, 227, 3), x, conv1[:,:,:,i], sess)
@@ -348,7 +348,7 @@ if config.test:
     if class_names[expected_number] in used_train:
       if class_names[expected_number] in outs:
         correct_train += 1
-      if class_names[expected_number] in outs[0]:
+      if class_names[expected_number] == outs[0]:
         correct_train_1 += 1
     # imshow(im[0])
     # print
