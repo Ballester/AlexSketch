@@ -58,6 +58,8 @@ class Sketch(object):
         for i in range(0, config.partial_amount):
             for n in range(0, 60):
                 self.train.append((self.folders[i], n))
+            for n in range(60, 80):
+                self.test.append((self.folders[i], n))
 
         self.training_size = len(self.train)
 
