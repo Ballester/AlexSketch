@@ -40,8 +40,8 @@ class Sketch(object):
             #This kind of shuffled randomizes the first 38 classes
             #The following 19 are kept unchanged
             #This guarantees that the new one_hot is different than the original
-            one_hots_values_aux = np.array(one_hots_values[0:38])
-            one_hots_values_ref = np.array(one_hots_values_aux)
+            one_hots_values_aux = array(one_hots_values[0:38])
+            one_hots_values_ref = array(one_hots_values_aux)
             while True:
                 random.shuffle(one_hots_values_aux)
                 for i in one_hots_values_aux == one_hots_values_ref:
@@ -50,7 +50,7 @@ class Sketch(object):
                 else:
                     break
             for i in range(0, 38):
-                one_hots_values[i] = one_hot_values_aux[i]
+                one_hots_values[i] = one_hots_values_aux[i]
 
             #For shuffled:
             #This kind of shuffled randomizes all 57 classes

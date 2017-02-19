@@ -282,7 +282,7 @@ dict_false_positives_5 = {}
 dict_false_positives_1 = {}
 
 """Used only in half-trained"""
-used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:38]]
+used_train = [class_names[dataset.dataset[folder]] for folder in dataset.folders[0:config.partial_amount]]
 print 'Used in training: ', used_train, len(used_train)
 
 # for i in xrange(96):
@@ -379,9 +379,10 @@ if config.test:
 
 
 #print dict_expected
-if not os.path.isdir('results_ijcai_16_02_17'):
-  os.mkdir('results_ijcai_16_02_17')
-with open('results_ijcai_16_02_17/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
+folder_ijcai = 'results_ijcai_18_02_17_shuffled'
+if not os.path.isdir(folder_ijcai):
+  os.mkdir(folder_ijcai)
+with open(folder_ijcai + '/PA_' + str(config.partial_amount) + '--LR_' + str(config.learning_rate) + '--E_' + str(config.epochs) + '--' + str(config.iteration)  + '.txt', "wr") as fid:
   print >>fid, 'Training Size: ' + str(dataset.training_size)
   print >>fid, 'Epochs: ' + str(config.epochs)
   print >>fid, 'Learning Rate: ' + str(config.learning_rate)
