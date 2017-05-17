@@ -11,6 +11,8 @@ parser.add_option("-r", "--restore_file", dest="restore_file",
                   help="which file to restore", default='')
 parser.add_option("-i", "--iteration", dest="iteration",
                   help="iteration at the moment", default="1000")
+parser.add_option("-n", "--n_classes", dest="n_classes",
+                  help="number of classes in the dataset", default="57")
 
 (options, args) = parser.parse_args()
 
@@ -20,6 +22,7 @@ partial_amount = int(options.partial_amount)
 restore_file = options.restore_file   # set to '' if not using
 learning_rate = float(options.learning_rate)
 iteration = int(options.iteration)
+n_classes = int(options.n_classes)
 
 """Running Options"""
 AlexFullSketchTest = False
@@ -58,7 +61,7 @@ elif AlexNoSketchTest:
 
 elif AlexFromScratchTest:
     save_training = False
-    restore_last = True
+    restore_last = False
     training = False
     test = True
     restore_path = 'full_sketch_scratch/'
