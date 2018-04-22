@@ -9,3 +9,6 @@ This repository implements some of the experiments presented on the paper.
 Prerequisites:
 
   * Tensorflow
+
+Expects a file with the intersecting classes between source and target datasets.
+One way to find this is using https://github.com/Ballester/Dataset-Class-Relationship/
